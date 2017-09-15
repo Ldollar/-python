@@ -1,0 +1,999 @@
+{
+    "info": {
+        "title": "vg-media",
+        "version": "0.0.1",
+        "description": "小宝后台多媒体服务"
+    },
+    "basePath": "/api/v1/media",
+    "host": "121.40.68.137:12008",
+    "swagger": "2.0",
+    "paths": {
+        "/audio": {
+            "get": {
+                "tags": [
+                    "查询单个节目/歌曲详情"
+                ],
+                "description": null,
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "audioId",
+                        "description": "音频id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            },
+            "post": {
+                "tags": [
+                    "新建离线音频"
+                ],
+                "description": "返回",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "audioSchema",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/audioSchema"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            },
+            "put": {
+                "tags": [
+                    "修改离线音频"
+                ],
+                "description": "返回",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "_audioSchema",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/_audioSchema"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            }
+        },
+        "/audiolist": {
+            "delete": {
+                "tags": [
+                    "删除歌单"
+                ],
+                "description": "返回",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "audiolistId",
+                        "description": "歌单id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            },
+            "get": {
+                "tags": [
+                    "获取歌单列表"
+                ],
+                "description": "包括运营、推送歌单/节目，个人收藏，节目专辑详情",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "type",
+                        "description": "类型0-未指定，1-运营歌单，2-推送歌单，3-运营节目，4推送节目，5-个人收藏（音乐），6-节目专辑",
+                        "in": "query",
+                        "required": true,
+                        "type": "integer",
+                        "enum": [
+                            0,
+                            2,
+                            1,
+                            3,
+                            4,
+                            5,
+                            6
+                        ]
+                    },
+                    {
+                        "name": "start",
+                        "description": "起始下标",
+                        "in": "query",
+                        "required": false,
+                        "type": "int"
+                    },
+                    {
+                        "name": "count",
+                        "description": "数量",
+                        "in": "query",
+                        "required": false,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            },
+            "post": {
+                "tags": [
+                    "新建歌单"
+                ],
+                "description": "返回",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "audiolistSchema",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/audiolistSchema"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            }
+        },
+        "/audio2audiolist": {
+            "get": {
+                "tags": [
+                    "查询音频在歌单中的位置"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "userId",
+                        "description": "用户id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "audioId",
+                        "description": "节目/音乐id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "audiolistId",
+                        "description": "专辑/歌单id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            },
+            "post": {
+                "tags": [
+                    "将音频加入歌单"
+                ],
+                "description": "返回",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "audio2audiolistSchema",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/audio2audiolistSchema"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            },
+            "delete": {
+                "tags": [
+                    "将音频从歌单删除"
+                ],
+                "description": "返回",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "audioId",
+                        "description": "音乐id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "audiolistId",
+                        "description": "歌单id",
+                        "in": "query",
+                        "required": "truer",
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            }
+        },
+        "/audios": {
+            "get": {
+                "tags": [
+                    "查询专辑/歌单中的节目/歌曲详情列表"
+                ],
+                "description": null,
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "audiolistId",
+                        "description": "歌单id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "start",
+                        "description": "起始下标",
+                        "in": "query",
+                        "required": false,
+                        "type": "int"
+                    },
+                    {
+                        "name": "count",
+                        "description": "数量",
+                        "in": "query",
+                        "required": false,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            }
+        },
+        "/browse": {
+            "get": {
+                "tags": [
+                    "获取喜马拉雅接节目详情"
+                ],
+                "description": "根据搜索喜马拉雅接口获取的sourceId获取改专辑下的音频列表",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "sourceId",
+                        "description": "喜马拉雅专辑id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/collection": {
+            "get": {
+                "tags": [
+                    "获取个人订阅/收藏"
+                ],
+                "description": null,
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "userId",
+                        "description": "用户id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "description": "类型1-音乐，2-节目",
+                        "in": "query",
+                        "required": true,
+                        "type": "string",
+                        "enum": [
+                            "2"
+                        ]
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            },
+            "post": {
+                "tags": [
+                    "添加收藏/订阅"
+                ],
+                "description": null,
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": null,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/collectionSchema"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            },
+            "delete": {
+                "tags": [
+                    "删除收藏/订阅"
+                ],
+                "description": null,
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "userId",
+                        "description": "用户id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "mediaId",
+                        "description": "媒体id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            }
+        },
+        "/map": {
+            "get": {
+                "tags": [
+                    "获取映射列表"
+                ],
+                "description": null,
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": null
+                }
+            },
+            "post": {
+                "tags": [
+                    "新建映射"
+                ],
+                "description": null,
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "mapSchema",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/mapSchema"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            },
+            "delete": {
+                "tags": [
+                    "删除映射"
+                ],
+                "description": null,
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "mapId",
+                        "description": "映射id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            }
+        },
+        "/search": {
+            "get": {
+                "tags": [
+                    "语音搜索"
+                ],
+                "description": null,
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "userId",
+                        "description": "用户id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "author",
+                        "description": "作者名称",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "description": "媒体名称",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "album",
+                        "description": "专辑（音乐）",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/searchsongs": {
+            "get": {
+                "tags": [
+                    "搜索歌曲（虾米，网易云）"
+                ],
+                "description": "搜索音乐添加到本地数据库",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "keywords",
+                        "description": "关键字",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "source",
+                        "description": "来源0-虾米，1-网易云",
+                        "in": "query",
+                        "required": true,
+                        "type": "string",
+                        "enum": [
+                            "0",
+                            "1"
+                        ]
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/searchxmly": {
+            "get": {
+                "tags": [
+                    "搜索节目（喜马拉雅）"
+                ],
+                "description": "搜索添加节目到本地数据库",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "keywords",
+                        "description": "关键字",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/songurl": {
+            "get": {
+                "tags": [
+                    "获取失效歌曲链接"
+                ],
+                "description": "返回",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "userId",
+                        "description": "用户id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "sourceId",
+                        "description": "歌曲id",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/ximalaya": {
+            "post": {
+                "tags": [
+                    "上传喜马拉雅"
+                ],
+                "description": "向喜马拉雅上传播放记录，仅当audio中source为\"ximalaya\"时调用",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "xmlySchema",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/xmlySchema"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": null
+                }
+            }
+        },
+        "/test": {
+            "get": {
+                "tags": [
+                    "Test"
+                ],
+                "description": "Test接口",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": null,
+                "responses": {
+                    "200": {
+                        "description": "ok",
+                        "schema": {
+                            "$ref": "#/definitions/lesson"
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Test"
+                ],
+                "description": "Test接口",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "lesson",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/lesson"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "schema": {
+                            "$ref": "#/definitions/lesson"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "audioSchema": {
+            "properties": {
+                "sourceId": {
+                    "type": "string",
+                    "description": "第三方id"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "audio名称"
+                },
+                "albumId": {
+                    "type": "string",
+                    "required": false,
+                    "description": "第三方专辑id"
+                },
+                "albumName": {
+                    "type": "string",
+                    "required": false,
+                    "description": "第三方专辑名称"
+                },
+                "iconUrl": {
+                    "type": "string",
+                    "required": false,
+                    "description": "audio图标"
+                },
+                "fileUrl": {
+                    "type": "string",
+                    "required": true,
+                    "description": "audio播放url"
+                },
+                "description": {
+                    "type": "string",
+                    "required": false,
+                    "description": "描述"
+                },
+                "artistId": {
+                    "type": "string",
+                    "required": false,
+                    "description": "艺术家id"
+                },
+                "artistName": {
+                    "type": "string",
+                    "required": false,
+                    "description": "艺术家"
+                },
+                "singer": {
+                    "type": "string",
+                    "required": false,
+                    "description": "演唱者"
+                },
+                "size": {
+                    "type": "integer",
+                    "required": false,
+                    "description": "文件大小"
+                },
+                "length": {
+                    "type": "integer",
+                    "required": false,
+                    "description": "时长，单位：秒"
+                },
+                "source": {
+                    "type": "string",
+                    "required": false,
+                    "enum": [
+                        "admin",
+                        "xiami",
+                        "ximalaya",
+                        "163music"
+                    ],
+                    "description": "来源"
+                },
+                "type": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "description": "类型0-未指定，1-音乐，2-节目"
+                }
+            }
+        },
+        "_audioSchema": {
+            "properties": {
+                "audioId": {
+                    "type": "string",
+                    "description": "音频id"
+                },
+                "sourceId": {
+                    "type": "string",
+                    "description": "第三方id"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "audio名称"
+                },
+                "albumId": {
+                    "type": "string",
+                    "required": false,
+                    "description": "第三方专辑id"
+                },
+                "albumName": {
+                    "type": "string",
+                    "required": false,
+                    "description": "第三方专辑名称"
+                },
+                "iconUrl": {
+                    "type": "string",
+                    "required": false,
+                    "description": "audio图标"
+                },
+                "fileUrl": {
+                    "type": "string",
+                    "required": true,
+                    "description": "audio播放url"
+                },
+                "description": {
+                    "type": "string",
+                    "required": false,
+                    "description": "描述"
+                },
+                "artistId": {
+                    "type": "string",
+                    "required": false,
+                    "description": "艺术家id"
+                },
+                "artistName": {
+                    "type": "string",
+                    "required": false,
+                    "description": "艺术家"
+                },
+                "singer": {
+                    "type": "string",
+                    "required": false,
+                    "description": "演唱者"
+                },
+                "size": {
+                    "type": "integer",
+                    "required": false,
+                    "description": "文件大小"
+                },
+                "length": {
+                    "type": "integer",
+                    "required": false,
+                    "description": "时长，单位：秒"
+                },
+                "source": {
+                    "type": "string",
+                    "required": false,
+                    "enum": [
+                        "admin",
+                        "xiami",
+                        "ximalaya",
+                        "163music"
+                    ],
+                    "description": "来源"
+                },
+                "type": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "description": "类型0-未指定，1-音乐，2-节目"
+                }
+            }
+        },
+        "audio2audiolistSchema": {
+            "properties": {
+                "audioId": {
+                    "type": "string",
+                    "description": "音乐/节目单集id"
+                },
+                "audiolistId": {
+                    "type": "string",
+                    "required": false,
+                    "description": "歌单id"
+                }
+            }
+        },
+        "audiolistSchema": {
+            "properties": {
+                "sourceId": {
+                    "type": "string",
+                    "description": "来源id"
+                },
+                "creator": {
+                    "type": "string",
+                    "description": "创建者"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "歌单名称"
+                },
+                "iconUrl": {
+                    "type": "string",
+                    "required": false,
+                    "description": "歌单图标"
+                },
+                "description": {
+                    "type": "string",
+                    "required": false,
+                    "description": "描述"
+                },
+                "announcerId": {
+                    "type": "string",
+                    "required": false,
+                    "description": "主播id(喜马拉雅)"
+                },
+                "announcerName": {
+                    "type": "string",
+                    "required": false,
+                    "description": "主播id(喜马拉雅)"
+                },
+                "type": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1,
+                        3,
+                        4,
+                        5,
+                        6
+                    ],
+                    "description": "类型0-未指定，1-运营歌单，2-推送歌单，3-运营节目，4推送节目，5-个人收藏（音乐），6-节目专辑"
+                }
+            }
+        },
+        "collectionSchema": {
+            "properties": {
+                "userId": {
+                    "type": "string",
+                    "description": "用户id"
+                },
+                "mediaId": {
+                    "type": "string",
+                    "description": "媒体id"
+                },
+                "type": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1
+                    ],
+                    "description": "类型0-音乐，1-节目"
+                }
+            }
+        },
+        "mapSchema": {
+            "properties": {
+                "key": {
+                    "type": "string",
+                    "description": "映射关键词"
+                },
+                "targetId": {
+                    "type": "string",
+                    "description": "媒体id"
+                },
+                "targetName": {
+                    "type": "string",
+                    "description": "媒体名称"
+                },
+                "type": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1
+                    ],
+                    "description": "类型0-audio，1-audioList"
+                }
+            }
+        },
+        "xmlySchema": {
+            "properties": {
+                "userId": {
+                    "type": "string",
+                    "description": "用户id"
+                },
+                "duration": {
+                    "type": "number",
+                    "description": "播放时长，单位秒。即播放一个音频过程中，真正处于播放中状态的总时间。"
+                },
+                "packId": {
+                    "type": "string",
+                    "description": "apk包名"
+                },
+                "playType": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1
+                    ],
+                    "description": "播放类型，0：联网播放，1：断网播放"
+                },
+                "playedSecs": {
+                    "type": "number",
+                    "description": "播放第几秒或最后播放到的位置，是相对于这个音频开始位置的一个值。如果没有拖动播放条、快进、快退、暂停、单曲循环等操作，playedSecs 的值一般和duration 一致。"
+                },
+                "startedAt": {
+                    "type": "string",
+                    "description": "播放开始时刻，Unix毫秒数时间戳"
+                },
+                "trackId": {
+                    "type": "string",
+                    "description": "声音id，audio中的sourceId"
+                }
+            }
+        },
+        "ret": {
+            "properties": {
+                "code": {
+                    "type": "integer"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "res": {
+                    "$ref": "#/definitions/lesson"
+                }
+            }
+        },
+        "lesson": {
+            "properties": {
+                "name": {
+                    "type": "integer",
+                    "description": "this is a name"
+                },
+                "teacher": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "responses": {},
+    "parameters": {},
+    "securityDefinitions": {},
+    "tags": []
+}

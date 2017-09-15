@@ -1,0 +1,5 @@
+2017-09-14 16:13:37,572 - ERROR - test_audios.py - test_songurl - 44 : not return code 200 ,maybe hava some problem
+2017-09-14 16:13:46,838 - INFO - login.py - login - 14 : ------beginning login-----
+2017-09-14 16:13:57,486 - INFO - login.py - login - 14 : ------beginning login-----
+2017-09-14 16:14:10,118 - INFO - test_xxxxxx.py - test_songurl - 31 : get code == 200 ,request success!
+2017-09-14 16:14:10,118 - INFO - test_xxxxxx.py - test_songurl - 36 : correct response code: 0 

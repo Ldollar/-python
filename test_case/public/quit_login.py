@@ -11,7 +11,7 @@ from selenium import webdriver
 def quit(driver):
     """离开了"""
     #driver = webdriver.Chrome(r"C:\Users\TY\Downloads\chromedriver_win32(1)\chromedriver.exe")
-    #driver.get("http://web.aituyou.me/ins/#/login")
+    
     try:
         logging.info("------beginning quit-----")
         driver.implicitly_wait(20)

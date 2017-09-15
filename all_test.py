@@ -2,6 +2,8 @@
 import unittest
 import sys
 import HTMLTestRunner
+from time import time
+
 from selenium import webdriver
 from selenium.common.exceptions import NoAlertPresentException
 
@@ -55,7 +57,8 @@ def createsuite():
     #testunit.addTest(unittest.makeSuite(test_login.TestLogin))  #一个一个添加？不便管理
     #testunit.addTest(unittest.makeSuite(test_select.TestSelct))
 alltestnames =createsuite()
-filename = r"F:\autotest\report\result2.html"
+now = str(time())
+filename = "F:\\autotest\\report\\"+now+"result2.html"
 fp = file(filename,'wb')
 
 runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u"测试测试" ,description=u"结果结果：")

@@ -14,7 +14,7 @@ class TestLogin(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome(r"C:\Users\TY\Downloads\chromedriver_win32(1)\chromedriver.exe")
         self.driver.implicitly_wait(30)
-        self.driver.get("http://web.aituyou.me/ins/#/login")
+        self.driver.get("")
 
         self.verification = []
 
