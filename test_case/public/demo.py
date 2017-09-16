@@ -14,7 +14,7 @@ from test_case.public.define_log import LogDefine
 
 
 class TestSerch(unittest.TestCase):
-    def setUp(self,method="get", url="http://121.40.68.137:12008/api/v1/media/searchxmly"):
+    def setUp(self,method, url):
         LogDefine()
         self.parameters = {"keywords": "prh<1+,i/6\3%V0a]%9-n[6IrJPW3\CHx+,$3;)/H;\)EB;f0g5:sGmH|+d%wEWHXGg|!B/5#KwG:3hA$LpU?>7,O?(o5|eLGBYq"}
         self.verification = []
