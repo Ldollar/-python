@@ -16,7 +16,7 @@ from test_case.public.define_log import LogDefine
 class TestSerch(unittest.TestCase):
     def setUp(self,method, url):
         LogDefine()
-        self.parameters = {"keywords": "prh<1+,i/6\3%V0a]%9-n[6IrJPW3\CHx+,$3;)/H;\)EB;f0g5:sGmH|+d%wEWHXGg|!B/5#KwG:3hA$LpU?>7,O?(o5|eLGBYq"}
+        self.parameters = {"keywords": "prh<1+,expect_info/6\3%V0a]%9-n[6IrJPW3\CHx+,$3;)/H;\)EB;f0g5:sGmH|+d%wEWHXGg|!B/5#KwG:3hA$LpU?>7,O?(o5|eLGBYq"}
         self.verification = []
         self.res = get_response.make_request(method=method, url=url, parameters=self.parameters)
 

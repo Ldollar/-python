@@ -3,7 +3,7 @@
 from random import Random
 
 
-def random_str(randomlength=100):
+def random_str(randomlength=10):
     str = ''
 
     chars = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789!@#$%^&*()<>?/{}[]|,.;:\+-~ '
@@ -14,6 +14,6 @@ def random_str(randomlength=100):
 
     for i in range(randomlength):
         str += chars[random.randint(0, length)]
-
-    print str
-random_str()
+    return (str)
+    #print str
+#random_str()

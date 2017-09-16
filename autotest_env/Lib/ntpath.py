@@ -178,7 +178,7 @@ def split(p):
     Either part may be empty."""
 
     d, p = splitdrive(p)
-    # set i to index beyond p's last slash
+    # set expect_info to index beyond p's last slash
     i = len(p)
     while i and p[i-1] not in '/\\':
         i = i - 1

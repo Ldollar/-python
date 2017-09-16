@@ -199,8 +199,8 @@ output_list = Array();
 /* level - 0:Summary; 1:Failed; 2:All */
 function showCase(level) {
     trs = document.getElementsByTagName("tr");
-    for (var i = 0; i < trs.length; i++) {
-        tr = trs[i];
+    for (var expect_info = 0; expect_info < trs.length; expect_info++) {
+        tr = trs[expect_info];
         id = tr.id;
         if (id.substr(0,2) == 'ft') {
             if (level < 1) {
@@ -225,21 +225,21 @@ function showCase(level) {
 function showClassDetail(cid, count) {
     var id_list = Array(count);
     var toHide = 1;
-    for (var i = 0; i < count; i++) {
-        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+    for (var expect_info = 0; expect_info < count; expect_info++) {
+        tid0 = 't' + cid.substr(1) + '.' + (expect_info+1);
         tid = 'f' + tid0;
         tr = document.getElementById(tid);
         if (!tr) {
             tid = 'p' + tid0;
             tr = document.getElementById(tid);
         }
-        id_list[i] = tid;
+        id_list[expect_info] = tid;
         if (tr.className) {
             toHide = 0;
         }
     }
-    for (var i = 0; i < count; i++) {
-        tid = id_list[i];
+    for (var expect_info = 0; expect_info < count; expect_info++) {
+        tid = id_list[expect_info];
         if (toHide) {
             document.getElementById('div_'+tid).style.display = 'none'
             document.getElementById(tid).className = 'hiddenRow';

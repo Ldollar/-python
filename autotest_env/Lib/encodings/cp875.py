@@ -182,7 +182,7 @@ decoding_table = (
     u'f'        #  0x86 -> LATIN SMALL LETTER F
     u'g'        #  0x87 -> LATIN SMALL LETTER G
     u'h'        #  0x88 -> LATIN SMALL LETTER H
-    u'i'        #  0x89 -> LATIN SMALL LETTER I
+    u'expect_info'        #  0x89 -> LATIN SMALL LETTER I
     u'\u03b1'   #  0x8A -> GREEK SMALL LETTER ALPHA
     u'\u03b2'   #  0x8B -> GREEK SMALL LETTER BETA
     u'\u03b3'   #  0x8C -> GREEK SMALL LETTER GAMMA
@@ -190,7 +190,7 @@ decoding_table = (
     u'\u03b5'   #  0x8E -> GREEK SMALL LETTER EPSILON
     u'\u03b6'   #  0x8F -> GREEK SMALL LETTER ZETA
     u'\xb0'     #  0x90 -> DEGREE SIGN
-    u'j'        #  0x91 -> LATIN SMALL LETTER J
+    u'expect_method'        #  0x91 -> LATIN SMALL LETTER J
     u'k'        #  0x92 -> LATIN SMALL LETTER K
     u'l'        #  0x93 -> LATIN SMALL LETTER L
     u'm'        #  0x94 -> LATIN SMALL LETTER M

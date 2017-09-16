@@ -182,7 +182,7 @@ decoding_table = (
     u'f'        #  0x86 -> LATIN SMALL LETTER F
     u'g'        #  0x87 -> LATIN SMALL LETTER G
     u'h'        #  0x88 -> LATIN SMALL LETTER H
-    u'i'        #  0x89 -> LATIN SMALL LETTER I
+    u'expect_info'        #  0x89 -> LATIN SMALL LETTER I
     u'\xab'     #  0x8A -> LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
     u'\xbb'     #  0x8B -> RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
     u'\ufffe'   #  0x8C -> UNDEFINED
@@ -190,7 +190,7 @@ decoding_table = (
     u'\ufffe'   #  0x8E -> UNDEFINED
     u'\xb1'     #  0x8F -> PLUS-MINUS SIGN
     u'\xb0'     #  0x90 -> DEGREE SIGN
-    u'j'        #  0x91 -> LATIN SMALL LETTER J
+    u'expect_method'        #  0x91 -> LATIN SMALL LETTER J
     u'k'        #  0x92 -> LATIN SMALL LETTER K
     u'l'        #  0x93 -> LATIN SMALL LETTER L
     u'm'        #  0x94 -> LATIN SMALL LETTER M

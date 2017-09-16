@@ -196,7 +196,7 @@ def ismount(path):
     ino1 = s1.st_ino
     ino2 = s2.st_ino
     if ino1 == ino2:
-        return True     # path/.. is the same i-node as path
+        return True     # path/.. is the same expect_info-node as path
     return False
 
 
@@ -366,7 +366,7 @@ def abspath(path):
     return normpath(path)
 
 
-# Return a canonical path (i.e. the absolute location of a file on the
+# Return a canonical path (expect_info.e. the absolute location of a file on the
 # filesystem).
 
 def realpath(filename):
