@@ -1,3 +1,4 @@
+# /usr/bin/env python
 # -*- coding:utf-8 -*-
 import logging
 
@@ -201,7 +202,7 @@ def get_json_obj():
         for expect_info in expect_json[method]:
             if expect_info=="code":
                 logging.info("i am a code %s: ",expect_info)
-                #print expect_json[method][expect_info]
+                print expect_json[method][expect_info]
                 expect_set_info["expect_code"] = expect_json[method][expect_info]
             elif expect_info=="parameters":
                 logging.info("i am a parameters %s: ", expect_info)
@@ -221,7 +222,7 @@ def get_json_obj():
                 #expect_set_info["expect_parameters_dict"] = expect_json[method][expect_info]
             elif expect_info == "message":
                 logging.info("i am a message %s: ", expect_info)
-                #print expect_json[method][expect_info]
+                print expect_json[method][expect_info]
                 expect_set_info["expect_message"] = expect_json[method][expect_info]
             else:
                 logging.info("please check the info of json file")
