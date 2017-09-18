@@ -25,13 +25,32 @@ def control_csv_file(path):
             bb=json.loads(rows["expect_json"])
             uuuuuuuu=rows["url"]
             mmmm=rows["method"]
+            #expect_in = bb
+            #print mmmm ,uuuuuuuu
+            #print bb
             aaaa=get_json_obj_info(expect=bb)
-            print aaaa
+            print aaaa["expect_parameters"].keys()
             cccccccc=InterfaceModel()
-            zzzz=cccccccc.define_request_method(method=mmmm,url=uuuuuuuu,parameters=aaaa["expect_parameters"])
-            cccccccc.parse_method_res(response=zzzz,expected_data=aaaa)
+
+            if rows["method"] =="get":
+                #print "dddddddddddddddddddddddddddddd"
+                print aaaa["expect_parameters"].keys()[0]
+                if len(aaaa["expect_parameters"].keys())==1 and aaaa["expect_parameters"].keys()[0] == "query" :
+                    #print aaaa["expect_parameters"]["query"]
+                    zzzz=cccccccc.define_request_method(method=mmmm,url=uuuuuuuu,parameters=aaaa["expect_parameters"]["query"])
+                    cccccccc.parse_method_res(response=zzzz,expected_data=aaaa)
+                else:
+                    print 555555555555555555
 
 
+            elif rows["method"] =="post":
+                #print 1121213213123123213213213213
+                if len(aaaa["expect_parameters"].keys()) > 1:
+                    #print aaaa["expect_parameters"]["body"],aaaa["expect_parameters"]["query"]
+                    zzzz = cccccccc.define_request_method(method=rows["method"], url=uuuuuuuu,
+                                                          parameters=aaaa["expect_parameters"]["query"], data=json.dumps(aaaa["expect_parameters"]["body"]))
+                    #print zzzz
+                    cccccccc.parse_method_res(response=zzzz, expected_data=aaaa)
 
 a=control_csv_file(path=r"F:\autotest\ssssss111.csv")
 #print json.loads(a)
