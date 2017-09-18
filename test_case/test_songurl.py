@@ -14,7 +14,7 @@ from test_case.public.define_log import LogDefine
 
 
 class TestSongUrl(unittest.TestCase):
-    def setUp(self,method, url):
+    def setUp(self,method="get", url="http://121.40.68.137:12008/api/v1/media/songurl"):
         LogDefine()
         self.parameters = {
             "userId": "1",

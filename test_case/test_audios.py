@@ -14,7 +14,7 @@ from test_case.public.define_log import LogDefine
 
 
 class TestAudios(unittest.TestCase):
-    def setUp():
+    def setUp(self,method, url):
         LogDefine()
         self.parameters = {
             "audiolistId": "ajsflkjal",

@@ -14,7 +14,7 @@ from test_case.public.define_log import LogDefine
 
 
 class InterfaceModel():
-
+    
     def __init__(self):
         LogDefine()
         self.http_client = SynchronousHttpClient()
@@ -170,6 +170,9 @@ for j in s:
                 if s[j]["parametes"]["name"] == "random":
                     #调用随机函数，返回字典 需要便利？
                     pass
+                else:
+                    pass
+                    #返回parameters字典
             elif i == "message":
                 pass
                 #print s[j]["message"]["expect"]
