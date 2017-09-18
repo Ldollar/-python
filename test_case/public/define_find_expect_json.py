@@ -27,9 +27,11 @@ obj = {
         }
     },
     "get": {
+        "name":"",
         "parameters": [
             {
                 "name": "asdasd",
+                "in":"query",
                 "description": "",
                 "value": {
                     "mode": "random",
@@ -120,33 +122,32 @@ obj = {
 
 
 obj2 = {
+
     "post": {
-        "parameters": [
-
-                {
-                    "name": "123",
-                    "name1": "123",
-                    "name2": "random"
-
-                }
-        ],
-        "code": 0,
-        "message": "qweqweqweqweq"
-    },
-    "get": {
-        "parameters": [
-            {
+        "parameters": {
+            "query":{
                 "name": "123",
                 "name1": "123",
                 "name2": "random"
-
+            },
+            "body":{
+                "device_id": "new023",
+                "mode": "time",
+                "frequency": "15",
+                "type": [
+                    "all"
+                ],
+                "expiry": "86400000",
+                "event": "",
+                "compress": "base64"
             }
-        ],
-        "code": 0,
-        "message": "wo wowowowowowowowowowow"
-    }
+        },
 
+        "code": 0,
+        "message": "wo wowowowowowowowowowow111111"
+    }
 }
+
 
 
 def by_protocol():
@@ -190,46 +191,88 @@ def by_protocol():
 
     print parameters_dict,expect_code
 
-def get_json_obj():
 
-    expect_json = json.loads(json.dumps(obj2, indent=4))
-    #print expect_json
+def get_json_obj_info(expect):
+
+    expect_json = json.loads(json.dumps(expect, indent=4))
+    logging.info("expect_json type is %s ",type(expect_json))
+    #print type(expect_json)
     expect_set_info={}
-    expect_parameters_dict={}
+    expect_parameters_query_dict={}
+    expect_parameters_body_dict ={}
+    expect_parameters_in_dict={}
     for method in expect_json:
         expect_set_info["expect_method"]=method
         #print expect_json[method]
         for expect_info in expect_json[method]:
+            #print expect_json[method]
             if expect_info=="code":
                 logging.info("i am a code %s: ",expect_info)
-                print expect_json[method][expect_info]
+                #print expect_json[method][expect_info]
                 expect_set_info["expect_code"] = expect_json[method][expect_info]
             elif expect_info=="parameters":
                 logging.info("i am a parameters %s: ", expect_info)
                 #print expect_json[method][expect_info]
-                for expect_value in expect_json[method][expect_info]:
-                    logging.info("right here now expect_value")
-                    for judge_set_value in expect_value:
-                        logging.info("right here now judge_set_value")
-                        if expect_value[judge_set_value] == "random":
-                            logging.info("the value is random")
-                            expect_parameters_dict[expect_value[judge_set_value]] = define_random_str.random_str()
+                for expect_in in expect_json[method][expect_info]:
+                    logging.info("right here now expect_in")
+                    #print expect_in
+                    if expect_in =="query":
+                        logging.info("this is query parameters")
+                        #print expect_json[method][expect_info][expect_in]
+                        for judge_name_value in expect_json[method][expect_info][expect_in]:
+                            logging.info("right here now judge_set_value")
+                            #print judge_name_value
+                            #print expect_json[method][expect_info][expect_in][judge_name_value]
+                            if expect_json[method][expect_info][expect_in][judge_name_value] == "random":
+                                #print judge_name_value
+                                logging.info("the value is random")
+                                expect_parameters_query_dict[judge_name_value] = define_random_str.random_str()
+                            else:
+                                #print judge_name_value
+                                logging.info("the value is normal")
+                                #print expect_json[method][expect_info][expect_in][judge_name_value]
+                                expect_parameters_query_dict[judge_name_value] = expect_json[method][expect_info][expect_in][judge_name_value]
+                        #print expect_parameters_query_dict
+                        expect_parameters_in_dict[expect_in]=expect_parameters_query_dict
+                        #print expect_parameters_in_dict
+                    elif expect_in =="body":
+                        logging.info("this is query parameters")
+                        #print expect_json[method][expect_info][expect_in]
+                        for judge_name_value in expect_json[method][expect_info][expect_in]:
+                            logging.info("right here now judge_set_value")
+                            #print judge_name_value
+                            #print expect_json[method][expect_info][expect_in][judge_name_value]
+                            if expect_json[method][expect_info][expect_in][judge_name_value] == "random":
+                                #print judge_name_value
+                                logging.info("the value is random")
+                                expect_parameters_body_dict[judge_name_value] = define_random_str.random_str()
+                            else:
+                                logging.info("the value is normal")
+                                #print expect_json[method][expect_info][expect_in][judge_name_value]
+                                expect_parameters_body_dict[judge_name_value] = expect_json[method][expect_info][expect_in][judge_name_value]
+                        #print expect_parameters_body_dict
+                        if expect_parameters_body_dict:
+                            expect_parameters_in_dict[expect_in] = expect_parameters_body_dict
                         else:
-                            logging.info("the value is normal")
-                            expect_parameters_dict[expect_value[judge_set_value]] = expect_value[judge_set_value]
+                            pass
 
-                expect_set_info["expect_parameters"]=expect_parameters_dict
-                #expect_set_info["expect_parameters_dict"] = expect_json[method][expect_info]
+                expect_set_info["expect_parameters"]=expect_parameters_in_dict
+                #expect_set_info["expect_parameters_query_dict"] = expect_json[method][expect_info]
             elif expect_info == "message":
                 logging.info("i am a message %s: ", expect_info)
-                print expect_json[method][expect_info]
+                #print expect_json[method][expect_info]
                 expect_set_info["expect_message"] = expect_json[method][expect_info]
             else:
                 logging.info("please check the info of json file")
                 print u"是否加入不需要的参数"
-    #print expect_parameters_dict
+    #print expect_parameters_query_dict
     return expect_set_info
 
+<<<<<<< HEAD:test_case/public/find_expect_json.py
 a = get_json_obj()
 #b = by_protocol()
 print a
+=======
+a = get_json_obj_info(expect=obj2)
+#print a
+>>>>>>> 8ebd5524dba93f47bd2f517aab486cb1cd09c5a9:test_case/public/define_find_expect_json.py

@@ -9,14 +9,14 @@ from selenium import webdriver
 
 def login(driver):
     #driver = webdriver.Chrome(r"C:\Users\TY\Downloads\chromedriver_win32(1)\chromedriver.exe")
-
+    #driver.get("http://web.aituyou.me/ins/#/login")
     try:
         logging.info("------beginning login-----")
         driver.implicitly_wait(20)
         driver.find_element_by_id("UserName").clear()
-        driver.find_element_by_id("UserName").send_keys("")
+        driver.find_element_by_id("UserName").send_keys("user6")
         driver.find_element_by_id("Password").clear()
-        driver.find_element_by_id("Password").send_keys("")
+        driver.find_element_by_id("Password").send_keys("123456")
         driver.find_element_by_class_name("login_container").click()
         #sleep(2)
     except:
