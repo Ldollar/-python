@@ -268,11 +268,11 @@ def get_json_obj_info(expect):
     #print expect_parameters_query_dict
     return expect_set_info
 
-<<<<<<< HEAD:test_case/public/find_expect_json.py
-a = get_json_obj()
+
+a = get_json_obj_info(expect=obj2)
 #b = by_protocol()
 print a
-=======
+
 a = get_json_obj_info(expect=obj2)
 #print a
->>>>>>> 8ebd5524dba93f47bd2f517aab486cb1cd09c5a9:test_case/public/define_find_expect_json.py
+

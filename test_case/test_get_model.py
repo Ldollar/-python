@@ -77,5 +77,5 @@ a=InterfaceModel()
 #            "count":"10"
 #        })
 # print s.json()
-##a.parse_method_res(response=s,judge_code=0)
+##a.parse_method_res(response=s,judge_code=0)/
 #requests.request()

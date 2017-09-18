@@ -44,8 +44,9 @@ testunit = unittest.TestSuite()
 #runner.run(testsuite)
 
 #dicover 方法定义
-def createsuite():
-    listdir = "F:\\autotest\\test_case"
+def createsuite(listdir= r"E:\programing\project\interface_testing_python\test_case"):
+
+    #listdir = "E:\programing\project\interface_testing - python\test_case"
     discover = unittest.defaultTestLoader.discover(listdir,pattern='test_*.py')
     print discover
     for test_suite in discover:
@@ -58,7 +59,7 @@ def createsuite():
     #testunit.addTest(unittest.makeSuite(test_select.TestSelct))
 alltestnames =createsuite()
 now = str(time())
-filename = "F:\\autotest\\report\\"+now+"result2.html"
+filename = "E:\programing\project\interface_testing_python\\report\\"+now+"result2.html"
 fp = file(filename,'wb')
 
 runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u"测试测试" ,description=u"结果结果：")
