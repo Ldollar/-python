@@ -190,10 +190,12 @@ def by_protocol():
 
     print parameters_dict,expect_code
 
-def get_json_obj():
 
-    expect_json = json.loads(json.dumps(obj2, indent=4))
-    #print expect_json
+def get_json_obj_info(expect):
+
+    expect_json = json.loads(json.dumps(expect, indent=4))
+    logging.info("expect_json type is %s ",type(expect_json))
+    #print type(expect_json)
     expect_set_info={}
     expect_parameters_dict={}
     for method in expect_json:
@@ -202,27 +204,29 @@ def get_json_obj():
         for expect_info in expect_json[method]:
             if expect_info=="code":
                 logging.info("i am a code %s: ",expect_info)
-                print expect_json[method][expect_info]
+                #print expect_json[method][expect_info]
                 expect_set_info["expect_code"] = expect_json[method][expect_info]
             elif expect_info=="parameters":
                 logging.info("i am a parameters %s: ", expect_info)
                 #print expect_json[method][expect_info]
                 for expect_value in expect_json[method][expect_info]:
                     logging.info("right here now expect_value")
-                    for judge_set_value in expect_value:
+                    #print expect_value
+                    for judge_name_value in expect_value:
                         logging.info("right here now judge_set_value")
-                        if expect_value[judge_set_value] == "random":
+                        if expect_value[judge_name_value] == "random":
+                            #print judge_name_value
                             logging.info("the value is random")
-                            expect_parameters_dict[expect_value[judge_set_value]] = define_random_str.random_str()
+                            expect_parameters_dict[judge_name_value] = define_random_str.random_str()
                         else:
                             logging.info("the value is normal")
-                            expect_parameters_dict[expect_value[judge_set_value]] = expect_value[judge_set_value]
+                            expect_parameters_dict[judge_name_value] = expect_value[judge_name_value]
 
                 expect_set_info["expect_parameters"]=expect_parameters_dict
                 #expect_set_info["expect_parameters_dict"] = expect_json[method][expect_info]
             elif expect_info == "message":
                 logging.info("i am a message %s: ", expect_info)
-                print expect_json[method][expect_info]
+                #print expect_json[method][expect_info]
                 expect_set_info["expect_message"] = expect_json[method][expect_info]
             else:
                 logging.info("please check the info of json file")
@@ -230,5 +234,5 @@ def get_json_obj():
     #print expect_parameters_dict
     return expect_set_info
 
-a = get_json_obj()
+a = get_json_obj_info(expect=obj2)
 print a

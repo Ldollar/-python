@@ -44,10 +44,11 @@ class InterfaceModel():
     def parse_method_res(self, response, expected_data=None):
 
         """对返回数据处理分析"""
-        data = json.dumps(expected_data)
+        data = json.loads(json.dumps(expected_data))
+        print data["expect_code"]
         s = define_regex.find_code(text=response.text)
-        print s
-        if s == str(0):
+        print type(s),type(data["expect_code"])
+        if int(s) == data["expect_code"]:
             logging.info("correct response code: %s ", s)
             print u"返回正确 code: %s" % s
         else:
@@ -56,14 +57,11 @@ class InterfaceModel():
             print u"接口请求失败 code: %s " % s
 
 
-# a=InterfaceModel()
-# s=a.define_request_method(method="get",url="http://api.aituyou.me:8000/xbot/v1/audio/categorylist?type=music",parameters={
+a=InterfaceModel()
+#s=a.define_request_method(method="get",url="http://api.aituyou.me:8000/xbot/v1/audio/categorylist?type=music",parameters={
 #            "audiolistId": "ajsflkjal",
 #            "start":"1",
 #            "count":"10"
 #        })
 # print s.json()
 ##a.parse_method_res(response=s,judge_code=0)
-
-
-#

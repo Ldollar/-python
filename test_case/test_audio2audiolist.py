@@ -24,7 +24,7 @@ class TestAudios(unittest.TestCase):
         self.verification = []
         self.res = get_response.make_request(method="get", url=url, parameters=self.parameters)
 
-    def test_audio2audiolist(self):
+    def test_audio(self):
         """查询专辑/歌单中的节目/歌曲详情列表"""
         res = self.res
         print res.url
