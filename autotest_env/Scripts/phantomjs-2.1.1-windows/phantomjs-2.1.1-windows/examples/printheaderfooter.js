@@ -41,7 +41,7 @@ if (system.args.length < 3) {
             console.log('Unable to load the address!');
         } else {
             /* check whether the loaded page overwrites the header/footer setting,
-               i.e. whether a PhantomJSPriting object exists. Use that then instead
+               expect_info.e. whether a PhantomJSPriting object exists. Use that then instead
                of our defaults above.
 
                example:

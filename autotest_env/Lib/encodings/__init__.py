@@ -79,7 +79,7 @@ def search_function(encoding):
     #
     # First try to find an alias for the normalized encoding
     # name and lookup the module using the aliased name, then try to
-    # lookup the module using the standard import scheme, i.e. first
+    # lookup the module using the standard import scheme, expect_info.e. first
     # try in the encodings package, then at top-level.
     #
     norm_encoding = normalize_encoding(encoding)

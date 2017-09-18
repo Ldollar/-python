@@ -150,8 +150,8 @@ decoding_table = (
     u'f'        #  0x66 -> LATIN SMALL LETTER F
     u'g'        #  0x67 -> LATIN SMALL LETTER G
     u'h'        #  0x68 -> LATIN SMALL LETTER H
-    u'i'        #  0x69 -> LATIN SMALL LETTER I
-    u'j'        #  0x6A -> LATIN SMALL LETTER J
+    u'expect_info'        #  0x69 -> LATIN SMALL LETTER I
+    u'expect_method'        #  0x6A -> LATIN SMALL LETTER J
     u'k'        #  0x6B -> LATIN SMALL LETTER K
     u'l'        #  0x6C -> LATIN SMALL LETTER L
     u'm'        #  0x6D -> LATIN SMALL LETTER M

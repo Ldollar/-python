@@ -16,7 +16,7 @@ class TestSelct(unittest.TestCase): #继承TestCase类
     def setUp(self):    #初始化
         self.driver = webdriver.Chrome(r"C:\Users\TY\Downloads\chromedriver_win32(1)\chromedriver.exe")
         self.driver.implicitly_wait(30)
-        self.driver.get("http://web.aituyou.me/ins/#/login")
+        self.driver.get()
 
         self.verification = []
 

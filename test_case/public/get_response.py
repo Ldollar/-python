@@ -11,7 +11,6 @@ def make_request(method,url,parameters=None,data=None):
 
     """
     method = 'get'
-    url = 'http://121.40.68.137:12008/api/v1/media/searchxmly'
     parameters = {
         'keywords': '刘德华',
     }

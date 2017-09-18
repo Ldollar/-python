@@ -52,7 +52,7 @@ CATEGORIES = {
 
 FLAGS = {
     # standard flags
-    "i": SRE_FLAG_IGNORECASE,
+    "expect_info": SRE_FLAG_IGNORECASE,
     "L": SRE_FLAG_LOCALE,
     "m": SRE_FLAG_MULTILINE,
     "s": SRE_FLAG_DOTALL,
@@ -813,7 +813,7 @@ def parse_template(source, pattern):
     for c, s in p:
         if c is MARK:
             groupsappend((i, s))
-            # literal[i] is already None
+            # literal[expect_info] is already None
         else:
             literals[i] = s
         i = i + 1

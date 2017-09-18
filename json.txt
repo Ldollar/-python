@@ -1,0 +1,146 @@
+obj = {
+    "post": {
+        "parameters": [
+
+                {
+                    "name": "123",
+                    "name1": "123",
+                    "name2": "123"
+
+                }
+        ],
+        "code": 0,
+        "message": "qweqweqweqweq"
+    },
+    "get": {
+        "parameters": [
+            {
+                "name": "123",
+                "name1": "123",
+                "name2": "123"
+
+            }
+        ],
+        "code": 0,
+        "message": "wo wowowowowowowowowowow"
+    }
+
+}
+
+value= {
+                    "mode": "random",
+                    "min": 1,
+                    "max": 2,
+                    "sets": "???????????",
+                    "set_value": "random"
+                }
+
+obj = {
+    "post": {
+        "parameters": [
+            {
+                "name": "null",
+                "value": {
+                    "$ref": "#/definitions/xxxbody"
+                }
+            }
+        ],
+        "code": {
+            "expect": 0,
+            "type": "int"
+        },
+        "message": {
+            "expect": "?",
+            "expert_type": "string"
+        }
+    },
+    "get": {
+        "parameters": [
+            {
+                "name": "asdasd",
+                "description": "",
+                "value": {
+                    "mode": "random",
+                    "min": 1,
+                    "max": 2,
+                    "sets": "???????????",
+                    "set_value": "random"
+                },  # {userId:new023,audiolistId:random} or  {userId:random}
+                "type": "??"
+            },
+            {
+                "name": "asd",
+                "description": "",
+                "value": {
+                    "mode": "normal",
+                    "min": "null",
+                    "max": "null",
+                    "sets": "null",
+                    "set_value": "new023"
+                },
+                "type": "??"
+            },
+            {
+                "name": "566565656",
+                "description": "",
+                "value": {
+                    "mode": "random",
+                    "min": 1,
+                    "max": 2,
+                    "sets": "???????????",
+                    "set_value": "random"
+                },  # {userId:new023,audiolistId:random} or  {userId:random}
+                "type": "??"
+            },
+            {
+                "name": ".,/.,f/ds,f",
+                "description": "",
+                "value": {
+                    "mode": "random",
+                    "min": 1,
+                    "max": 2,
+                    "sets": "???????????",
+                    "set_value": "random"
+                },  # {userId:new023,audiolistId:random} or  {userId:random}
+                "type": "??"
+            }
+        ],
+        "code": {
+            "expect": 0,
+            "type": "int"
+        },
+        "message": {
+            "expect": "??",
+            "type": "string"
+        }
+    },
+    "definitions": {
+        "xxxSchemaValue": {
+            "properties": [
+                {
+                    "name": "xxx",
+                    "value": {
+                        "type": "normal",
+                        "min": "null",
+                        "max": "null",
+                        "sets": "null",
+                        "set_value": "new023"
+                    },
+                    "type": "??"
+                },
+                {
+                    "name": "expect_info am random str",
+                    "description": "",
+                    "value": {
+                        "type": "random",
+                        "min": 1,
+                        "max": 2,
+                        "sets": "???????????",
+                        "set_value": " random(sets)"
+                    },
+                    "type": "??"
+                }
+            ]
+        }
+    }
+}

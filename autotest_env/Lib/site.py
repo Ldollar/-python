@@ -386,7 +386,7 @@ def setquit():
     elif os.sep == '\\':
         eof = 'Ctrl-Z plus Return'
     else:
-        eof = 'Ctrl-D (i.e. EOF)'
+        eof = 'Ctrl-D (expect_info.e. EOF)'
 
     class Quitter(object):
         def __init__(self, name):
