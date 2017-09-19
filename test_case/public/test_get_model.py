@@ -1,8 +1,6 @@
 # coding=utf-8
 # -*- coding:utf-8 -*-
-import requests
 
-from test_case.public import define_random_str
 
 HTTP_CODE_SUCCESS = 200
 
@@ -11,8 +9,8 @@ import json
 import logging
 from swaggerpy.http_client import SynchronousHttpClient
 
-from public import define_regex
-from public.define_log import LogDefine
+import define_regex
+from define_log import LogDefine
 
 
 class InterfaceModel():

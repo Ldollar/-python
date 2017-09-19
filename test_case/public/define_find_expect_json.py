@@ -3,8 +3,8 @@
 import logging
 
 import json
-from test_case.public import define_random_str
-from test_case.public.define_log import LogDefine
+import define_random_str
+from define_log import LogDefine
 
 LogDefine()
 obj = {

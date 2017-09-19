@@ -10,12 +10,10 @@ import HTMLTestRunner
 from nose_parameterized import param
 from nose_parameterized import parameterized
 
-from test_case.public.define_find_expect_csv import Fwe
-from test_case.public.define_find_expect_json import get_json_obj_info
-#from test_case.public.test_define_testcase import addInterfaceTestCase
-#from test_case.public.define_test_model import TestCases
-from test_case.public.model_demo import ParametrizedTestCase
-from test_case.test_get_model import InterfaceModel
+from define_find_expect_csv import Fwe
+from define_find_expect_json import get_json_obj_info
+
+from test_get_model import InterfaceModel
 
 #aaaaa=test_interface_by_csv(path=r"E:\programing\project\interface_testing_python\ssssss111.csv")
 a=Fwe()
