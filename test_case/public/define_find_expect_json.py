@@ -269,10 +269,10 @@ def get_json_obj_info(expect):
     return expect_set_info
 
 
-a = get_json_obj_info(expect=obj2)
+#a = get_json_obj_info(expect=obj2)
 #b = by_protocol()
-print a
+#print a
 
-a = get_json_obj_info(expect=obj2)
+#a = get_json_obj_info(expect=obj2)
 #print a
 

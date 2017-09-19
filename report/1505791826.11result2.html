@@ -98,8 +98,8 @@ output_list = Array();
 /* level - 0:Summary; 1:Failed; 2:All */
 function showCase(level) {
     trs = document.getElementsByTagName("tr");
-    for (var expect_info = 0; expect_info < trs.length; expect_info++) {
-        tr = trs[expect_info];
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
         id = tr.id;
         if (id.substr(0,2) == 'ft') {
             if (level < 1) {
@@ -124,21 +124,21 @@ function showCase(level) {
 function showClassDetail(cid, count) {
     var id_list = Array(count);
     var toHide = 1;
-    for (var expect_info = 0; expect_info < count; expect_info++) {
-        tid0 = 't' + cid.substr(1) + '.' + (expect_info+1);
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
         tid = 'f' + tid0;
         tr = document.getElementById(tid);
         if (!tr) {
             tid = 'p' + tid0;
             tr = document.getElementById(tid);
         }
-        id_list[expect_info] = tid;
+        id_list[i] = tid;
         if (tr.className) {
             toHide = 0;
         }
     }
-    for (var expect_info = 0; expect_info < count; expect_info++) {
-        tid = id_list[expect_info];
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
         if (toHide) {
             document.getElementById('div_'+tid).style.display = 'none'
             document.getElementById(tid).className = 'hiddenRow';
@@ -189,8 +189,8 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试测试</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-09-18 21:58:39</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:02.137000</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-09-19 11:30:26</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:08.368000</p>
 <p class='attribute'><strong>Status:</strong> Pass 1 Error 5</p>
 
 <p class='description'>结果结果：</p>
@@ -221,35 +221,48 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
-    <td>public.test_define_testcase.addInterfaceTestCase</td>
-    <td>1</td>
+<tr class='errorClass'>
+    <td>unittest.loader.ModuleImportFailure</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
+    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_case</div></td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_define_testcase</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: HTTPConnectionPool(host='121.40.68.137', port=12008): Max retries exceeded with url: /api/v1/media/audio?audioId=123 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003D29A58&gt;: Failed to establish a new connection: [Errno 10061] ',))
-Response 可能没有获取到 'NoneType' object has no attribute 'text'
-返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-返回正确 code: 0
+ft1.1: ImportError: Failed to import test module: public.test_define_testcase
+Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\loader.py", line 254, in _find_tests
+    module = self._get_module_from_name(name)
+  File "C:\Python27\lib\unittest\loader.py", line 232, in _get_module_from_name
+    __import__(name)
+  File "F:\autotest\test_case\public\test_define_testcase.py", line 6, in &lt;module&gt;
+    from test_case.public.define_find_expect_csv import test_interface_by_csv
+  File "F:\autotest\test_case\public\define_find_expect_csv.py", line 40, in &lt;module&gt;
+    test_interface_by_csv(path=path)
+  File "F:\autotest\test_case\public\define_find_expect_csv.py", line 36, in test_interface_by_csv
+    model123(rows=rows)
+  File "F:\autotest\test_case\public\define_parse_csv_file.py", line 24, in model123
+    test_obj = TestCases()
+  File "C:\Python27\lib\unittest\case.py", line 189, in __init__
+    (self.__class__, methodName))
+ValueError: no such test method in &lt;class 'test_case.public.define_test_model.TestCases'&gt;: runTest
+
 
 
         </pre>
@@ -269,7 +282,7 @@ Response 可能没有获取到 'NoneType' object has no attribute 'text'
 </tr>
 
 <tr id='ft2.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_audio: 鏌ヨ涓撹緫/姝屽崟涓殑鑺傜洰/姝屾洸璇︽儏鍒楄〃</div></td>
+    <td class='errorCase'><div class='testcase'>test_audio: 查询专辑/歌单中的节目/歌曲详情列表</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -303,7 +316,7 @@ ft2.1: TypeError: setUp() takes exactly 3 arguments (1 given)
 </tr>
 
 <tr id='ft3.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_audios: 鏌ヨ涓撹緫/姝屽崟涓殑鑺傜洰/姝屾洸璇︽儏鍒楄〃</div></td>
+    <td class='errorCase'><div class='testcase'>test_audios: 查询专辑/歌单中的节目/歌曲详情列表</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -337,7 +350,7 @@ ft3.1: TypeError: setUp() takes exactly 3 arguments (1 given)
 </tr>
 
 <tr id='ft4.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_login: 鐧诲綍鎿嶄綔</div></td>
+    <td class='errorCase'><div class='testcase'>test_login: 登录操作</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -352,13 +365,24 @@ ft3.1: TypeError: setUp() takes exactly 3 arguments (1 given)
         <pre>
         
 ft4.1: Traceback (most recent call last):
-  File "E:\programing\project\interface_testing_python\test_case\test_login.py", line 15, in setUp
-    self.driver = webdriver.Chrome(r"C:\Users\TY\Downloads\chromedriver_win32(1)\chromedriver.exe")
-  File "E:\programing\ENV\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 62, in __init__
-    self.service.start()
-  File "E:\programing\ENV\lib\site-packages\selenium\webdriver\common\service.py", line 81, in start
-    os.path.basename(self.path), self.start_error_message)
-WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+  File "F:\autotest\test_case\test_login.py", line 23, in test_login
+    login.login(driver=self.driver)
+  File "F:\autotest\test_case\public\login.py", line 24, in login
+    driver.get_screenshot_as_file(os.getcwd())
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 837, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 867, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 877, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.14393 x86_64)
 
 
 
@@ -379,7 +403,7 @@ WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. 
 </tr>
 
 <tr id='ft5.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_select: 鏌ヨ鎿嶄綔</div></td>
+    <td class='errorCase'><div class='testcase'>test_select: 查询操作</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -394,14 +418,9 @@ WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. 
         <pre>
         
 ft5.1: Traceback (most recent call last):
-  File "E:\programing\project\interface_testing_python\test_case\test_select.py", line 17, in setUp
-    self.driver = webdriver.Chrome(r"C:\Users\TY\Downloads\chromedriver_win32(1)\chromedriver.exe")
-  File "E:\programing\ENV\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 62, in __init__
-    self.service.start()
-  File "E:\programing\ENV\lib\site-packages\selenium\webdriver\common\service.py", line 81, in start
-    os.path.basename(self.path), self.start_error_message)
-WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
-
+  File "F:\autotest\test_case\test_select.py", line 19, in setUp
+    self.driver.get()
+TypeError: get() takes exactly 2 arguments (1 given)
 
 
         </pre>
@@ -411,42 +430,33 @@ WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. 
     </td>
 </tr>
 
-<tr class='errorClass'>
+<tr class='passClass'>
     <td>test_songurl.TestSongUrl</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td><a href="javascript:showClassDetail('c6',1)">Detail</a></td>
 </tr>
 
-<tr id='ft6.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_songurl: 鑾峰彇澶辨晥姝屾洸閾炬帴</div></td>
+<tr id='pt6.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_songurl: 获取失效歌曲链接</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft6.1')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.1')" >
+        pass</a>
 
-    <div id='div_ft6.1' class="popup_window">
+    <div id='div_pt6.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft6.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft6.1: Traceback (most recent call last):
-  File "E:\programing\project\interface_testing_python\test_case\test_songurl.py", line 24, in setUp
-    self.res = get_response.make_request(method="get", url=url, parameters=self.parameters)
-  File "E:\programing\project\interface_testing_python\test_case\public\get_response.py", line 19, in make_request
-    z=http_client.request(method=method,url=url,params=parameters,data=data)  #Requestè¯·æ±ä¼ å¥method= 'get'|'post'|'put' ç­,ä¼ å¥url ä¼ å¥è¯·æ±åæ°
-  File "E:\programing\ENV\lib\site-packages\swaggerpy\http_client.py", line 178, in request
-    return self.session.send(self.session.prepare_request(req))
-  File "E:\programing\ENV\lib\site-packages\requests\sessions.py", line 618, in send
-    r = adapter.send(request, **kwargs)
-  File "E:\programing\ENV\lib\site-packages\requests\adapters.py", line 508, in send
-    raise ConnectionError(e, request=request)
-ConnectionError: HTTPConnectionPool(host='121.40.68.137', port=12008): Max retries exceeded with url: /api/v1/media/songurl?sourceId=1&amp;userId=1 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003D449B0&gt;: Failed to establish a new connection: [Errno 10061] ',))
+pt6.1: 返回200，响应成功 http://121.40.68.137:12008/api/v1/media/songurl?sourceId=1&amp;userId=1
+{"message":"success","code":0}
+返回正确 code: 0
 
 
         </pre>
