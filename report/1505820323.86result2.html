@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试测试</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-09-14 16:51:13</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:28.561000</p>
-<p class='attribute'><strong>Status:</strong> Pass 5 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-09-19 19:25:23</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.095000</p>
+<p class='attribute'><strong>Status:</strong> Pass 2</p>
 
 <p class='description'>结果结果：</p>
 </div>
@@ -221,80 +221,33 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>public.test_get_model.TestAudios</td>
-    <td>1</td>
-    <td>0</td>
-    <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
-</tr>
-
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_get_interface: get请求模板</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
-
-    <div id='div_ft1.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.1: Traceback (most recent call last):
-  File "F:\autotest\test_case\public\test_get_model.py", line 22, in setUp
-    self.res = get_response.make_request(method="get", url=url, parameters=self.parameters)
-  File "F:\autotest\test_case\public\get_response.py", line 20, in make_request
-    z=http_client.request(method=method,url=url,params=parameters,data=data)  #Requestè¯·æ±ä¼ å¥method= 'get'|'post'|'put' ç­,ä¼ å¥url ä¼ å¥è¯·æ±åæ°
-  File "F:\autotest\autotest_env\lib\site-packages\swaggerpy\http_client.py", line 178, in request
-    return self.session.send(self.session.prepare_request(req))
-  File "F:\autotest\autotest_env\lib\site-packages\requests\sessions.py", line 437, in prepare_request
-    hooks=merge_hooks(request.hooks, self.hooks),
-  File "F:\autotest\autotest_env\lib\site-packages\requests\models.py", line 305, in prepare
-    self.prepare_url(url, params)
-  File "F:\autotest\autotest_env\lib\site-packages\requests\models.py", line 379, in prepare_url
-    raise MissingSchema(error)
-MissingSchema: Invalid URL 'None': No schema supplied. Perhaps you meant http://None?
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
 <tr class='passClass'>
-    <td>test_audio2audiolist.TestAudios</td>
-    <td>1</td>
-    <td>1</td>
+    <td>test_case.public.define_parse_csv_file.ParseCsvFile</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
 </tr>
 
-<tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_audios: 查询专辑/歌单中的节目/歌曲详情列表</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_interface_0</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
         pass</a>
 
-    <div id='div_pt2.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt2.1: http://121.40.68.137:12008/api/v1/media/audio2audiolist?audioId=1&amp;userId=1&amp;audiolistId=1
-返回200，响应成功 http://121.40.68.137:12008/api/v1/media/audio2audiolist?audioId=1&amp;userId=1&amp;audiolistId=1
-{"res":{"count":0,"total":1},"message":"success","code":0}
+pt1.1: {'\xd3\xc3\xc0\xfd\xb1\xea\xcc\xe2': '1', 'paths': '/audio', '\xd3\xc3\xc0\xfdid': '1', 'url': 'http://121.40.68.137:12008/api/v1/media/audio', 'base_path': '/api/v1/media', 'host': '121.40.68.137:12008', '\xbd\xd3\xbf\xda\xc3\xfb\xb3\xc6': '1', 'method': 'get', 'expect_json': '{"get": {\n        "parameters": {\n            "query":{\n                "audioId":"123"\n\n            }\n        },\n        "code": 0,\n        "message": "wo wowowowowowowowowowow"\n    }}'}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=123
+{"res":[],"message":"success","code":0}
 返回正确 code: 0
 
 
@@ -305,96 +258,24 @@ pt2.1: http://121.40.68.137:12008/api/v1/media/audio2audiolist?audioId=1&amp;use
     </td>
 </tr>
 
-<tr class='passClass'>
-    <td>test_audios.TestAudios</td>
-    <td>1</td>
-    <td>1</td>
-    <td>0</td>
-    <td>0</td>
-    <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
-</tr>
-
-<tr id='pt3.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_audios: 查询专辑/歌单中的节目/歌曲详情列表</div></td>
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_interface_1</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
         pass</a>
 
-    <div id='div_pt3.1' class="popup_window">
+    <div id='div_pt1.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt3.1: http://121.40.68.137:12008/api/v1/media/audios?count=10&amp;start=1&amp;audiolistId=ajsflkjal
--1
-响应出错 code 500
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr class='passClass'>
-    <td>test_login.TestLogin</td>
-    <td>1</td>
-    <td>1</td>
-    <td>0</td>
-    <td>0</td>
-    <td><a href="javascript:showClassDetail('c4',1)">Detail</a></td>
-</tr>
-
-<tr id='pt4.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_login: 登录操作</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
-
-<tr class='passClass'>
-    <td>test_select.TestSelct</td>
-    <td>1</td>
-    <td>1</td>
-    <td>0</td>
-    <td>0</td>
-    <td><a href="javascript:showClassDetail('c5',1)">Detail</a></td>
-</tr>
-
-<tr id='pt5.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_select: 查询操作</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
-
-<tr class='passClass'>
-    <td>test_songurl.TestSongUrl</td>
-    <td>1</td>
-    <td>1</td>
-    <td>0</td>
-    <td>0</td>
-    <td><a href="javascript:showClassDetail('c6',1)">Detail</a></td>
-</tr>
-
-<tr id='pt6.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_songurl: 获取失效歌曲链接</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.1')" >
-        pass</a>
-
-    <div id='div_pt6.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt6.1: 返回200，响应成功 http://121.40.68.137:12008/api/v1/media/songurl?sourceId=1&amp;userId=1
-{"message":"success","code":0}
+pt1.2: {'\xd3\xc3\xc0\xfd\xb1\xea\xcc\xe2': '1', 'paths': '/audio', '\xd3\xc3\xc0\xfdid': '1', 'url': 'http://api.aituyou.me:8000/xbot/v1/device/configure', 'base_path': '/api/v1/media', 'host': '121.40.68.137:12008', '\xbd\xd3\xbf\xda\xc3\xfb\xb3\xc6': '1', 'method': 'post', 'expect_json': '{\n    "post": {\n        "parameters": {\n            "query":{\n                "device_id" : "new023"\n            },\n            "body":{\n                "device_id": "new023",\n                "mode": "time",\n                "frequency": "15",\n                "type": [\n                    "all"\n                ],\n                "expiry": "86400000",\n                "event": "",\n                "compress": "base64"\n            }\n        },\n        "code": 0,\n        "message": "wo wowowowowowowowowowow111111"\n    }\n}'}
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+{"status":{"code":0}}
 返回正确 code: 0
 
 
@@ -407,10 +288,10 @@ pt6.1: 返回200，响应成功 http://121.40.68.137:12008/api/v1/media/songurl?
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>6</td>
-    <td>5</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
-    <td>1</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>
