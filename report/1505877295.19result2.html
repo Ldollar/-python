@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>测试测试</title>
+    <title>接口测试</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
@@ -188,12 +188,12 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>测试测试</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-09-19 19:31:37</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.271000</p>
-<p class='attribute'><strong>Status:</strong> Pass 4</p>
+<h1>接口测试</h1>
+<p class='attribute'><strong>Start Time:</strong> 2017-09-20 11:14:55</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.002000</p>
+<p class='attribute'><strong>Status:</strong> Error 4</p>
 
-<p class='description'>结果结果：</p>
+<p class='description'>音乐：</p>
 </div>
 
 
@@ -221,33 +221,36 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
-    <td>test_case.public.define_parse_csv_file.ParseCsvFile</td>
-    <td>4</td>
+<tr class='errorClass'>
+    <td>test_case.public.test_interface_unit.InterfaceCase</td>
     <td>4</td>
     <td>0</td>
     <td>0</td>
+    <td>4</td>
     <td><a href="javascript:showClassDetail('c1',4)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_interface_0</div></td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_interface_0</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: 返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=123
-{"res":[],"message":"success","code":0}
-返回正确 code: 0
+ft1.1: Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\nose_parameterized\parameterized.py", line 392, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "F:\autotest\test_case\public\test_interface_unit.py", line 30, in test_interface
+    read_json = json.loads(rows["expect_json"])
+TypeError: tuple indices must be integers, not str
 
 
         </pre>
@@ -257,24 +260,27 @@ pt1.1: 返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?au
     </td>
 </tr>
 
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_interface_1</div></td>
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_interface_1</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        error</a>
 
-    <div id='div_pt1.2' class="popup_window">
+    <div id='div_ft1.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.2: 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-返回正确 code: 0
+ft1.2: Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\nose_parameterized\parameterized.py", line 392, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "F:\autotest\test_case\public\test_interface_unit.py", line 30, in test_interface
+    read_json = json.loads(rows["expect_json"])
+TypeError: tuple indices must be integers, not str
 
 
         </pre>
@@ -284,24 +290,27 @@ pt1.2: 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/config
     </td>
 </tr>
 
-<tr id='pt1.3' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_interface_2</div></td>
+<tr id='ft1.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_interface_2</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        error</a>
 
-    <div id='div_pt1.3' class="popup_window">
+    <div id='div_ft1.3' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.3: 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-返回正确 code: 0
+ft1.3: Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\nose_parameterized\parameterized.py", line 392, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "F:\autotest\test_case\public\test_interface_unit.py", line 30, in test_interface
+    read_json = json.loads(rows["expect_json"])
+TypeError: tuple indices must be integers, not str
 
 
         </pre>
@@ -311,24 +320,27 @@ pt1.3: 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/config
     </td>
 </tr>
 
-<tr id='pt1.4' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_interface_3</div></td>
+<tr id='ft1.4' class='none'>
+    <td class='errorCase'><div class='testcase'>test_interface_3</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
+        error</a>
 
-    <div id='div_pt1.4' class="popup_window">
+    <div id='div_ft1.4' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.4: 返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=123
-{"res":[],"message":"success","code":0}
-返回正确 code: 0
+ft1.4: Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\nose_parameterized\parameterized.py", line 392, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "F:\autotest\test_case\public\test_interface_unit.py", line 30, in test_interface
+    read_json = json.loads(rows["expect_json"])
+TypeError: tuple indices must be integers, not str
 
 
         </pre>
@@ -341,9 +353,9 @@ pt1.4: 返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?au
 <tr id='total_row'>
     <td>Total</td>
     <td>4</td>
+    <td>0</td>
+    <td>0</td>
     <td>4</td>
-    <td>0</td>
-    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

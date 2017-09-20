@@ -70,12 +70,3 @@ class InterfaceModel():
             print u"Response 可能没有获取到 %s" %e
 
 
-a=InterfaceModel()
-#s=a.define_request_method(method="get",url="http://api.aituyou.me:8000/xbot/v1/audio/categorylist?type=music",parameters={
-#            "audiolistId": "ajsflkjal",
-#            "start":"1",
-#            "count":"10"
-#        })
-# print s.json()
-##a.parse_method_res(response=s,judge_code=0)/
-#requests.request()

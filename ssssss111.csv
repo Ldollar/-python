@@ -1,5 +1,5 @@
-用例id,接口名称,用例标题,method,host,base_path,paths,url,expect_json
-1,1,1,get,121.40.68.137:12008,/api/v1/media,/audio,http://121.40.68.137:12008/api/v1/media/audio,"{""get"": {
+用例id,接口名称,title,method,host,base_path,paths,url,expect_json
+1,1,aa,get,121.40.68.137:12008,/api/v1/media,/audio,http://121.40.68.137:12008/api/v1/media/audio,"{""get"": {
         ""parameters"": {
             ""query"":{
                 ""audioId"":""123""
@@ -9,7 +9,7 @@
         ""code"": 0,
         ""message"": ""wo wowowowowowowowowowow""
     }}"
-1,1,1,post,121.40.68.137:12008,/api/v1/media,/audio,http://api.aituyou.me:8000/xbot/v1/device/configure,"{
+1,1,bb,post,121.40.68.137:12008,/api/v1/media,/audio,http://api.aituyou.me:8000/xbot/v1/device/configure,"{
     ""post"": {
         ""parameters"": {
             ""query"":{
@@ -31,7 +31,7 @@
         ""message"": ""wo wowowowowowowowowowow111111""
     }
 }"
-1,1,1,post,121.40.68.137:12008,/api/v1/media,/audio,http://api.aituyou.me:8000/xbot/v1/device/configure,"{
+1,1,2,post,121.40.68.137:12008,/api/v1/media,/audio,http://api.aituyou.me:8000/xbot/v1/device/configure,"{
     ""post"": {
         ""parameters"": {
             ""query"":{

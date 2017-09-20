@@ -1,12 +1,6 @@
 # /usr/bin/env python
 # -*- coding:utf-8 -*-
-import logging
-
-import json
-import define_random_str
-from define_log import LogDefine
-
-LogDefine()
+"""解析json文件，获取method code parameters
 obj = {
     "post": {
         "parameters": [
@@ -148,9 +142,21 @@ obj2 = {
     }
 }
 
+"""
 
 
-def by_protocol():
+
+
+import logging
+
+import json
+import define_random_str
+from define_log import LogDefine
+
+LogDefine()
+
+
+def by_protocol(obj):
     expect_json = json.loads(json.dumps(obj, indent=4))
     parameters_dict = {}
     expect_code = None
@@ -191,8 +197,8 @@ def by_protocol():
 
     print parameters_dict,expect_code
 
-
-def get_json_obj_info(expect):
+#解析expect_json ，json信息，返回一个字典
+def get_json_obj_info(expect):     #  expect  type ：json   格式为obj2
 
     expect_json = json.loads(json.dumps(expect, indent=4))
     logging.info("expect_json type is %s ",type(expect_json))
@@ -200,8 +206,9 @@ def get_json_obj_info(expect):
     expect_set_info={}
     expect_parameters_query_dict={}
     expect_parameters_body_dict ={}
-    expect_parameters_in_dict={}
+    expect_parameters_in_dict={}    #保存 expect_parameters_query_dict or expect_parameters_body_dict
     for method in expect_json:
+        logging.info(u"开始遍历expect_json")
         expect_set_info["expect_method"]=method
         #print expect_json[method]
         for expect_info in expect_json[method]:
@@ -252,6 +259,7 @@ def get_json_obj_info(expect):
                                 expect_parameters_body_dict[judge_name_value] = expect_json[method][expect_info][expect_in][judge_name_value]
                         #print expect_parameters_body_dict
                         if expect_parameters_body_dict:
+                            logging.info("judge the expect_parameters_body_dict whether have length")
                             expect_parameters_in_dict[expect_in] = expect_parameters_body_dict
                         else:
                             pass
@@ -269,10 +277,4 @@ def get_json_obj_info(expect):
     return expect_set_info
 
 
-#a = get_json_obj_info(expect=obj2)
-#b = by_protocol()
-#print a
-
-#a = get_json_obj_info(expect=obj2)
-#print a
 
