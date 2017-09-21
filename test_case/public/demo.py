@@ -9,7 +9,7 @@ from swaggerpy.client import SwaggerClient
 from swaggerpy.http_client import SynchronousHttpClient
 
 from test_case.public import define_regex
-from test_case.public import get_response
+from test_case.public import define_request
 from test_case.public.define_log import LogDefine
 
 
@@ -18,7 +18,7 @@ class TestSerch(unittest.TestCase):
         LogDefine()
         self.parameters = {"keywords": "prh<1+,expect_info/6\3%V0a]%9-n[6IrJPW3\CHx+,$3;)/H;\)EB;f0g5:sGmH|+d%wEWHXGg|!B/5#KwG:3hA$LpU?>7,O?(o5|eLGBYq"}
         self.verification = []
-        self.res = get_response.make_request(method=method, url=url, parameters=self.parameters)
+        self.res = define_request.make_request(method=method, url=url, parameters=self.parameters)
 
     def test_searchxmly(self):
         """喜马拉雅音乐搜索"""

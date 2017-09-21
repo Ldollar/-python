@@ -12,7 +12,7 @@ from define_find_expect_csv import FindCsvFile
 from define_find_expect_json import get_json_obj_info
 from define_log import LogDefine
 
-from test_get_model import InterfaceModel
+from define_compare_info import InterfaceModel
 a=FindCsvFile()
 b=a.find_interface_info_by_csv(path=r"F:\autotest\ssssss111.csv")
 LogDefine()
