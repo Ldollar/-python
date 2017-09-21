@@ -1,0 +1,190 @@
+2017-09-20 16:32:23,944 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 27 : 打开CSV文件
+2017-09-20 16:32:23,944 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 29 : 成功打开csvw文件
+2017-09-20 16:32:24,006 - INFO - test_interface_unit.py - test_interface - 29 : beginnig test_interface
+2017-09-20 16:32:24,006 - INFO - define_find_expect_json.py - get_json_obj_info - 204 : expect_json type is <type 'dict'> 
+2017-09-20 16:32:24,006 - INFO - define_find_expect_json.py - get_json_obj_info - 211 : 开始遍历expect_json
+2017-09-20 16:32:24,006 - INFO - define_find_expect_json.py - get_json_obj_info - 270 : i am a message message: 
+2017-09-20 16:32:24,006 - INFO - define_find_expect_json.py - get_json_obj_info - 217 : i am a code code: 
+2017-09-20 16:32:24,007 - INFO - define_find_expect_json.py - get_json_obj_info - 221 : i am a parameters parameters: 
+2017-09-20 16:32:24,007 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,007 - INFO - define_find_expect_json.py - get_json_obj_info - 227 : this is query parameters
+2017-09-20 16:32:24,007 - INFO - define_find_expect_json.py - get_json_obj_info - 230 : right here now judge_set_value
+2017-09-20 16:32:24,007 - INFO - define_find_expect_json.py - get_json_obj_info - 239 : the value is normal
+2017-09-20 16:32:24,007 - INFO - test_interface_unit.py - test_interface - 40 : the request method is get
+2017-09-20 16:32:24,007 - INFO - test_interface_unit.py - test_interface - 43 : parameters contain query ....
+2017-09-20 16:32:24,046 - INFO - define_compare_info.py - define_request_method - 34 : if code == 200 ,request success!
+2017-09-20 16:32:24,048 - INFO - define_compare_info.py - parse_method_res - 56 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-20 16:32:24,048 - INFO - define_compare_info.py - parse_method_res - 58 : correct response code: 0 
+2017-09-20 16:32:24,048 - INFO - test_interface_unit.py - test_interface - 29 : beginnig test_interface
+2017-09-20 16:32:24,048 - INFO - define_find_expect_json.py - get_json_obj_info - 204 : expect_json type is <type 'dict'> 
+2017-09-20 16:32:24,048 - INFO - define_find_expect_json.py - get_json_obj_info - 211 : 开始遍历expect_json
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 270 : i am a message message: 
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 217 : i am a code code: 
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 221 : i am a parameters parameters: 
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 246 : this is query parameters
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 262 : judge the expect_parameters_body_dict whether have length
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 227 : this is query parameters
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 230 : right here now judge_set_value
+2017-09-20 16:32:24,049 - INFO - define_find_expect_json.py - get_json_obj_info - 239 : the value is normal
+2017-09-20 16:32:24,049 - INFO - test_interface_unit.py - test_interface - 50 : the request method is post
+2017-09-20 16:32:24,049 - INFO - test_interface_unit.py - test_interface - 52 : parameters contained query or body and so on
+2017-09-20 16:32:24,101 - INFO - define_compare_info.py - define_request_method - 34 : if code == 200 ,request success!
+2017-09-20 16:32:24,127 - INFO - define_compare_info.py - parse_method_res - 56 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-20 16:32:24,127 - INFO - define_compare_info.py - parse_method_res - 58 : correct response code: 0 
+2017-09-20 16:32:24,128 - INFO - test_interface_unit.py - test_interface - 29 : beginnig test_interface
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 204 : expect_json type is <type 'dict'> 
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 211 : 开始遍历expect_json
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 270 : i am a message message: 
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 217 : i am a code code: 
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 221 : i am a parameters parameters: 
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 246 : this is query parameters
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,128 - INFO - define_find_expect_json.py - get_json_obj_info - 262 : judge the expect_parameters_body_dict whether have length
+2017-09-20 16:32:24,130 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,130 - INFO - define_find_expect_json.py - get_json_obj_info - 227 : this is query parameters
+2017-09-20 16:32:24,130 - INFO - define_find_expect_json.py - get_json_obj_info - 230 : right here now judge_set_value
+2017-09-20 16:32:24,130 - INFO - define_find_expect_json.py - get_json_obj_info - 239 : the value is normal
+2017-09-20 16:32:24,130 - INFO - test_interface_unit.py - test_interface - 50 : the request method is post
+2017-09-20 16:32:24,130 - INFO - test_interface_unit.py - test_interface - 52 : parameters contained query or body and so on
+2017-09-20 16:32:24,161 - INFO - define_compare_info.py - define_request_method - 34 : if code == 200 ,request success!
+2017-09-20 16:32:24,161 - INFO - define_compare_info.py - parse_method_res - 56 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-20 16:32:24,163 - INFO - define_compare_info.py - parse_method_res - 58 : correct response code: 0 
+2017-09-20 16:32:24,163 - INFO - test_interface_unit.py - test_interface - 29 : beginnig test_interface
+2017-09-20 16:32:24,163 - INFO - define_find_expect_json.py - get_json_obj_info - 204 : expect_json type is <type 'dict'> 
+2017-09-20 16:32:24,163 - INFO - define_find_expect_json.py - get_json_obj_info - 211 : 开始遍历expect_json
+2017-09-20 16:32:24,164 - INFO - define_find_expect_json.py - get_json_obj_info - 270 : i am a message message: 
+2017-09-20 16:32:24,164 - INFO - define_find_expect_json.py - get_json_obj_info - 217 : i am a code code: 
+2017-09-20 16:32:24,164 - INFO - define_find_expect_json.py - get_json_obj_info - 221 : i am a parameters parameters: 
+2017-09-20 16:32:24,164 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,164 - INFO - define_find_expect_json.py - get_json_obj_info - 227 : this is query parameters
+2017-09-20 16:32:24,164 - INFO - define_find_expect_json.py - get_json_obj_info - 230 : right here now judge_set_value
+2017-09-20 16:32:24,164 - INFO - define_find_expect_json.py - get_json_obj_info - 239 : the value is normal
+2017-09-20 16:32:24,164 - INFO - test_interface_unit.py - test_interface - 40 : the request method is get
+2017-09-20 16:32:24,164 - INFO - test_interface_unit.py - test_interface - 43 : parameters contain query ....
+2017-09-20 16:32:24,194 - INFO - define_compare_info.py - define_request_method - 34 : if code == 200 ,request success!
+2017-09-20 16:32:24,194 - INFO - define_compare_info.py - parse_method_res - 56 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-20 16:32:24,194 - INFO - define_compare_info.py - parse_method_res - 58 : correct response code: 0 
+2017-09-20 16:32:24,197 - INFO - test_interface_unit.py - test_interface - 29 : beginnig test_interface
+2017-09-20 16:32:24,197 - INFO - define_find_expect_json.py - get_json_obj_info - 204 : expect_json type is <type 'dict'> 
+2017-09-20 16:32:24,197 - INFO - define_find_expect_json.py - get_json_obj_info - 211 : 开始遍历expect_json
+2017-09-20 16:32:24,197 - INFO - define_find_expect_json.py - get_json_obj_info - 270 : i am a message message: 
+2017-09-20 16:32:24,197 - INFO - define_find_expect_json.py - get_json_obj_info - 217 : i am a code code: 
+2017-09-20 16:32:24,197 - INFO - define_find_expect_json.py - get_json_obj_info - 221 : i am a parameters parameters: 
+2017-09-20 16:32:24,197 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,197 - INFO - define_find_expect_json.py - get_json_obj_info - 227 : this is query parameters
+2017-09-20 16:32:24,197 - INFO - define_find_expect_json.py - get_json_obj_info - 230 : right here now judge_set_value
+2017-09-20 16:32:24,197 - INFO - define_find_expect_json.py - get_json_obj_info - 239 : the value is normal
+2017-09-20 16:32:24,197 - INFO - test_interface_unit.py - test_interface - 40 : the request method is get
+2017-09-20 16:32:24,197 - INFO - test_interface_unit.py - test_interface - 43 : parameters contain query ....
+2017-09-20 16:32:24,229 - INFO - define_compare_info.py - define_request_method - 34 : if code == 200 ,request success!
+2017-09-20 16:32:24,229 - INFO - define_compare_info.py - parse_method_res - 56 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-20 16:32:24,230 - INFO - define_compare_info.py - parse_method_res - 58 : correct response code: 0 
+2017-09-20 16:32:24,230 - INFO - test_interface_unit.py - test_interface - 29 : beginnig test_interface
+2017-09-20 16:32:24,230 - INFO - define_find_expect_json.py - get_json_obj_info - 204 : expect_json type is <type 'dict'> 
+2017-09-20 16:32:24,230 - INFO - define_find_expect_json.py - get_json_obj_info - 211 : 开始遍历expect_json
+2017-09-20 16:32:24,232 - INFO - define_find_expect_json.py - get_json_obj_info - 270 : i am a message message: 
+2017-09-20 16:32:24,232 - INFO - define_find_expect_json.py - get_json_obj_info - 217 : i am a code code: 
+2017-09-20 16:32:24,232 - INFO - define_find_expect_json.py - get_json_obj_info - 221 : i am a parameters parameters: 
+2017-09-20 16:32:24,232 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,232 - INFO - define_find_expect_json.py - get_json_obj_info - 246 : this is query parameters
+2017-09-20 16:32:24,232 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,232 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,233 - INFO - define_find_expect_json.py - get_json_obj_info - 262 : judge the expect_parameters_body_dict whether have length
+2017-09-20 16:32:24,234 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,234 - INFO - define_find_expect_json.py - get_json_obj_info - 227 : this is query parameters
+2017-09-20 16:32:24,234 - INFO - define_find_expect_json.py - get_json_obj_info - 230 : right here now judge_set_value
+2017-09-20 16:32:24,234 - INFO - define_find_expect_json.py - get_json_obj_info - 239 : the value is normal
+2017-09-20 16:32:24,234 - INFO - test_interface_unit.py - test_interface - 50 : the request method is post
+2017-09-20 16:32:24,234 - INFO - test_interface_unit.py - test_interface - 52 : parameters contained query or body and so on
+2017-09-20 16:32:24,259 - INFO - define_compare_info.py - define_request_method - 34 : if code == 200 ,request success!
+2017-09-20 16:32:24,259 - INFO - define_compare_info.py - parse_method_res - 56 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-20 16:32:24,259 - INFO - define_compare_info.py - parse_method_res - 58 : correct response code: 0 
+2017-09-20 16:32:24,260 - INFO - test_interface_unit.py - test_interface - 29 : beginnig test_interface
+2017-09-20 16:32:24,262 - INFO - define_find_expect_json.py - get_json_obj_info - 204 : expect_json type is <type 'dict'> 
+2017-09-20 16:32:24,262 - INFO - define_find_expect_json.py - get_json_obj_info - 211 : 开始遍历expect_json
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 270 : i am a message message: 
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 217 : i am a code code: 
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 221 : i am a parameters parameters: 
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 246 : this is query parameters
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,263 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 249 : right here now judge_set_value
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 257 : the value is normal
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 262 : judge the expect_parameters_body_dict whether have length
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 227 : this is query parameters
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 230 : right here now judge_set_value
+2017-09-20 16:32:24,265 - INFO - define_find_expect_json.py - get_json_obj_info - 239 : the value is normal
+2017-09-20 16:32:24,266 - INFO - test_interface_unit.py - test_interface - 50 : the request method is post
+2017-09-20 16:32:24,266 - INFO - test_interface_unit.py - test_interface - 52 : parameters contained query or body and so on
+2017-09-20 16:32:24,289 - INFO - define_compare_info.py - define_request_method - 34 : if code == 200 ,request success!
+2017-09-20 16:32:24,289 - INFO - define_compare_info.py - parse_method_res - 56 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-20 16:32:24,289 - INFO - define_compare_info.py - parse_method_res - 58 : correct response code: 0 
+2017-09-20 16:32:24,289 - INFO - test_interface_unit.py - test_interface - 29 : beginnig test_interface
+2017-09-20 16:32:24,290 - INFO - define_find_expect_json.py - get_json_obj_info - 204 : expect_json type is <type 'dict'> 
+2017-09-20 16:32:24,290 - INFO - define_find_expect_json.py - get_json_obj_info - 211 : 开始遍历expect_json
+2017-09-20 16:32:24,290 - INFO - define_find_expect_json.py - get_json_obj_info - 270 : i am a message message: 
+2017-09-20 16:32:24,290 - INFO - define_find_expect_json.py - get_json_obj_info - 217 : i am a code code: 
+2017-09-20 16:32:24,290 - INFO - define_find_expect_json.py - get_json_obj_info - 221 : i am a parameters parameters: 
+2017-09-20 16:32:24,290 - INFO - define_find_expect_json.py - get_json_obj_info - 224 : right here now expect_in
+2017-09-20 16:32:24,290 - INFO - define_find_expect_json.py - get_json_obj_info - 227 : this is query parameters
+2017-09-20 16:32:24,290 - INFO - define_find_expect_json.py - get_json_obj_info - 230 : right here now judge_set_value
+2017-09-20 16:32:24,290 - INFO - define_find_expect_json.py - get_json_obj_info - 239 : the value is normal
+2017-09-20 16:32:24,290 - INFO - test_interface_unit.py - test_interface - 40 : the request method is get
+2017-09-20 16:32:24,290 - INFO - test_interface_unit.py - test_interface - 43 : parameters contain query ....
+2017-09-20 16:32:24,315 - INFO - define_compare_info.py - define_request_method - 34 : if code == 200 ,request success!
+2017-09-20 16:32:24,316 - INFO - define_compare_info.py - parse_method_res - 56 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-20 16:32:24,316 - INFO - define_compare_info.py - parse_method_res - 58 : correct response code: 0 

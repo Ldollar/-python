@@ -11,7 +11,7 @@ from swaggerpy.client import SwaggerClient
 from swaggerpy.http_client import SynchronousHttpClient
 
 from test_case.public import define_regex
-from test_case.public import get_response
+from test_case.public import define_request
 from test_case.public.define_log import LogDefine
 
 HTTP_CODE_SUCCESS=200
