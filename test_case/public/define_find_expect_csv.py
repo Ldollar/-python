@@ -3,6 +3,7 @@
 """读取CSV文件，并返回CSV 行 数组 需要一个配置文件"""
 import codecs
 import csv
+import json
 
 import logging
 import sys
@@ -36,7 +37,10 @@ class FindCsvFile():
             print "read the csv file %s wrong!!! %s"%(path,e)
 
 
-
-
+#a = FindCsvFile.find_interface_info_by_csv()
+#for zz in a:
+#    #print zz["expect_json"]
+#    read_json = json.loads(zz["expect_json"])
+#    print read_json["time"]
 
 
