@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>接口测试</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-09-27 11:11:18</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.100000</p>
-<p class='attribute'><strong>Status:</strong> Error 4</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-09-27 19:49:28</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.188000</p>
+<p class='attribute'><strong>Status:</strong> Pass 4</p>
 
 <p class='description'>音乐：</p>
 </div>
@@ -221,40 +221,51 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
+<tr class='passClass'>
     <td>test_case.public.test_interface_unit.InterfaceCase</td>
     <td>4</td>
-    <td>0</td>
-    <td>0</td>
     <td>4</td>
+    <td>0</td>
+    <td>0</td>
     <td><a href="javascript:showClassDetail('c1',4)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_interface_0</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_interface_0</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\nose_parameterized\parameterized.py", line 392, in standalone_func
-    return func(*(a + p.args), **p.kwargs)
-  File "F:\autotest\test_case\public\test_interface_unit.py", line 35, in test_interface
-    params_parse = get_json_obj_info(expect=read_json)
-  File "F:\autotest\test_case\public\define_find_expect_json.py", line 237, in get_json_obj_info
-    whether_random=match_string(rules="random\\((\S+)\\)",text=expect_json[method][expect_info][expect_in][judge_name_value])
-  File "F:\autotest\test_case\public\define_regex.py", line 21, in match_string
-    get_type_MM=result.group(1)
-AttributeError: 'NoneType' object has no attribute 'group'
+pt1.1: 返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=oN
+{"res":[],"message":"success","code":0}
+响应时间 : 0:00:00.030000
+expect---code &lt;type 'int'&gt; 200
+&lt;type 'unicode'&gt; 200
+接口请求失败 code: 0 
+------------------------------------------------
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=oN
+{"res":[],"message":"success","code":0}
+响应时间 : 0:00:00.014000
+expect---code &lt;type 'int'&gt; 200
+&lt;type 'unicode'&gt; 200
+接口请求失败 code: 0 
+------------------------------------------------
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=oN
+{"res":[],"message":"success","code":0}
+响应时间 : 0:00:00.012000
+expect---code &lt;type 'int'&gt; 200
+&lt;type 'unicode'&gt; 200
+接口请求失败 code: 0 
+------------------------------------------------
 
 
         </pre>
@@ -264,31 +275,42 @@ AttributeError: 'NoneType' object has no attribute 'group'
     </td>
 </tr>
 
-<tr id='ft1.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_interface_1</div></td>
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_interface_1</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
 
-    <div id='div_ft1.2' class="popup_window">
+    <div id='div_pt1.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.2: Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\nose_parameterized\parameterized.py", line 392, in standalone_func
-    return func(*(a + p.args), **p.kwargs)
-  File "F:\autotest\test_case\public\test_interface_unit.py", line 35, in test_interface
-    params_parse = get_json_obj_info(expect=read_json)
-  File "F:\autotest\test_case\public\define_find_expect_json.py", line 237, in get_json_obj_info
-    whether_random=match_string(rules="random\\((\S+)\\)",text=expect_json[method][expect_info][expect_in][judge_name_value])
-  File "F:\autotest\test_case\public\define_regex.py", line 21, in match_string
-    get_type_MM=result.group(1)
-AttributeError: 'NoneType' object has no attribute 'group'
+pt1.2: 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+{"status":{"code":0}}
+响应时间 : 0:00:00.028000
+expect---code &lt;type 'int'&gt; 0
+&lt;type 'unicode'&gt; 0
+返回正确 code: 0
+------------------------------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+{"status":{"code":0}}
+响应时间 : 0:00:00.016000
+expect---code &lt;type 'int'&gt; 0
+&lt;type 'unicode'&gt; 0
+返回正确 code: 0
+------------------------------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+{"status":{"code":0}}
+响应时间 : 0:00:00.016000
+expect---code &lt;type 'int'&gt; 0
+&lt;type 'unicode'&gt; 0
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>
@@ -298,31 +320,28 @@ AttributeError: 'NoneType' object has no attribute 'group'
     </td>
 </tr>
 
-<tr id='ft1.3' class='none'>
-    <td class='errorCase'><div class='testcase'>test_interface_2</div></td>
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_interface_2</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
 
-    <div id='div_ft1.3' class="popup_window">
+    <div id='div_pt1.3' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.3: Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\nose_parameterized\parameterized.py", line 392, in standalone_func
-    return func(*(a + p.args), **p.kwargs)
-  File "F:\autotest\test_case\public\test_interface_unit.py", line 35, in test_interface
-    params_parse = get_json_obj_info(expect=read_json)
-  File "F:\autotest\test_case\public\define_find_expect_json.py", line 237, in get_json_obj_info
-    whether_random=match_string(rules="random\\((\S+)\\)",text=expect_json[method][expect_info][expect_in][judge_name_value])
-  File "F:\autotest\test_case\public\define_regex.py", line 21, in match_string
-    get_type_MM=result.group(1)
-AttributeError: 'NoneType' object has no attribute 'group'
+pt1.3: 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+{"status":{"code":0}}
+响应时间 : 0:00:00.024000
+expect---code &lt;type 'int'&gt; 0
+&lt;type 'unicode'&gt; 0
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>
@@ -332,31 +351,28 @@ AttributeError: 'NoneType' object has no attribute 'group'
     </td>
 </tr>
 
-<tr id='ft1.4' class='none'>
-    <td class='errorCase'><div class='testcase'>test_interface_3</div></td>
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_interface_3</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        pass</a>
 
-    <div id='div_ft1.4' class="popup_window">
+    <div id='div_pt1.4' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.4: Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\nose_parameterized\parameterized.py", line 392, in standalone_func
-    return func(*(a + p.args), **p.kwargs)
-  File "F:\autotest\test_case\public\test_interface_unit.py", line 35, in test_interface
-    params_parse = get_json_obj_info(expect=read_json)
-  File "F:\autotest\test_case\public\define_find_expect_json.py", line 237, in get_json_obj_info
-    whether_random=match_string(rules="random\\((\S+)\\)",text=expect_json[method][expect_info][expect_in][judge_name_value])
-  File "F:\autotest\test_case\public\define_regex.py", line 21, in match_string
-    get_type_MM=result.group(1)
-AttributeError: 'NoneType' object has no attribute 'group'
+pt1.4: 返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=123
+{"res":[],"message":"success","code":0}
+响应时间 : 0:00:00.026000
+expect---code &lt;type 'int'&gt; 0
+&lt;type 'unicode'&gt; 0
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>
@@ -369,9 +385,9 @@ AttributeError: 'NoneType' object has no attribute 'group'
 <tr id='total_row'>
     <td>Total</td>
     <td>4</td>
-    <td>0</td>
-    <td>0</td>
     <td>4</td>
+    <td>0</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

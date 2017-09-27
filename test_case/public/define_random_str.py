@@ -15,7 +15,12 @@
 from random import Random, random
 class defineRandom():
 #指定长度，指定字符集
-    def random_rd(minlength,maxlength,charset):
+    def __init__(self,minlength=None,maxlength=None,type=None):
+        self.type = type
+        self.minlength= minlength
+        self.maxlength= maxlength
+
+    def random_rd(self,minlength,maxlength,charset):
 
 
         str = ''
@@ -43,7 +48,7 @@ class defineRandom():
                 return (str)
 
     #随机任意长度的字符串，包含数字字母特殊字符，min代表最小长度，max代表最大长度
-    def random_str(minlength,maxlength):
+    def random_str(self,minlength=None,maxlength=None):
         str = ''
 
         chars = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789!@#$%^&*()<>?/{}[]|,.;:\+-~ '
@@ -52,19 +57,19 @@ class defineRandom():
 
         random = Random()
 
-        if maxlength <= 0:
+        if self.maxlength <= 0:
             str=''
             return (str)
 
         else:
-            for i in xrange(minlength,random.randint(minlength,maxlength)+1):
+            for i in xrange(self.minlength,random.randint(self.minlength,self.maxlength)+1):
                 #print i
                 str += chars[random.randint(0, length)]
 
             return (str)
 
     #生成0-9 任意一个数字
-    def random_int(minlength,maxlength):
+    def random_int(self,minlength,maxlength):
         random = Random()
         integer=random.randint(minlength,maxlength)
         return integer
