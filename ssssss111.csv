@@ -3,13 +3,13 @@
     ""get"": {
         ""parameters"": {
             ""query"": {
-                ""audioId"": ""random(1,2,3)""
+                ""audioId"": ""random(5,25,3)""
             }
         },
         ""code"": 0,
         ""message"": ""wo wowowowowowowowowowow""
     },
-    ""time"": 6
+    ""time"": 10
 }",,
 1,1,bb,post,121.40.68.137:12008,/api/v1/media,/audio,http://api.aituyou.me:8000/xbot/v1/device/configure,"{
     ""post"": {
@@ -32,7 +32,7 @@
         ""code"": 0,
         ""message"": ""wo wowowowowowowowowowow111111""
     },
-    ""time"": 3
+    ""time"": 10
 }",,
 1,1,2,post,121.40.68.137:12008,/api/v1/media,/audio,http://api.aituyou.me:8000/xbot/v1/device/configure,"{
     ""post"": {
@@ -61,7 +61,7 @@
     ""get"": {
         ""parameters"": {
             ""query"": {
-                ""audioId"": ""123""
+                ""audioId"": ""random(8,10,3)""
             }
         },
         ""code"": 0,

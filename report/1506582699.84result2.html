@@ -189,8 +189,8 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>接口测试</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-09-27 18:50:51</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.217000</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-09-28 15:11:39</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.592000</p>
 <p class='attribute'><strong>Status:</strong> Pass 4</p>
 
 <p class='description'>音乐：</p>
@@ -245,14 +245,66 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: 1
-返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=
-{"msg":[{"message":"should not be empty","code":"invalid","field":"audioId"}],"code":-2}
-响应时间 : 0:00:00.093000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;type 'dict'&gt;
-qwwwwwwwwwqqqqqqqqqqqqq {'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 200, 'expect_parameters': {u'query': {u'audioId': ''}}}
-1111111111111111111111
-Response 可能没有获取到 expected string or buffer
+pt1.1: -------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'PGBF20%u%P0:m'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=PGBF20%25u%25P0%3Am
+响应时间 : 0:00:00.035000
+返回正确 code: 0
+------------------------------------------------
+-------------------------2--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'jMZ&lt;&gt;Sg5.$ygD{'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=jMZ%3C%3ESg5.%24ygD%7B
+响应时间 : 0:00:00.015000
+返回正确 code: 0
+------------------------------------------------
+-------------------------3--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'r8y$}r5u7&amp;e7~|vP~'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=r8y%24%7Dr5u7%26e7~%7CvP~
+响应时间 : 0:00:00.014000
+返回正确 code: 0
+------------------------------------------------
+-------------------------4--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '&lt;q2-Oy:'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=%3Cq2-Oy%3A
+响应时间 : 0:00:00.015000
+返回正确 code: 0
+------------------------------------------------
+-------------------------5--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'nj%jH/[9'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=nj%25jH%2F%5B9
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+-------------------------6--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '0QT8CbYo3'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=0QT8CbYo3
+响应时间 : 0:00:00.014000
+返回正确 code: 0
+------------------------------------------------
+-------------------------7--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'I^H(}2c\\'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=I%5EH%28%7D2c%5C
+响应时间 : 0:00:00.015000
+返回正确 code: 0
+------------------------------------------------
+-------------------------8--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '#Qjgba,:9'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=%23Qjgba%2C%3A9
+响应时间 : 0:00:00.014000
+返回正确 code: 0
+------------------------------------------------
+-------------------------9--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '3@a.]ld)3+9L03}J'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=3%40a.%5Dld%293%2B9L03%7DJ
+响应时间 : 0:00:00.014000
+返回正确 code: 0
+------------------------------------------------
+-------------------------10--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'b?hwriEZ;Yplv)'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=b%3FhwriEZ%3BYplv%29
+响应时间 : 0:00:00.015000
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>
@@ -277,14 +329,56 @@ Response 可能没有获取到 expected string or buffer
         </div>
         <pre>
         
-pt1.2: 1
+pt1.2: -------------------------1--------------------------
 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-响应时间 : 0:00:00.023000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;type 'dict'&gt;
-qwwwwwwwwwqqqqqqqqqqqqq {'expect_method': u'post', 'expect_message': u'wo wowowowowowowowowowow111111', 'expect_code': 0, 'expect_parameters': {u'body': {u'compress': u'base64', u'expiry': u'86400000', u'frequency': u'15', u'mode': u'time', u'type': [u'all'], u'event': u'', u'device_id': u'new023'}, u'query': {u'device_id': u'new023'}}}
-1111111111111111111111
-Response 可能没有获取到 expected string or buffer
+响应时间 : 0:00:00.093000
+返回正确 code: 0
+------------------------------------------------
+-------------------------2--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.015000
+返回正确 code: 0
+------------------------------------------------
+-------------------------3--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.014000
+返回正确 code: 0
+------------------------------------------------
+-------------------------4--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.014000
+返回正确 code: 0
+------------------------------------------------
+-------------------------5--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.015000
+返回正确 code: 0
+------------------------------------------------
+-------------------------6--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.014000
+返回正确 code: 0
+------------------------------------------------
+-------------------------7--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.013000
+返回正确 code: 0
+------------------------------------------------
+-------------------------8--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.013000
+返回正确 code: 0
+------------------------------------------------
+-------------------------9--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.014000
+返回正确 code: 0
+------------------------------------------------
+-------------------------10--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>
@@ -309,14 +403,11 @@ Response 可能没有获取到 expected string or buffer
         </div>
         <pre>
         
-pt1.3: 1
+pt1.3: -------------------------1--------------------------
 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-响应时间 : 0:00:00.027000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;type 'dict'&gt;
-qwwwwwwwwwqqqqqqqqqqqqq {'expect_method': u'post', 'expect_message': u'wo wowowowowowowowowowow111111', 'expect_code': 0, 'expect_parameters': {u'body': {u'compress': u'base64', u'expiry': u'86400000', u'frequency': u'15', u'mode': u'time', u'type': [u'all'], u'event': u'', u'device_id': u'new023'}, u'query': {u'device_id': u'new023'}}}
-1111111111111111111111
-Response 可能没有获取到 expected string or buffer
+响应时间 : 0:00:00.025000
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>
@@ -341,14 +432,12 @@ Response 可能没有获取到 expected string or buffer
         </div>
         <pre>
         
-pt1.4: 1
-返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=123
-{"res":[],"message":"success","code":0}
-响应时间 : 0:00:00.038000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;type 'dict'&gt;
-qwwwwwwwwwqqqqqqqqqqqqq {'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': u'123'}}}
-1111111111111111111111
-Response 可能没有获取到 expected string or buffer
+pt1.4: -------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '&lt;hf'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=%3Chf
+响应时间 : 0:00:00.071000
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>

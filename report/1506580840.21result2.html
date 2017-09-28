@@ -189,8 +189,8 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>接口测试</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-09-27 18:42:14</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.161000</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-09-28 14:40:40</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.572000</p>
 <p class='attribute'><strong>Status:</strong> Pass 4</p>
 
 <p class='description'>音乐：</p>
@@ -245,13 +245,56 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: 1
-返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=
-{"msg":[{"message":"should not be empty","code":"invalid","field":"audioId"}],"code":-2}
-响应时间 : 0:00:00.037000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;class 'requests.models.Response'&gt;
-1111111111111111111111
-Response 可能没有获取到 'tuple' object has no attribute 'text'
+pt1.1: {'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': ',Q'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=%2CQ
+响应时间 : 0:00:00.060000
+返回正确 code: 0
+------------------------------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '7&lt;'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=7%3C
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': ':'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=%3A
+响应时间 : 0:00:00.015000
+返回正确 code: 0
+------------------------------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '*'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=%2A
+响应时间 : 0:00:00.015000
+返回正确 code: 0
+------------------------------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '.'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=.
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'z'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=z
+响应时间 : 0:00:00.015000
+返回正确 code: 0
+------------------------------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'cc'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=cc
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'I7'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=I7
+响应时间 : 0:00:00.019000
+返回正确 code: 0
+------------------------------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '.!'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=.%21
+响应时间 : 0:00:00.018000
+返回正确 code: 0
+------------------------------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '\\'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=%5C
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>
@@ -276,13 +319,56 @@ Response 可能没有获取到 'tuple' object has no attribute 'text'
         </div>
         <pre>
         
-pt1.2: 1
+pt1.2: -------------------------1--------------------------
 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-响应时间 : 0:00:00.021000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;class 'requests.models.Response'&gt;
-1111111111111111111111
-Response 可能没有获取到 'tuple' object has no attribute 'text'
+响应时间 : 0:00:00.061000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.017000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>
@@ -307,13 +393,11 @@ Response 可能没有获取到 'tuple' object has no attribute 'text'
         </div>
         <pre>
         
-pt1.3: 1
+pt1.3: -------------------------1--------------------------
 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-响应时间 : 0:00:00.029000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;class 'requests.models.Response'&gt;
-1111111111111111111111
-Response 可能没有获取到 'tuple' object has no attribute 'text'
+响应时间 : 0:00:00.022000
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>
@@ -338,13 +422,11 @@ Response 可能没有获取到 'tuple' object has no attribute 'text'
         </div>
         <pre>
         
-pt1.4: 1
-返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=123
-{"res":[],"message":"success","code":0}
-响应时间 : 0:00:00.058000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;class 'requests.models.Response'&gt;
-1111111111111111111111
-Response 可能没有获取到 'tuple' object has no attribute 'text'
+pt1.4: {'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '*fs]&lt;fXH'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=%2Afs%5D%3CfXH
+响应时间 : 0:00:00.027000
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>

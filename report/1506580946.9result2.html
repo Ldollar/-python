@@ -189,8 +189,8 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>接口测试</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-09-27 19:49:28</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.188000</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-09-28 14:42:26</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.671000</p>
 <p class='attribute'><strong>Status:</strong> Pass 4</p>
 
 <p class='description'>音乐：</p>
@@ -245,26 +245,65 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: 返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=oN
-{"res":[],"message":"success","code":0}
-响应时间 : 0:00:00.030000
-expect---code &lt;type 'int'&gt; 200
-&lt;type 'unicode'&gt; 200
-接口请求失败 code: 0 
+pt1.1: -------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'a'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=a
+响应时间 : 0:00:00.117000
+返回正确 code: 0
 ------------------------------------------------
-返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=oN
-{"res":[],"message":"success","code":0}
-响应时间 : 0:00:00.014000
-expect---code &lt;type 'int'&gt; 200
-&lt;type 'unicode'&gt; 200
-接口请求失败 code: 0 
+-------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '!'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=%21
+响应时间 : 0:00:00.019000
+返回正确 code: 0
 ------------------------------------------------
-返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=oN
-{"res":[],"message":"success","code":0}
-响应时间 : 0:00:00.012000
-expect---code &lt;type 'int'&gt; 200
-&lt;type 'unicode'&gt; 200
-接口请求失败 code: 0 
+-------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'm\\'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=m%5C
+响应时间 : 0:00:00.018000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'cq'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=cq
+响应时间 : 0:00:00.067000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'c'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=c
+响应时间 : 0:00:00.018000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'ae'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=ae
+响应时间 : 0:00:00.017000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 't'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=t
+响应时间 : 0:00:00.017000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '1'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=1
+响应时间 : 0:00:00.016000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': '^'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=%5E
+响应时间 : 0:00:00.023000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'w'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=w
+响应时间 : 0:00:00.021000
+返回正确 code: 0
 ------------------------------------------------
 
 
@@ -290,25 +329,54 @@ expect---code &lt;type 'int'&gt; 200
         </div>
         <pre>
         
-pt1.2: 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-响应时间 : 0:00:00.028000
-expect---code &lt;type 'int'&gt; 0
-&lt;type 'unicode'&gt; 0
+pt1.2: -------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.043000
 返回正确 code: 0
 ------------------------------------------------
+-------------------------1--------------------------
 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-响应时间 : 0:00:00.016000
-expect---code &lt;type 'int'&gt; 0
-&lt;type 'unicode'&gt; 0
+响应时间 : 0:00:00.014000
 返回正确 code: 0
 ------------------------------------------------
+-------------------------1--------------------------
 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-响应时间 : 0:00:00.016000
-expect---code &lt;type 'int'&gt; 0
-&lt;type 'unicode'&gt; 0
+响应时间 : 0:00:00.012000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.013000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.023000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.013000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.011000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.011000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.012000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.011000
 返回正确 code: 0
 ------------------------------------------------
 
@@ -335,11 +403,9 @@ expect---code &lt;type 'int'&gt; 0
         </div>
         <pre>
         
-pt1.3: 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-响应时间 : 0:00:00.024000
-expect---code &lt;type 'int'&gt; 0
-&lt;type 'unicode'&gt; 0
+pt1.3: -------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.026000
 返回正确 code: 0
 ------------------------------------------------
 
@@ -366,11 +432,10 @@ expect---code &lt;type 'int'&gt; 0
         </div>
         <pre>
         
-pt1.4: 返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=123
-{"res":[],"message":"success","code":0}
-响应时间 : 0:00:00.026000
-expect---code &lt;type 'int'&gt; 0
-&lt;type 'unicode'&gt; 0
+pt1.4: -------------------------1--------------------------
+{'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': 'G*;[8I#'}}}
+返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=G%2A%3B%5B8I%23
+响应时间 : 0:00:00.037000
 返回正确 code: 0
 ------------------------------------------------
 

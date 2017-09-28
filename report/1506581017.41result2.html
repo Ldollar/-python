@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>接口测试</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-09-27 19:14:18</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.114000</p>
-<p class='attribute'><strong>Status:</strong> Pass 4</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-09-28 14:43:37</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.305000</p>
+<p class='attribute'><strong>Status:</strong> Pass 2 Error 2</p>
 
 <p class='description'>音乐：</p>
 </div>
@@ -221,41 +221,36 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
+<tr class='errorClass'>
     <td>test_case.public.test_interface_unit.InterfaceCase</td>
     <td>4</td>
-    <td>4</td>
+    <td>2</td>
     <td>0</td>
-    <td>0</td>
+    <td>2</td>
     <td><a href="javascript:showClassDetail('c1',4)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_interface_0</div></td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_interface_0</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: 1
-返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=
-{"msg":[{"message":"should not be empty","code":"invalid","field":"audioId"}],"code":-2}
-响应时间 : 0:00:00.027000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;type 'dict'&gt;
-qwwwwwwwwwqqqqqqqqqqqqq {'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 200, 'expect_parameters': {u'query': {u'audioId': ''}}} &lt;type 'dict'&gt;
-res_iter {u'msg': [{u'field': u'audioId', u'message': u'should not be empty', u'code': u'invalid'}], u'code': -2}
-1111111111111111111111
-expexct_data {'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 200, 'expect_parameters': {u'query': {u'audioId': ''}}}
-ereponse 111111```` {'response': {u'msg': [{u'field': u'audioId', u'message': u'should not be empty', u'code': u'invalid'}], u'code': -2}}
-Response 可能没有获取到 expected string or buffer
+ft1.1: Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\nose_parameterized\parameterized.py", line 392, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "F:\autotest\test_case\public\test_interface_unit.py", line 56, in test_interface
+    count1 = count1+1
+UnboundLocalError: local variable 'count1' referenced before assignment
 
 
         </pre>
@@ -280,17 +275,56 @@ Response 可能没有获取到 expected string or buffer
         </div>
         <pre>
         
-pt1.2: 1
+pt1.2: -------------------------1--------------------------
 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-响应时间 : 0:00:00.022000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;type 'dict'&gt;
-qwwwwwwwwwqqqqqqqqqqqqq {'expect_method': u'post', 'expect_message': u'wo wowowowowowowowowowow111111', 'expect_code': 0, 'expect_parameters': {u'body': {u'compress': u'base64', u'expiry': u'86400000', u'frequency': u'15', u'mode': u'time', u'type': [u'all'], u'event': u'', u'device_id': u'new023'}, u'query': {u'device_id': u'new023'}}} &lt;type 'dict'&gt;
-res_iter {u'status': {u'code': 0}}
-1111111111111111111111
-expexct_data {'expect_method': u'post', 'expect_message': u'wo wowowowowowowowowowow111111', 'expect_code': 0, 'expect_parameters': {u'body': {u'compress': u'base64', u'expiry': u'86400000', u'frequency': u'15', u'mode': u'time', u'type': [u'all'], u'event': u'', u'device_id': u'new023'}, u'query': {u'device_id': u'new023'}}}
-ereponse 111111```` {'response': {u'status': {u'code': 0}}}
-Response 可能没有获取到 expected string or buffer
+响应时间 : 0:00:00.051000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.051000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.013000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.014000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.013000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.010000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.012000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.013000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.012000
+返回正确 code: 0
+------------------------------------------------
+-------------------------1--------------------------
+返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
+响应时间 : 0:00:00.011000
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>
@@ -315,17 +349,11 @@ Response 可能没有获取到 expected string or buffer
         </div>
         <pre>
         
-pt1.3: 1
+pt1.3: -------------------------1--------------------------
 返回200，请求成功 http://api.aituyou.me:8000/xbot/v1/device/configure?device_id=new023
-{"status":{"code":0}}
-响应时间 : 0:00:00.023000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;type 'dict'&gt;
-qwwwwwwwwwqqqqqqqqqqqqq {'expect_method': u'post', 'expect_message': u'wo wowowowowowowowowowow111111', 'expect_code': 0, 'expect_parameters': {u'body': {u'compress': u'base64', u'expiry': u'86400000', u'frequency': u'15', u'mode': u'time', u'type': [u'all'], u'event': u'', u'device_id': u'new023'}, u'query': {u'device_id': u'new023'}}} &lt;type 'dict'&gt;
-res_iter {u'status': {u'code': 0}}
-1111111111111111111111
-expexct_data {'expect_method': u'post', 'expect_message': u'wo wowowowowowowowowowow111111', 'expect_code': 0, 'expect_parameters': {u'body': {u'compress': u'base64', u'expiry': u'86400000', u'frequency': u'15', u'mode': u'time', u'type': [u'all'], u'event': u'', u'device_id': u'new023'}, u'query': {u'device_id': u'new023'}}}
-ereponse 111111```` {'response': {u'status': {u'code': 0}}}
-Response 可能没有获取到 expected string or buffer
+响应时间 : 0:00:00.021000
+返回正确 code: 0
+------------------------------------------------
 
 
         </pre>
@@ -335,32 +363,27 @@ Response 可能没有获取到 expected string or buffer
     </td>
 </tr>
 
-<tr id='pt1.4' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_interface_3</div></td>
+<tr id='ft1.4' class='none'>
+    <td class='errorCase'><div class='testcase'>test_interface_3</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
+        error</a>
 
-    <div id='div_pt1.4' class="popup_window">
+    <div id='div_ft1.4' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.4: 1
-返回200，请求成功 http://121.40.68.137:12008/api/v1/media/audio?audioId=123
-{"res":[],"message":"success","code":0}
-响应时间 : 0:00:00.024000
-eeeeeeeeeeeeeeeeeeeeeeeeeeee &lt;type 'dict'&gt;
-qwwwwwwwwwqqqqqqqqqqqqq {'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': u'123'}}} &lt;type 'dict'&gt;
-res_iter {u'res': [], u'message': u'success', u'code': 0}
-1111111111111111111111
-expexct_data {'expect_method': u'get', 'expect_message': u'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {u'query': {u'audioId': u'123'}}}
-ereponse 111111```` {'response': {u'res': [], u'message': u'success', u'code': 0}}
-Response 可能没有获取到 expected string or buffer
+ft1.4: Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\nose_parameterized\parameterized.py", line 392, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "F:\autotest\test_case\public\test_interface_unit.py", line 56, in test_interface
+    count1 = count1+1
+UnboundLocalError: local variable 'count1' referenced before assignment
 
 
         </pre>
@@ -373,9 +396,9 @@ Response 可能没有获取到 expected string or buffer
 <tr id='total_row'>
     <td>Total</td>
     <td>4</td>
-    <td>4</td>
+    <td>2</td>
     <td>0</td>
-    <td>0</td>
+    <td>2</td>
     <td>&nbsp;</td>
 </tr>
 </table>

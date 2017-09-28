@@ -29,14 +29,16 @@ class InterfaceModel():
         """请求模板"""
         try:
             res = self.http_client.request(method=method, url=url, params=parameters, data=data)
+            s = self.http_client.session
+            s.keep_alive = False
             http_code = res.status_code
             if http_code == HTTP_CODE_SUCCESS:
                 logging.info("if code == 200 ,request success!")
                 print u"返回200，请求成功", res.url
-                print res.text
+                #print res.text
                 print u"响应时间 : %s" % res.elapsed
                 #print u"eeeeeeeeeeeeeeeeeeeeeeeeeeee",type(res.json())
-                return res.text
+                return res
 
             else:
                 logging.error("not return code 200 ,request hava some problem")
@@ -59,10 +61,11 @@ class InterfaceModel():
             #print u"ereponse 111111````",response
             #print u"expect---code",type(data["expect_code"]),data["expect_code"]
             #print "+++++++++++++++++++++++++++++++"
-            s = define_regex.find_code(text=response)
+            s = define_regex.find_code(text=response.text)
             #print s
-            print type(s),data["expect_code"]
+            #print type(s),data["expect_code"]
             logging.info("type vs type %s vs %s", type(s), type(data["expect_code"]))
+            #assert int(s) == data["expect_code"]
             if int(s) == data["expect_code"]:
                 logging.info("correct response code: %s ", s)
                 print u"返回正确 code: %s" % s
@@ -74,24 +77,32 @@ class InterfaceModel():
                 # self.verification.append("incorrect response")
                 print u"接口请求失败 code: %s " % s
                 print u"------------------------------------------------"
+
         except Exception, e:
             logging.info(u"Response 可能没有获取到 %s", e)
             print u"Response 可能没有获取到 %s" % e
 
 
-    def iteration_request(self, times, method, url, parameters, data=None, expected_data=None):
-        for i in xrange(1, times + 1):
+    def iteration_request(self, method, url, parameters, data=None, expected_data=None):
+        #expected_data1 = expected_data
+        #parameters1 = parameters
+        #data1 = data
+        #for i in xrange(1, times + 1):
             #print i
-            res_iter = self.define_request_method(method, url, parameters,data)
-            #print u"qwwwwwwwwwqqqqqqqqqqqqq",json.dumps(expected_data),type(expected_data)
-            #print u"res_iter",res_iter
-            self.parse_method_res(expect_data=expected_data, response=res_iter)
+        res_iter = self.define_request_method(method, url, parameters,data)
+        #print u"qwwwwwwwwwqqqqqqqqqqqqq",json.dumps(expected_data),type(expected_data)
+        #print u"res_iter",res_iter
+        self.parse_method_res(expect_data=expected_data, response=res_iter)
+       # res_iter.
+
+
+
 
 
 a = InterfaceModel()
-s=a.iteration_request(times=3, method="get", url="http://api.aituyou.me:8000/xbot/v1/audio/categorylist?type=music",
-                    parameters={"audiolistId": "ajsflkjal", "start": "1", "count": "10"},expected_data={'expect_method': 'get', 'expect_message': 'wo wowowowowowowowowowow', 'expect_code': 0, 'expect_parameters': {'query': {'audioId': '123'}}})
-print s
+#s=a.iteration_request(method="get", url="http://121.40.68.137:12008/api/v1/media/audio",
+                    #parameters={"audioId": "random(1,2,3)"},expected_data={'expect_method': 'get', 'expect_message': 'wo wowowowowowowowowowow', 'expect_code': 0,"parameters": {"query": { "audioId": "random(1,2,3)"}}})
+#print s
 # s=a.define_request_method(method="get",url="http://api.aituyou.me:8000/xbot/v1/audio/categorylist?type=music",parameters={
 #            "audiolistId": "ajsflkjal",
 #            "start":"1",
