@@ -36,8 +36,8 @@ class InterfaceCase(unittest.TestCase):
         # print read_method ,read_url
         # print read_json
         params_parse = get_json_obj_info(expect=read_json)
-        #print u"55555555555555555555555555",params_parse,type(params_parse)
-        #print params_parse["expect_parameters"].keys()
+        # print u"55555555555555555555555555",params_parse,type(params_parse)
+        # print params_parse["expect_parameters"].keys()
         interface_obj = InterfaceModel()
 
         if rows["method"] == "get":
@@ -50,9 +50,16 @@ class InterfaceCase(unittest.TestCase):
                 #                                                    parameters=params_parse["expect_parameters"][
                 #                                                        "query"])
                 # interface_obj.parse_method_res(response=interface_res, expected_data=params_parse)
-                interface_obj.iteration_request(times=read_json["time"], method=read_method, url=read_url,
-                                                parameters=params_parse["expect_parameters"]["query"],
-                                                expected_data=params_parse)
+                count1 = 0
+                for i in xrange(1, read_json["time"] + 1):
+                    #count1 = 0
+                    count1 = count1+1
+                    print u'-------------------------%s--------------------------' % (count1)
+                    params_parse = get_json_obj_info(expect=read_json)
+                    #print params_parse
+                    interface_obj.iteration_request(method=read_method, url=read_url,
+                                                    parameters=params_parse["expect_parameters"]["query"],
+                                                    expected_data=params_parse)
             else:
                 logging.info("the parameters maybe contained other method")
         elif rows["method"] == "post":
@@ -65,11 +72,16 @@ class InterfaceCase(unittest.TestCase):
                 #        params_parse["expect_parameters"]["body"]))
 
                 # interface_obj.parse_method_res(response=interface_res, expected_data=params_parse)
-                interface_obj.iteration_request(times=read_json["time"], method=rows["method"], url=read_url,
-                                                parameters=params_parse["expect_parameters"]["query"],
-                                                data=json.dumps(params_parse["expect_parameters"]["body"]),
-                                                expected_data=params_parse)
-
+                count2=0
+                for i in xrange(1, read_json["time"] + 1):
+                #for i in read_json["time"]:
+                    count2 = count2+1
+                    print u'-------------------------%s--------------------------'%(count2)
+                    params_parse = get_json_obj_info(expect=read_json)
+                    #print params_parse
+                    interface_obj.iteration_request(method=read_method, url=read_url,
+                                                    parameters=params_parse["expect_parameters"]["query"],data=json.dumps(params_parse["expect_parameters"]["body"]),
+                                                    expected_data=params_parse)
     @classmethod
     def tearDown(self):
         pass
