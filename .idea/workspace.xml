@@ -2,51 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16672883-dabc-42f1-a4bd-0806f7233c26" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506484410.97result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506500423.34result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506500474.58result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506504135.83result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506504236.11result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506507989.87result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506508066.43result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506508095.13result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506508172.89result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506508233.24result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506508934.63result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506509385.62result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506509412.6result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506509433.75result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506509451.34result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506509475.08result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506509576.01result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506509640.73result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506509671.81result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506509805.3result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506509881.58result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506509969.9result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506510077.58result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506510609.54result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506510636.12result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506510858.85result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506511931.69result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506511993.2result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506512014.43result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506512095.72result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506512277.3result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506512418.24result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506512489.38result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506512578.84result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506512718.38result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506512803.69result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506512923.86result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506512968.96result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506513028.98result2.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demomock.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1505791777.36result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1505791826.11result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/public/log.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssssss111.csv" afterPath="$PROJECT_DIR$/ssssss111.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json.txt" afterPath="$PROJECT_DIR$/json.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_compare_info.py" afterPath="$PROJECT_DIR$/test_case/public/define_compare_info.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_find_expect_json.py" afterPath="$PROJECT_DIR$/test_case/public/define_find_expect_json.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_request.py" afterPath="$PROJECT_DIR$/test_case/public/define_request.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/log.txt" afterPath="$PROJECT_DIR$/test_case/public/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_find_expect_csv.py" afterPath="$PROJECT_DIR$/test_case/public/define_find_expect_csv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_regex.py" afterPath="$PROJECT_DIR$/test_case/public/define_regex.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/test_interface_unit.py" afterPath="$PROJECT_DIR$/test_case/public/test_interface_unit.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_case/public/define_find_expect_json.py" afterPath="$PROJECT_DIR$/test_case/public/define_find_expect_info.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,16 +23,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/autotest$Unittests_in_test_interface_unit.coverage" NAME="Unittests in test_interface_unit Coverage Results" MODIFIED="1506583025660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$Unittests_in_test_interface_unit.coverage" NAME="Unittests in test_interface_unit Coverage Results" MODIFIED="1506763555915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
     <SUITE FILE_PATH="coverage/autotest$test_select.coverage" NAME="test_select Coverage Results" MODIFIED="1506482155697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/autotest$test_case.coverage" NAME="test_case Coverage Results" MODIFIED="1504764577373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotest$Unittests_in_chexian.coverage" NAME="Unittests in chexian Coverage Results" MODIFIED="1504769074054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/autotest$define_compare_info.coverage" NAME="define_compare_info Coverage Results" MODIFIED="1506570345723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
-    <SUITE FILE_PATH="coverage/autotest$define_find_expect_csv.coverage" NAME="define_find_expect_csv Coverage Results" MODIFIED="1506510459157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$Unittests_in_demomock.coverage" NAME="Unittests in demomock Coverage Results" MODIFIED="1506673374417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autotest$define_compare_info.coverage" NAME="define_compare_info Coverage Results" MODIFIED="1506761710010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$define_find_expect_csv.coverage" NAME="define_find_expect_csv Coverage Results" MODIFIED="1506754064581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$define_find_expect_info.coverage" NAME="define_find_expect_info Coverage Results" MODIFIED="1506760887455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
     <SUITE FILE_PATH="coverage/autotest$all_test.coverage" NAME="all_test Coverage Results" MODIFIED="1504760533734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotest$login.coverage" NAME="login Coverage Results" MODIFIED="1504765618853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
-    <SUITE FILE_PATH="coverage/autotest$define_regex.coverage" NAME="define_regex Coverage Results" MODIFIED="1506483088640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
-    <SUITE FILE_PATH="coverage/autotest$define_find_expect_json.coverage" NAME="define_find_expect_json Coverage Results" MODIFIED="1506580585533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$define_find_expect_json.coverage" NAME="define_find_expect_json Coverage Results" MODIFIED="1506742612732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$define_regex.coverage" NAME="define_regex Coverage Results" MODIFIED="1506766673756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -73,31 +42,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="allcase_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allcase_list.py">
+      <file leaf-file-name="define_compare_info.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/public/define_compare_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_case.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="define_request.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="809">
+              <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -106,18 +55,30 @@
       <file leaf-file-name="define_find_expect_csv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="719">
+              <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="define_compare_info.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_compare_info.py">
+      <file leaf-file-name="demomock.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demomock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+            <state relative-caret-position="349">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="e#23#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mock.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/mock/mock.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2521">
+              <caret line="1138" column="6" lean-forward="false" selection-start-line="1138" selection-start-column="6" selection-end-line="1138" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -133,23 +94,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="define_find_expect_json.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_json.py">
+      <file leaf-file-name="define_find_expect_info.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="304" column="30" lean-forward="false" selection-start-line="304" selection-start-column="30" selection-end-line="304" selection-end-column="30" />
+            <state relative-caret-position="-511">
+              <caret line="357" column="34" lean-forward="false" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="34" />
               <folding>
-                <element signature="e#3855#3869#0" expanded="true" />
+                <element signature="e#4260#4274#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_interface_unit.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/json/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="192" column="4" lean-forward="false" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_interface_unit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_case/public/test_interface_unit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="-355">
+              <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -158,7 +129,7 @@
       <file leaf-file-name="define_random_str.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/public/define_random_str.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-814">
+            <state relative-caret-position="30">
               <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
@@ -168,8 +139,8 @@
       <file leaf-file-name="define_regex.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/public/define_regex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="1289">
+              <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
               <folding>
                 <element signature="e#44#53#0" expanded="true" />
               </folding>
@@ -212,14 +183,17 @@
         <option value="$PROJECT_DIR$/all_test.py" />
         <option value="$PROJECT_DIR$/test_case/chexian.py" />
         <option value="$PROJECT_DIR$/test_case/test_select.py" />
-        <option value="$PROJECT_DIR$/test_case/public/define_regex.py" />
         <option value="$PROJECT_DIR$/test_case/public/log.txt" />
-        <option value="$PROJECT_DIR$/test_case/public/define_find_expect_csv.py" />
         <option value="$PROJECT_DIR$/test_case/public/define_random_str.py" />
         <option value="$PROJECT_DIR$/test_case/public/define_request.py" />
+        <option value="$PROJECT_DIR$/json.txt" />
+        <option value="$PROJECT_DIR$/demomock.py" />
         <option value="$PROJECT_DIR$/test_case/public/define_find_expect_json.py" />
+        <option value="$PROJECT_DIR$/test_case/public/define_find_expect_csv.py" />
         <option value="$PROJECT_DIR$/test_case/public/test_interface_unit.py" />
+        <option value="$PROJECT_DIR$/test_case/public/define_find_expect_info.py" />
         <option value="$PROJECT_DIR$/test_case/public/define_compare_info.py" />
+        <option value="$PROJECT_DIR$/test_case/public/define_regex.py" />
       </list>
     </option>
   </component>
@@ -230,9 +204,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="28" />
+    <option name="y" value="6" />
+    <option name="width" value="1924" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -251,7 +225,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,6 +271,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,6 +279,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -313,25 +289,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_interface_unit">
-    <configuration default="false" name="define_regex" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/public" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="autotest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/public/define_regex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.define_regex">
     <configuration default="false" name="Unittests in test_interface_unit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -355,7 +313,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="define_find_expect_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="define_find_expect_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -368,7 +326,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="autotest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/public/define_find_expect_json.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/public/define_find_expect_info.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="define_find_expect_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/public" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="autotest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/public/define_find_expect_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -391,7 +367,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="define_find_expect_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="define_regex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -404,7 +380,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="autotest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/public/define_find_expect_csv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/public/define_regex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -624,19 +600,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.define_regex" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_interface_unit" />
-      <item index="2" class="java.lang.String" itemvalue="Python.define_find_expect_json" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_interface_unit" />
+      <item index="1" class="java.lang.String" itemvalue="Python.define_find_expect_info" />
+      <item index="2" class="java.lang.String" itemvalue="Python.define_find_expect_csv" />
       <item index="3" class="java.lang.String" itemvalue="Python.define_compare_info" />
-      <item index="4" class="java.lang.String" itemvalue="Python.define_find_expect_csv" />
+      <item index="4" class="java.lang.String" itemvalue="Python.define_regex" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_interface_unit" />
-        <item index="1" class="java.lang.String" itemvalue="Python.define_find_expect_json" />
+        <item index="0" class="java.lang.String" itemvalue="Python.define_regex" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_interface_unit" />
         <item index="2" class="java.lang.String" itemvalue="Python.define_compare_info" />
-        <item index="3" class="java.lang.String" itemvalue="Python.define_find_expect_csv" />
-        <item index="4" class="java.lang.String" itemvalue="Python.define_regex" />
+        <item index="3" class="java.lang.String" itemvalue="Python.define_find_expect_info" />
+        <item index="4" class="java.lang.String" itemvalue="Python.define_find_expect_csv" />
       </list>
     </recent_temporary>
   </component>
@@ -654,58 +630,58 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_interface_unit - 2017.09.28 at 14h 36m 57s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.09.30 at 16h 48m 22s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.09.28 at 14h 40m 41s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.09.30 at 16h 49m 00s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.09.28 at 14h 41m 29s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.09.30 at 16h 49m 31s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.09.28 at 14h 42m 28s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.09.30 at 16h 54m 13s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.09.28 at 14h 43m 38s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.09.30 at 16h 55m 14s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.09.28 at 14h 43m 58s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.09.30 at 16h 59m 30s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.09.28 at 14h 44m 19s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.09.30 at 17h 00m 12s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.09.28 at 15h 11m 41s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.09.30 at 17h 00m 51s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.09.28 at 15h 14m 21s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.09.30 at 17h 25m 46s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.09.28 at 15h 17m 07s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.09.30 at 17h 25m 58s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="28" y="6" width="1924" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21215352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13948497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.49785408" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38394794" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40130153" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -720,13 +696,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_compare_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/all_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,9 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <element signature="e#44#58#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,9 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="e#44#58#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,9 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="e#44#58#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,9 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,9 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <element signature="e#44#58#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,25 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="e#44#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="91" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,15 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="10968" column="107" lean-forward="false" selection-start-line="10968" selection-start-column="88" selection-end-line="10968" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_random_str.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-814">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,44 +891,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/public/define_request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="450">
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_json.py">
+    <entry file="file://$PROJECT_DIR$/json.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="304" column="30" lean-forward="false" selection-start-line="304" selection-start-column="30" selection-end-line="304" selection-end-column="30" />
+        <state relative-caret-position="834">
+          <caret line="1223" column="21" lean-forward="false" selection-start-line="1223" selection-start-column="21" selection-end-line="1223" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="91" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/mock/mock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2521">
+          <caret line="1138" column="6" lean-forward="false" selection-start-line="1138" selection-start-column="6" selection-end-line="1138" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="192" column="4" lean-forward="false" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demomock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
-            <element signature="e#3855#3869#0" expanded="true" />
+            <element signature="e#23#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/test_interface_unit.py">
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        <state relative-caret-position="719">
+          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/public/define_compare_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+        <state relative-caret-position="809">
+          <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_random_str.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_regex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1289">
+          <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+          <folding>
+            <element signature="e#44#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-511">
+          <caret line="357" column="34" lean-forward="false" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="34" />
+          <folding>
+            <element signature="e#4260#4274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/public/test_interface_unit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
           <folding />
         </state>
       </provider>

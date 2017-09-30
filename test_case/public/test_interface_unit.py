@@ -9,7 +9,8 @@ from nose_parameterized import param
 from nose_parameterized import parameterized
 
 from define_find_expect_csv import FindCsvFile
-from define_find_expect_json import get_json_obj_info
+from define_find_expect_info import get_json_obj_info, get_url_info, get_method_info, get_parameters_json_info, \
+    get_assert_code_info
 from define_log import LogDefine
 
 from define_compare_info import InterfaceModel
@@ -30,58 +31,31 @@ class InterfaceCase(unittest.TestCase):
     )
     def test_interface(self, rows):
         logging.info("beginnig test_interface")
-        read_json = json.loads(rows["expect_json"])
-        read_url = rows["url"]
-        read_method = rows["method"]
-        # print read_method ,read_url
-        # print read_json
-        params_parse = get_json_obj_info(expect=read_json)
-        # print u"55555555555555555555555555",params_parse,type(params_parse)
-        # print params_parse["expect_parameters"].keys()
+        params_parse = get_parameters_json_info(expect_parameters=rows["parameters_json"])
+        read_url = get_url_info(url_info=rows)                        #封装expect——info类，初始化就获得CSV信息
+        read_method = get_method_info(method_info=rows["method"])
+        read_code = get_assert_code_info(code_info=rows["assert_code"])
         interface_obj = InterfaceModel()
 
         if rows["method"] == "get":
             logging.info("the request method is %s", rows["method"])
-            # print params_parse["expect_parameters"].keys()[0}
-            if len(params_parse["expect_parameters"].keys()) == 1 and params_parse["expect_parameters"].keys()[
-                0] == "query":
+            if len(params_parse.keys()) == 1 and params_parse.keys()[0] == "query":
                 logging.info("parameters contain query ....")
-                # interface_res = interface_obj.define_request_method(method=read_method, url=read_url,
-                #                                                    parameters=params_parse["expect_parameters"][
-                #                                                        "query"])
-                # interface_obj.parse_method_res(response=interface_res, expected_data=params_parse)
-                count1 = 0
-                for i in xrange(1, read_json["time"] + 1):
-                    #count1 = 0
-                    count1 = count1+1
-                    print u'-------------------------%s--------------------------' % (count1)
-                    params_parse = get_json_obj_info(expect=read_json)
-                    #print params_parse
-                    interface_obj.iteration_request(method=read_method, url=read_url,
-                                                    parameters=params_parse["expect_parameters"]["query"],
-                                                    expected_data=params_parse)
+                interface_res = interface_obj.define_request_method(method=read_method, url=read_url,
+                                                                    parameters=params_parse["query"])
+                interface_obj.parse_method_res(response=interface_res, code1=read_code)
+
             else:
+                print u"this is a 'get' method ,it just included query parameters"
                 logging.info("the parameters maybe contained other method")
         elif rows["method"] == "post":
             logging.info("the request method is %s", rows["method"])
-            if len(params_parse["expect_parameters"].keys()) > 1:
+            if len(params_parse.keys()) > 1:
                 logging.info("parameters contained query or body and so on")
-                # interface_res = interface_obj.define_request_method(method=rows["method"], url=read_url,
-                #                                                    parameters=params_parse["expect_parameters"][
-                #                                                        "query"], data=json.dumps(
-                #        params_parse["expect_parameters"]["body"]))
+                interface_res = interface_obj.define_request_method(method=rows["method"], url=read_url,
+                                                                    parameters=params_parse["query"], data=json.dumps(params_parse["body"]))  #json.dumps变成一个json字串
 
-                # interface_obj.parse_method_res(response=interface_res, expected_data=params_parse)
-                count2=0
-                for i in xrange(1, read_json["time"] + 1):
-                #for i in read_json["time"]:
-                    count2 = count2+1
-                    print u'-------------------------%s--------------------------'%(count2)
-                    params_parse = get_json_obj_info(expect=read_json)
-                    #print params_parse
-                    interface_obj.iteration_request(method=read_method, url=read_url,
-                                                    parameters=params_parse["expect_parameters"]["query"],data=json.dumps(params_parse["expect_parameters"]["body"]),
-                                                    expected_data=params_parse)
+                interface_obj.parse_method_res(response=interface_res, code1=read_code)
     @classmethod
     def tearDown(self):
         pass
