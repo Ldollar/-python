@@ -1227,3 +1227,29 @@ obj = {
 }
 
 Requests
+{
+   ?id=123&token=ladfkjldajfajasljfala
+ {
+
+            "query": {
+                   "id":""
+                "gwd": "tou"，
+            },
+            "body": {"device_id": "new023","mode": "time","frequency": "15",
+                "type": [
+                    "all"
+                ],
+                "expiry": "86400000",
+                "event": "",
+                "compress": "base64"
+            }
+        }
+    }
+}
+
+
+{
+    code:0
+    verson:"1.2.6"
+    type:"full"
+}

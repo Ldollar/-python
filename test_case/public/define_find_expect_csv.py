@@ -35,12 +35,13 @@ class FindCsvFile():
         except Exception,e:
             logging.error("read the csv file %s wrong!!! %s ",path,e)
             print "read the csv file %s wrong!!! %s"%(path,e)
+            print u"看是否需要将文档再次另存为CSV文件"
 
 
-#a = FindCsvFile.find_interface_info_by_csv()
+a = FindCsvFile.find_interface_info_by_csv()
 #for zz in a:
-#    #print zz["expect_json"]
-#    read_json = json.loads(zz["expect_json"])
-#    print read_json["time"]
+   # print zz
+    #read_json = json.loads(zz["expect_json"])
+    #print read_json["time"]
 
 
