@@ -1,21 +1,18 @@
-用例id,接口名称,用例标题,method,host,base_path,paths,url,expect_json
-1,1,1,get,121.40.68.137:12008,/api/v1/media,/audio,http://121.40.68.137:12008/api/v1/media/audio,"{""get"": {
-        ""parameters"": {
-            ""query"":{
-                ""audioId"":""123""
-
+case_id,interface_name,title,request_protocal,host,base_path,paths,method,parameters_json,assert_code,assert_message
+1,1,aa,http,121.40.68.137:12008,/api/v1/media,/audio,get,"{
+   ""query"": {
+                ""audioId"": ""random(8,10,3)""
             }
-        },
-        ""code"": 0,
-        ""message"": ""wo wowowowowowowowowowow""
-    }}"
-1,1,1,post,121.40.68.137:12008,/api/v1/media,/audio,http://api.aituyou.me:8000/xbot/v1/device/configure,"{
-    ""post"": {
-        ""parameters"": {
-            ""query"":{
-                ""device_id"" : ""new023""
+        
+      
+}","""code"":0",1
+1,1,bb,http,api.aituyou.me:8000,/xbot/v1/device,/configure,post,"{
+    
+        
+            ""query"": {
+                ""device_id"": ""new023""
             },
-            ""body"":{
+            ""body"": {
                 ""device_id"": ""new023"",
                 ""mode"": ""time"",
                 ""frequency"": ""15"",
@@ -26,8 +23,34 @@
                 ""event"": """",
                 ""compress"": ""base64""
             }
-        },
-        ""code"": 0,
-        ""message"": ""wo wowowowowowowowowowow111111""
-    }
-}"
+       
+}
+","""code"":0",1
+1,1,2,http,api.aituyou.me:8000,/xbot/v1/device,/configure,post,"{
+    
+        
+            ""query"": {
+                ""device_id"": ""new023""
+            },
+            ""body"": {
+                ""device_id"": ""new023"",
+                ""mode"": ""time"",
+                ""frequency"": ""15"",
+                ""type"": [
+                    ""all""
+                ],
+                ""expiry"": ""86400000"",
+                ""event"": """",
+                ""compress"": ""base64""
+            }
+       
+}
+","""code"":0",1
+1,1,1,http,121.40.68.137:12008,/api/v1/media,/audio,get,"{
+   ""query"": {
+                ""audioId"": ""random(8,10,3)""
+            }
+        
+      
+}","""code"":0",1
+,,1,http,api.aituyou.me:8002,/api/v1/insurance,/pricerecord,get,"{""query"":{""username"":""user01"",""jwt"":""eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmNWUzYWE5ZDAyNTc0NWZkOWU4YjY5MjQxM2E3NzZmOCIsImV4cCI6MTUwNjc2NjkzNywibmJmIjoxMzY1Njk2MDAwfQ.hApGEO8InQJWjjYxQQrQR9rhQ07sCTefwTEzUjNERAg""}}","""status"":0",1

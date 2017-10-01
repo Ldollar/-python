@@ -1,5 +1,6 @@
 # coding=utf-8
 # -*- coding:utf-8 -*-
+'''
 import unittest
 from time import sleep
 
@@ -31,3 +32,4 @@ class TestLogin(unittest.TestCase):
 
 if __name__=="__main__":
     unittest.main()
+'''

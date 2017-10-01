@@ -1,32 +1,37 @@
 # coding=utf-8
 # -*- coding:utf-8 -*-
-import requests
-
-from test_case.public import define_random_str
-
-HTTP_CODE_SUCCESS = 200
-
 import json
+import unittest
 
 import logging
+
+import parameterized as parameterized
+import swaggerpy
+from swaggerpy.client import SwaggerClient
 from swaggerpy.http_client import SynchronousHttpClient
 
-from public import define_regex
-from public.define_log import LogDefine
+from test_case.public import define_regex
+from test_case.public import define_request
+from test_case.public.define_log import LogDefine
 
-
-class InterfaceModel():
-    def __init__(self):
+HTTP_CODE_SUCCESS=200
+class TestCases(unittest.TestCase):
+    def setUp(self):
         LogDefine()
-        self.http_client = SynchronousHttpClient()
-        # self.host
-        # self.port
-        # self.method
-        # self.parameters
-        # self.data
+
         self.verification = []
 
-    def define_request_method(self, method, url, parameters=None, data=None):
+
+    #@parameterized.expangd([])
+
+
+
+    def test_model(self):
+
+            """查询专辑/歌单中的节目/歌曲详情列表"""
+            pass
+
+    def test_define_request_method(self, method, url, parameters=None, data=None):
 
         """请求模板"""
         try:
@@ -47,7 +52,7 @@ class InterfaceModel():
             logging.info(u"请求出问题了 %s ",e)
             print e
 
-    def parse_method_res(self, response, expected_data=None):
+    def test_parse_method_res(self, response, expected_data=None):
 
         """对返回数据处理分析"""
         try:
@@ -69,4 +74,10 @@ class InterfaceModel():
             logging.info(u"Response 可能没有获取到 %s" ,e)
             print u"Response 可能没有获取到 %s" %e
 
+    def tearDown(self):
+        self.assertEqual([],self.verification)
 
+
+
+if __name__=="__main__":
+    unittest.main()

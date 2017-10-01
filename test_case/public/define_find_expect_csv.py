@@ -1,5 +1,6 @@
 # /usr/bin/env python
 # -*- coding:utf-8 -*-
+"""读取CSV文件，并返回CSV 行 数组 需要一个配置文件"""
 import codecs
 import csv
 import json
@@ -7,24 +8,40 @@ import json
 import logging
 import sys
 
-import test_case
-from test_case.public.define_find_expect_json import get_json_obj_info
-from test_case.public.define_log import LogDefine
-#from test_case.public.test_define_testcase import addInterfaceTestCase
-from test_case.public.define_parse_csv_file import model123
-from test_case.test_get_model import InterfaceModel
+from define_log import LogDefine
+
 
 reload(sys)
-sys.setdefaultencoding('gb18030')
+sys.setdefaultencoding('utf-8')
 
 path=r"F:\autotest\ssssss111.csv"
-def control_csv_file(path):
-    LogDefine()
-    with codecs.open(path,"rb") as f:
-        logging.info(u"成功打开csvw文件")
-        reader = csv.DictReader(f)
-        for i, rows in enumerate(reader):
-            model123(rows=rows)
-        #return reader
+class FindCsvFile():
+    #def __init__(self):
+        #self.path = "从配置文件获取"
+    @classmethod
+    def find_interface_info_by_csv(self, path=r"F:\autotest\ssssss111.csv"):
+    #def find_interface_info_by_csv(self):
+        #path = self.path
+        LogDefine()
+        rowsall =[]
+        try:
+            logging.info(u"打开CSV文件")
+            with codecs.open(path,"rb") as f:
+                logging.info(u"成功打开csvw文件")
+                reader = csv.DictReader(f)
+                for i, row in enumerate(reader):
+                    rowsall.append(row)
+            return rowsall
+        except Exception,e:
+            logging.error("read the csv file %s wrong!!! %s ",path,e)
+            print "read the csv file %s wrong!!! %s"%(path,e)
+            print u"看是否需要将文档再次另存为CSV文件"
 
-control_csv_file(path=r"E:\programing\project\interface_testing_python\ssssss111.csv")
+
+a = FindCsvFile.find_interface_info_by_csv()
+#for zz in a:
+   # print zz
+    #read_json = json.loads(zz["expect_json"])
+    #print read_json["time"]
+
+

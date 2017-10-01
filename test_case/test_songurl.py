@@ -9,7 +9,7 @@ from swaggerpy.client import SwaggerClient
 from swaggerpy.http_client import SynchronousHttpClient
 
 from test_case.public import define_regex
-from test_case.public import get_response
+from test_case.public import define_request
 from test_case.public.define_log import LogDefine
 
 
@@ -21,7 +21,7 @@ class TestSongUrl(unittest.TestCase):
             "sourceId":"1"
         }
         self.verification = []
-        self.res = get_response.make_request(method="get", url=url, parameters=self.parameters)
+        self.res = define_request.make_request(method="get", url=url, parameters=self.parameters)
 
     def test_songurl(self):
         """获取失效歌曲链接"""
