@@ -1,2 +1,0 @@
-2017-10-08 23:47:51,796 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-08 23:47:51 ; execution time 0.00 seconds; result '"1.1.1"'.
-2017-10-08 23:48:36,190 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-08 23:48:36 ; execution time 0.00 seconds; result : '"1.1.1"'.
