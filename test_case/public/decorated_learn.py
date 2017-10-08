@@ -38,12 +38,17 @@ def error_json_output(func):
                 "status":"error",
                 "error_message":str(e)
             }
+        print json.dumps(result)
         return json.dumps(result)
     return inner
 
 def logged(func):
     @functools.wraps(func)
     def inner(*args,**kwargs):
+        logging.basicConfig(level=logging.INFO,
+                            format="%(asctime)s - %(levelname)s - %(filename)s - %(funcName)s - %(lineno)d : %(message)s",
+                            stream=sys.stdout, filename="log.txt")
+        start1=time.strftime('%Y-%m-%d %H:%M:%S')
         start = time.time()
 
         return_value = func(*args,**kwargs)
@@ -51,19 +56,9 @@ def logged(func):
         end = time.time()
 
         delta = end - start
-        logging.basicConfig(level=logging.INFO,
-                            format="%(asctime)s - %(levelname)s - %(filename)s - %(funcName)s - %(lineno)d : %(message)s",
-                            stream=sys.stdout,filename="log.txt")
-        logger = logging.getLogger("decorated.logger")
-
-        logging.getLogger('func')
-        logging.info("1111111132321321312312")
+        logger = logging.getLogger()
+        logger.warn("Called func %s at %s ; execution time %.02f ""seconds; result %r."%(func.__name__,start1,delta,return_value))
         return return_value
     return inner
 
-@logged
-def get():
-    logging.info("1111111")
-    print 111111
 
-get()

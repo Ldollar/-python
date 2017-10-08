@@ -19,3 +19,4 @@ def make_request(method,url,parameters=None,data=None):
     z=http_client.request(method=method,url=url,params=parameters,data=data)  #Request请求传入method= 'get'|'post'|'put' 等,传入url 传入请求参数
     #http_client.websockets.difference()
     return z
+

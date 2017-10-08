@@ -1,0 +1,20 @@
+2017-10-08 11:30:46,131 - INFO - decorated_learn.py - get - 66 : 1111111
+2017-10-08 11:30:46,223 - WARNING - decorated_learn.py - inner - 60 : Called func get at 2017-10-08 11:30:46 ; execution time 0.09 seconds; result None.
+2017-10-08 11:40:14,414 - INFO - decorated_learn.py - get - 66 : 1111111
+2017-10-08 11:40:14,414 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:40:14 ; execution time 0.00 seconds; result 'null'.
+2017-10-08 11:41:08,505 - INFO - decorated_learn.py - get - 66 : 1111111
+2017-10-08 11:41:08,505 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:41:08 ; execution time 0.00 seconds; result 'null'.
+2017-10-08 11:41:58,763 - INFO - decorated_learn.py - get - 66 : 1111111
+2017-10-08 11:41:58,763 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:41:58 ; execution time 0.00 seconds; result 'null'.
+2017-10-08 11:42:23,471 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:42:23 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "requires_ints() takes exactly 1 argument (0 given)"}'.
+2017-10-08 11:42:56,841 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:42:56 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "get() takes no arguments (1 given)"}'.
+2017-10-08 11:43:36,905 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:43:36 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "argument must be 9-item sequence, not str"}'.
+2017-10-08 11:43:38,107 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:43:38 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "argument must be 9-item sequence, not str"}'.
+2017-10-08 11:43:45,711 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:43:45 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "argument must be 9-item sequence, not str"}'.
+2017-10-08 11:43:46,566 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:43:46 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "argument must be 9-item sequence, not str"}'.
+2017-10-08 11:43:47,065 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:43:47 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "argument must be 9-item sequence, not str"}'.
+2017-10-08 11:43:47,447 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:43:47 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "argument must be 9-item sequence, not str"}'.
+2017-10-08 11:43:47,772 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:43:47 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "argument must be 9-item sequence, not str"}'.
+2017-10-08 11:43:48,003 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:43:48 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "argument must be 9-item sequence, not str"}'.
+2017-10-08 11:43:48,219 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:43:48 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "argument must be 9-item sequence, not str"}'.
+2017-10-08 11:43:56,957 - WARNING - decorated_learn.py - inner - 59 : Called func get at 2017-10-08 11:43:56 ; execution time 0.00 seconds; result '{"status": "error", "error_message": "argument must be 9-item sequence, not str"}'.

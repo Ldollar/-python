@@ -5,6 +5,7 @@ import re
 import logging
 
 from define_log import LogDefine
+from test_case.public.decorated_learn import logged
 
 LogDefine()
 def find_code(text=None,rex_str=None):
@@ -29,6 +30,7 @@ def find_message(res=None,res_str_zhongwen=None):
 
     return result
 #返回一个list
+@logged
 def match_string(rules=None,text=None):
     try:
         pattern = re.compile(rules,re.I)
