@@ -57,7 +57,7 @@ def logged(func):
 
         delta = end - start
         logger = logging.getLogger()
-        logger.warn("Called func %s at %s ; execution time %.02f ""seconds; result %r."%(func.__name__,start1,delta,return_value))
+        logger.warn("Called func %s at %s ; execution time %.02f ""seconds; result : %r." %(func.__name__,start1,delta,return_value))
         return return_value
     return inner
 
