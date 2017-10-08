@@ -1,0 +1,66 @@
+2017-09-30 18:28:48,812 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 28 : 打开CSV文件
+2017-09-30 18:28:48,812 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 30 : 成功打开csvw文件
+2017-09-30 18:28:48,835 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 28 : 打开CSV文件
+2017-09-30 18:28:48,835 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 30 : 成功打开csvw文件
+2017-09-30 18:28:48,845 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 28 : 打开CSV文件
+2017-09-30 18:28:48,845 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 30 : 成功打开csvw文件
+2017-09-30 18:28:49,157 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 28 : 打开CSV文件
+2017-09-30 18:28:49,160 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 30 : 成功打开csvw文件
+2017-09-30 18:28:49,200 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-09-30 18:28:49,200 - INFO - test_interface_unit.py - test_interface - 41 : the request method is get
+2017-09-30 18:28:49,200 - INFO - test_interface_unit.py - test_interface - 43 : parameters contain query ....
+2017-09-30 18:28:49,236 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-09-30 18:28:49,236 - INFO - define_compare_info.py - parse_method_res - 62 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-30 18:28:49,236 - INFO - define_compare_info.py - parse_method_res - 65 : correct response code: 0 
+2017-09-30 18:28:49,236 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-09-30 18:28:49,236 - INFO - test_interface_unit.py - test_interface - 52 : the request method is post
+2017-09-30 18:28:49,236 - INFO - test_interface_unit.py - test_interface - 54 : parameters contained query or body and so on
+2017-09-30 18:28:49,309 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-09-30 18:28:49,329 - INFO - define_compare_info.py - parse_method_res - 62 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-30 18:28:49,329 - INFO - define_compare_info.py - parse_method_res - 65 : correct response code: 0 
+2017-09-30 18:28:49,329 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-09-30 18:28:49,331 - INFO - test_interface_unit.py - test_interface - 52 : the request method is post
+2017-09-30 18:28:49,331 - INFO - test_interface_unit.py - test_interface - 54 : parameters contained query or body and so on
+2017-09-30 18:28:49,362 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-09-30 18:28:49,362 - INFO - define_compare_info.py - parse_method_res - 62 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-30 18:28:49,362 - INFO - define_compare_info.py - parse_method_res - 65 : correct response code: 0 
+2017-09-30 18:28:49,362 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-09-30 18:28:49,364 - INFO - test_interface_unit.py - test_interface - 41 : the request method is get
+2017-09-30 18:28:49,364 - INFO - test_interface_unit.py - test_interface - 43 : parameters contain query ....
+2017-09-30 18:28:49,391 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-09-30 18:28:49,391 - INFO - define_compare_info.py - parse_method_res - 62 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-30 18:28:49,391 - INFO - define_compare_info.py - parse_method_res - 65 : correct response code: 0 
+2017-09-30 18:28:49,391 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-09-30 18:28:49,391 - INFO - test_interface_unit.py - test_interface - 41 : the request method is get
+2017-09-30 18:28:49,391 - INFO - test_interface_unit.py - test_interface - 43 : parameters contain query ....
+2017-09-30 18:28:49,418 - ERROR - define_compare_info.py - define_request_method - 44 : not return code 200 ,request hava some problem
+2017-09-30 18:28:49,418 - INFO - define_compare_info.py - parse_method_res - 76 : Response 可能没有获取到并且检查assert条件是否设置妥当  'NoneType' object has no attribute 'text' 
+2017-09-30 18:28:49,421 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-09-30 18:28:49,421 - INFO - test_interface_unit.py - test_interface - 41 : the request method is get
+2017-09-30 18:28:49,421 - INFO - test_interface_unit.py - test_interface - 43 : parameters contain query ....
+2017-09-30 18:28:49,444 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-09-30 18:28:49,444 - INFO - define_compare_info.py - parse_method_res - 62 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-30 18:28:49,444 - INFO - define_compare_info.py - parse_method_res - 65 : correct response code: 0 
+2017-09-30 18:28:49,446 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-09-30 18:28:49,446 - INFO - test_interface_unit.py - test_interface - 52 : the request method is post
+2017-09-30 18:28:49,446 - INFO - test_interface_unit.py - test_interface - 54 : parameters contained query or body and so on
+2017-09-30 18:28:49,479 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-09-30 18:28:49,479 - INFO - define_compare_info.py - parse_method_res - 62 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-30 18:28:49,479 - INFO - define_compare_info.py - parse_method_res - 65 : correct response code: 0 
+2017-09-30 18:28:49,480 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-09-30 18:28:49,480 - INFO - test_interface_unit.py - test_interface - 52 : the request method is post
+2017-09-30 18:28:49,480 - INFO - test_interface_unit.py - test_interface - 54 : parameters contained query or body and so on
+2017-09-30 18:28:49,506 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-09-30 18:28:49,506 - INFO - define_compare_info.py - parse_method_res - 62 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-30 18:28:49,506 - INFO - define_compare_info.py - parse_method_res - 65 : correct response code: 0 
+2017-09-30 18:28:49,506 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-09-30 18:28:49,506 - INFO - test_interface_unit.py - test_interface - 41 : the request method is get
+2017-09-30 18:28:49,506 - INFO - test_interface_unit.py - test_interface - 43 : parameters contain query ....
+2017-09-30 18:28:49,542 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-09-30 18:28:49,542 - INFO - define_compare_info.py - parse_method_res - 62 : type vs type <type 'unicode'> vs <type 'int'>
+2017-09-30 18:28:49,543 - INFO - define_compare_info.py - parse_method_res - 65 : correct response code: 0 
+2017-09-30 18:28:49,543 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-09-30 18:28:49,543 - INFO - test_interface_unit.py - test_interface - 41 : the request method is get
+2017-09-30 18:28:49,543 - INFO - test_interface_unit.py - test_interface - 43 : parameters contain query ....
+2017-09-30 18:28:49,566 - ERROR - define_compare_info.py - define_request_method - 44 : not return code 200 ,request hava some problem
+2017-09-30 18:28:49,568 - INFO - define_compare_info.py - parse_method_res - 76 : Response 可能没有获取到并且检查assert条件是否设置妥当  'NoneType' object has no attribute 'text' 

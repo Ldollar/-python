@@ -51,16 +51,11 @@ class InterfaceModel():
 
     #def parse_method_res(self, response, expected_data=None):
 
-    def parse_method_res(self, code1, response):
+    def parse_method_res(self, code1, response,messages=None):
 
         """对返回数据处理分析"""
         try:
-            #print 1111111111111111111111
-            data = code1
-            #print u"expexct_data",data,type(data)
-            #print u"ereponse 111111````",response
-            #print u"expect---code",type(data["expect_code"]),data["expect_code"]
-            #print "+++++++++++++++++++++++++++++++"
+
             s = define_regex.find_code(text=response.text,rex_str=code1["expect_str"])
             #print s
             #print type(s),type(code1["expect_code_int"])
@@ -69,8 +64,8 @@ class InterfaceModel():
             if int(s) == code1["expect_code_int"]:
                 logging.info("correct response code: %s ", s)
                 print u"返回正确 %s: %s" % (code1["expect_str"],s)
-                if None :
-                    pass
+                if messages :
+                    print 11111111111111111111
             else:
                 logging.error("incorrect response code: %s", s)
                 # self.verification.append("incorrect response")
@@ -94,7 +89,7 @@ a = InterfaceModel()
 #s=a.iteration_request(method="get", url="http://121.40.68.137:12008/api/v1/media/audio",
                     #parameters={"audioId": "random(1,2,3)"},expected_data={'expect_method': 'get', 'expect_message': 'wo wowowowowowowowowowow', 'expect_code': 0,"parameters": {"query": { "audioId": "random(1,2,3)"}}})
 #print s
-# s=a.define_request_method(method="get",url="http://api.aituyou.me:8000/xbot/v1/audio/categorylist?type=music",parameters={
+#s=a.define_request_method(method="get",url="http://api.aituyou.me:8000/xbot/v1/audio/categorylist?type=music",parameters={
 #            "audiolistId": "ajsflkjal",
 #            "start":"1",
 #            "count":"10"
