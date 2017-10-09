@@ -358,6 +358,19 @@ def get_assert_code_info(code_info):
     expect_int_compare["expect_str"] = expect_code.split(":")[0].strip('"')
     return expect_int_compare
 
+def get_assert_message_info(message_info):
+    expect_message={}
+    if message_info:
+        expect_message["message"] = message_info.split(":")[0].strip()
+        expect_message["message_info"] = message_info.split(":")[1].strip()
+        return expect_message
+
+
+
+
+
+
+
 def get_method_info(method_info):
 
     try:
@@ -378,13 +391,14 @@ b = a.find_interface_info_by_csv(path=r"F:\autotest\ssssss111.csv")
 #bc=get_url_info(url_info=b)
 ##print c
 
-#for zz in b:
+for zz in b:
     #print zz
     #ss=get_parameters_json_info(expect_parameters=zz["parameters_json"])
     #print ss
     #print zz
     #n=get_url_info(url_info=zz)
     #n=get_assert_code_info(code_info=zz["assert_code"])
+    n=get_assert_message_info(message_info=zz["assert_message"])
     #n = get_method_info(method_info=zz)
     #print n[1]
     #print n
