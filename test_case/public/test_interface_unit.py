@@ -10,7 +10,7 @@ from nose_parameterized import parameterized
 
 from define_find_expect_csv import FindCsvFile
 from define_find_expect_info import get_json_obj_info, get_url_info, get_method_info, get_parameters_json_info, \
-    get_assert_code_info
+    get_assert_code_info, get_assert_message_info
 from define_log import LogDefine
 
 from define_compare_info import InterfaceModel
@@ -35,6 +35,7 @@ class InterfaceCase(unittest.TestCase):
         read_url = get_url_info(url_info=rows)                        #封装expect——info类，初始化就获得CSV信息
         read_method = get_method_info(method_info=rows["method"])
         read_code = get_assert_code_info(code_info=rows["assert_code"])
+        read_message = get_assert_message_info(message_info=rows["assert_message"])
         interface_obj = InterfaceModel()
 
         if rows["method"] == "get":
@@ -43,7 +44,7 @@ class InterfaceCase(unittest.TestCase):
                 logging.info("parameters contain query ....")
                 interface_res = interface_obj.define_request_method(method=read_method, url=read_url,
                                                                     parameters=params_parse["query"])
-                interface_obj.parse_method_res(response=interface_res, code1=read_code)
+                interface_obj.parse_method_res(response=interface_res, code1=read_code,messages=read_message)
 
             else:
                 print u"this is a 'get' method ,it just included query parameters"
@@ -55,7 +56,7 @@ class InterfaceCase(unittest.TestCase):
                 interface_res = interface_obj.define_request_method(method=rows["method"], url=read_url,
                                                                     parameters=params_parse["query"], data=json.dumps(params_parse["body"]))  #json.dumps变成一个json字串
 
-                interface_obj.parse_method_res(response=interface_res, code1=read_code)
+                interface_obj.parse_method_res(response=interface_res, code1=read_code,messages=read_message)
     @classmethod
     def tearDown(self):
         pass

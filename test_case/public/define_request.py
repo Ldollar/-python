@@ -20,5 +20,3 @@ def make_request(method,url,parameters=None,data=None):
     #http_client.websockets.difference()
     return z
 
-a=make_request()
-print a

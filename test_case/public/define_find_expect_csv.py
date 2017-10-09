@@ -20,8 +20,6 @@ class FindCsvFile():
         #self.path = "从配置文件获取"
     @classmethod
     def find_interface_info_by_csv(self, path=r"F:\autotest\ssssss111.csv"):
-    #def find_interface_info_by_csv(self):
-        #path = self.path
         LogDefine()
         rowsall =[]
         try:
@@ -38,7 +36,7 @@ class FindCsvFile():
             print u"看是否需要将文档再次另存为CSV文件"
 
 
-a = FindCsvFile.find_interface_info_by_csv()
+#a = FindCsvFile.find_interface_info_by_csv()
 #for zz in a:
    # print zz
     #read_json = json.loads(zz["expect_json"])

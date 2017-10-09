@@ -35,9 +35,7 @@ class InterfaceModel():
             if http_code == HTTP_CODE_SUCCESS:
                 logging.info("if code == 200 ,request success!")
                 print u"返回200，请求成功", res.url
-                #print res.text
                 print u"响应时间 : %s" % res.elapsed
-                #print u"eeeeeeeeeeeeeeeeeeeeeeeeeeee",type(res.json())
                 return res
 
             else:
@@ -49,23 +47,29 @@ class InterfaceModel():
             logging.info(u"请求出问题了 %s ", e)
             print e
 
-    #def parse_method_res(self, response, expected_data=None):
 
-    def parse_method_res(self, code1, response,messages=None):
+
+    def parse_method_res(self, response,messages=None, code1=None):
 
         """对返回数据处理分析"""
         try:
 
             s = define_regex.find_code(text=response.text,rex_str=code1["expect_str"])
-            #print s
-            #print type(s),type(code1["expect_code_int"])
             logging.info("type vs type %s vs %s", type(s), type(code1["expect_code_int"]))
-            #print int(s)
             if int(s) == code1["expect_code_int"]:
                 logging.info("correct response code: %s ", s)
                 print u"返回正确 %s: %s" % (code1["expect_str"],s)
                 if messages :
-                    print 11111111111111111111
+                    #print messages
+                    compare_str = define_regex.find_message(res=response.text,res_str_zhongwen=messages["message"])
+                    #print 123456,compare_str
+                    #print ("type vs type %s vs %s", type(compare_str), type(messages["message_info"]))
+                    #print compare_str,messages["message_info"]
+                    if compare_str == messages["message_info"]:
+                        print u"验证信息正确 %s: %s" % (messages["message"], compare_str)
+                    else:
+                        print u"验证信息不正确  %s: %s" % (messages["message"], compare_str)
+                        print u"返回的Response信息 ：%s " %response.json()
             else:
                 logging.error("incorrect response code: %s", s)
                 # self.verification.append("incorrect response")
@@ -86,13 +90,5 @@ class InterfaceModel():
 
 
 a = InterfaceModel()
-#s=a.iteration_request(method="get", url="http://121.40.68.137:12008/api/v1/media/audio",
-                    #parameters={"audioId": "random(1,2,3)"},expected_data={'expect_method': 'get', 'expect_message': 'wo wowowowowowowowowowow', 'expect_code': 0,"parameters": {"query": { "audioId": "random(1,2,3)"}}})
-#print s
-#s=a.define_request_method(method="get",url="http://api.aituyou.me:8000/xbot/v1/audio/categorylist?type=music",parameters={
-#            "audiolistId": "ajsflkjal",
-#            "start":"1",
-#            "count":"10"
-#        })
-# print s.json()
-# a.parse_method_res(response=s)
+
+
