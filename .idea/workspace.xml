@@ -2,16 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16672883-dabc-42f1-a4bd-0806f7233c26" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssssss111.csv" afterPath="$PROJECT_DIR$/ssssss111.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/autotest.iml" afterPath="$PROJECT_DIR$/.idea/autotest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_compare_info.py" afterPath="$PROJECT_DIR$/test_case/public/define_compare_info.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_find_expect_csv.py" afterPath="$PROJECT_DIR$/test_case/public/define_find_expect_csv.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_find_expect_info.py" afterPath="$PROJECT_DIR$/test_case/public/define_find_expect_info.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_regex.py" afterPath="$PROJECT_DIR$/test_case/public/define_regex.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_request.py" afterPath="$PROJECT_DIR$/test_case/public/define_request.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/test_interface_unit.py" afterPath="$PROJECT_DIR$/test_case/public/test_interface_unit.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506767329.2result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507518892.96result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507518927.86result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507518963.18result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507520075.05result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507520837.2result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507520930.08result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507520962.0result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507520984.15result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521002.92result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521043.62result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521083.32result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521103.82result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521172.72result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521233.41result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521266.01result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521300.92result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521328.04result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521356.28result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521364.28result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521645.15result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521720.64result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521803.94result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521855.74result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521917.14result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521960.2result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521988.32result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507522014.3result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507522044.96result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507522117.69result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507522912.39result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507522985.5result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507523036.32result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507523149.59result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507523223.29result2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507523259.44result2.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_csv.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="19" selection-end-column="30" />
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="19" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -76,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/test_case/public/test_interface_unit.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1201">
-              <caret line="58" column="40" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+              <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
               <folding>
                 <element signature="e#45#56#0" expanded="true" />
               </folding>
@@ -118,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/test_case/public/log.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5461">
-              <caret line="2673" column="0" lean-forward="true" selection-start-line="2673" selection-start-column="0" selection-end-line="2673" selection-end-column="0" />
+              <caret line="2673" column="0" lean-forward="false" selection-start-line="2673" selection-start-column="0" selection-end-line="2673" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -659,7 +685,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="6" width="1924" height="1056" extended-state="1" />
+    <frame x="28" y="6" width="1924" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14109442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -998,7 +1024,7 @@
     <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="19" selection-end-column="30" />
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1016,7 +1042,7 @@
     <entry file="file://$PROJECT_DIR$/test_case/public/test_interface_unit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1201">
-          <caret line="58" column="40" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+          <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
           <folding>
             <element signature="e#45#56#0" expanded="true" />
           </folding>
@@ -1042,7 +1068,7 @@
     <entry file="file://$PROJECT_DIR$/test_case/public/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5461">
-          <caret line="2673" column="0" lean-forward="true" selection-start-line="2673" selection-start-column="0" selection-end-line="2673" selection-end-column="0" />
+          <caret line="2673" column="0" lean-forward="false" selection-start-line="2673" selection-start-column="0" selection-end-line="2673" selection-end-column="0" />
           <folding />
         </state>
       </provider>
