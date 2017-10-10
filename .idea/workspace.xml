@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16672883-dabc-42f1-a4bd-0806f7233c26" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1506767329.2result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507518892.96result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507518927.86result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507518963.18result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507520075.05result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507520837.2result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507520930.08result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507520962.0result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507520984.15result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521002.92result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521043.62result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521083.32result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521103.82result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521172.72result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521233.41result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521266.01result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521300.92result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521328.04result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521356.28result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521364.28result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521645.15result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521720.64result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521803.94result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521855.74result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521917.14result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521960.2result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507521988.32result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507522014.3result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507522044.96result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507522117.69result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507522912.39result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507522985.5result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507523036.32result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507523149.59result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507523223.29result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507523259.44result2.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssssss111.csv" afterPath="$PROJECT_DIR$/ssssss111.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/log.txt" afterPath="$PROJECT_DIR$/test_case/public/log.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/autotest$Unittests_in_test_interface_unit.coverage" NAME="Unittests in test_interface_unit Coverage Results" MODIFIED="1507523258850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$Unittests_in_test_interface_unit.coverage" NAME="Unittests in test_interface_unit Coverage Results" MODIFIED="1507526450212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
     <SUITE FILE_PATH="coverage/autotest$test_select.coverage" NAME="test_select Coverage Results" MODIFIED="1506482155697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/autotest$test_case.coverage" NAME="test_case Coverage Results" MODIFIED="1504764577373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotest$Unittests_in_chexian.coverage" NAME="Unittests in chexian Coverage Results" MODIFIED="1504769074054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
@@ -65,112 +31,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="define_compare_info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_compare_info.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="define_find_expect_csv.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_csv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="19" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="define_find_expect_info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_info.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="364" column="75" lean-forward="false" selection-start-line="364" selection-start-column="75" selection-end-line="364" selection-end-column="75" />
-              <folding>
-                <element signature="e#4260#4274#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_interface_unit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/test_interface_unit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1201">
-              <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
-              <folding>
-                <element signature="e#45#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="define_random_str.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_random_str.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="define_regex.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_regex.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-555">
-              <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="define_request.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/log.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5461">
-              <caret line="2673" column="0" lean-forward="false" selection-start-line="2673" selection-start-column="0" selection-end-line="2673" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_audio2audiolist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/test_audio2audiolist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-855">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_audios.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case/test_audios.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1530">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -217,6 +78,7 @@
         <option value="$PROJECT_DIR$/test_case/public/define_compare_info.py" />
         <option value="$PROJECT_DIR$/test_case/public/define_find_expect_info.py" />
         <option value="$PROJECT_DIR$/test_case/public/define_regex.py" />
+        <option value="$PROJECT_DIR$/111111.py" />
       </list>
     </option>
   </component>
@@ -260,38 +122,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_case" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_case" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -299,7 +129,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/PYTHON_PROJIECT/psutilmethod" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -653,12 +483,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.09 at 12h 06m 54s.xml">
-      <configuration name="Unittests in test_interface_unit" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.09 at 12h 07m 25s.xml">
-      <configuration name="Unittests in test_interface_unit" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_interface_unit - 2017.10.09 at 12h 08m 38s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
@@ -683,18 +507,24 @@
     <history-entry file="Unittests_in_test_interface_unit - 2017.10.09 at 12h 27m 40s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.09 at 12h 42m 49s.xml">
+      <configuration name="Unittests in test_interface_unit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.09 at 13h 20m 51s.xml">
+      <configuration name="Unittests in test_interface_unit" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="6" width="1924" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14109442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14109442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40130153" sideWeight="0.5064378" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3991323" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -719,14 +549,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="91" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10530">
@@ -997,14 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_random_str.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/pythonEnv/ENV/Lib/site-packages/swaggerpy/http_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1013,9 +827,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/public/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5461">
+          <caret line="2673" column="0" lean-forward="false" selection-start-line="2673" selection-start-column="0" selection-end-line="2673" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_audio2audiolist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_audios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/public/define_compare_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
+        <state relative-caret-position="495">
           <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
           <folding />
         </state>
@@ -1049,6 +887,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_random_str.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/public/define_regex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-555">
@@ -1059,31 +905,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/public/define_request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="345">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/log.txt">
+    <entry file="file://$PROJECT_DIR$/111111.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5461">
-          <caret line="2673" column="0" lean-forward="false" selection-start-line="2673" selection-start-column="0" selection-end-line="2673" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_audio2audiolist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_audios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1530">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
