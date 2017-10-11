@@ -53,7 +53,7 @@ class InterfaceModel():
 
         """对返回数据处理分析"""
         try:
-
+            error_message ={}
             s = define_regex.find_code(text=response.text,rex_str=code1["expect_str"])
             logging.info("type vs type %s vs %s", type(s), type(code1["expect_code_int"]))
             if int(s) == code1["expect_code_int"]:
@@ -61,15 +61,31 @@ class InterfaceModel():
                 print u"返回正确 %s: %s" % (code1["expect_str"],s)
                 if messages :
                     #print messages
-                    compare_str = define_regex.find_message(res=response.text,res_str_zhongwen=messages["message"])
-                    #print 123456,compare_str
-                    #print ("type vs type %s vs %s", type(compare_str), type(messages["message_info"]))
-                    #print compare_str,messages["message_info"]
-                    if compare_str == messages["message_info"]:
-                        print u"验证信息正确 %s: %s" % (messages["message"], compare_str)
+                    flag = None
+                    for i in xrange(0,len(messages)):
+                        #print i,messages[i][0]
+
+                        compare_str = define_regex.find_message(res=response.text,res_str_zhongwen=messages[i][0])
+                        #print response.text
+                        #print i,123456,compare_str
+                        #print ("type vs type %s vs %s", type(compare_str), type(messages["message_info"]))
+                        #print compare_str,messages["message_info"]
+                        #print "value123456",str(messages[i][1])
+                        if str(compare_str) == str(messages[i][1]):
+                            flag =True
+                            print u"第 %s 次验证信息正确 %s: %s" % (i,messages[i][0], compare_str)
+
+                        else:
+                            flag =False
+                            error_message[messages[i][0]]=compare_str
+                            #print u"验证信息不正确  %s: %s" % (messages[i][0], compare_str)
+                            #print u"返回的Response信息 ：%s " %response.json()
+
+                    if flag:
+                        print u"验证信息正确 , 666"
                     else:
-                        print u"验证信息不正确  %s: %s" % (messages["message"], compare_str)
-                        print u"返回的Response信息 ：%s " %response.json()
+                        print u"验证信息不正确 : %s" ,error_message
+                        print u"返回的Response信息为 : %s " % response.json()
             else:
                 logging.error("incorrect response code: %s", s)
                 # self.verification.append("incorrect response")
@@ -90,5 +106,6 @@ class InterfaceModel():
 
 
 a = InterfaceModel()
+
 
 

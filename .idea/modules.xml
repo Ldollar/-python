@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/autotest.iml" filepath="$PROJECT_DIR$/.idea/autotest.iml" />
+      <module fileurl="file://F:/PYTHON_PROJIECT/psutilmethod/.idea/psutilmethod.iml" filepath="F:/PYTHON_PROJIECT/psutilmethod/.idea/psutilmethod.iml" />
+      <module fileurl="file://F:/corporation/selenium_ota_patch/.idea/selenium_ota_patch.iml" filepath="F:/corporation/selenium_ota_patch/.idea/selenium_ota_patch.iml" />
     </modules>
   </component>
 </project>

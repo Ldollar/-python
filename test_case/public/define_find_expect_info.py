@@ -360,11 +360,21 @@ def get_assert_code_info(code_info):
 
 def get_assert_message_info(message_info):
     expect_message={}
+    expect_messages=[]
     if message_info:
-        expect_message["message"] = message_info.split(":")[0].strip()
-        expect_message["message_info"] = message_info.split(":")[1].strip()
-        return expect_message
+        dicts = json.loads(message_info)
 
+
+
+        print type(json.loads(message_info))
+        for i in dicts.items():
+            #print i[0]+":"+i[1]
+            expect_messages.append(i)
+        return expect_messages
+
+
+    else:
+        return None
 
 
 
@@ -385,20 +395,21 @@ def get_method_info(method_info):
 
 
 a = FindCsvFile()
-b = a.find_interface_info_by_csv(path=r"F:\autotest\ssssss111.csv")
+#b = a.find_interface_info_by_csv(path=r"F:\autotest\ssssss111.csv")
 #a=get_parameters_json_info()
 #print b[2]
 #bc=get_url_info(url_info=b)
 ##print c
 
-for zz in b:
+#for zz in b:
     #print zz
     #ss=get_parameters_json_info(expect_parameters=zz["parameters_json"])
     #print ss
     #print zz
     #n=get_url_info(url_info=zz)
     #n=get_assert_code_info(code_info=zz["assert_code"])
-    n=get_assert_message_info(message_info=zz["assert_message"])
+    #n=get_assert_message_info(message_info=zz["assert_message"])
+    #print len(n)
     #n = get_method_info(method_info=zz)
     #print n[1]
     #print n
