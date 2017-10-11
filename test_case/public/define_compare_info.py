@@ -84,7 +84,7 @@ class InterfaceModel():
                     if flag:
                         print u"验证信息正确 , 666"
                     else:
-                        print u"验证信息不正确 : %s" ,error_message
+                        print u"验证信息不正确 : %s" %error_message
                         print u"返回的Response信息为 : %s " % response.json()
             else:
                 logging.error("incorrect response code: %s", s)

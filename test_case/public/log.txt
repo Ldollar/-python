@@ -5276,3 +5276,67 @@
 2017-10-11 13:52:37,520 - INFO - define_compare_info.py - parse_method_res - 58 : type vs type <type 'unicode'> vs <type 'int'>
 2017-10-11 13:52:37,520 - INFO - define_compare_info.py - parse_method_res - 60 : correct response code: 0 
 2017-10-11 13:52:37,522 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 13:52:37 ; execution time 0.00 seconds; result : None.
+2017-10-11 14:19:07,280 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 26 : 打开CSV文件
+2017-10-11 14:19:07,286 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 28 : 成功打开csvw文件
+2017-10-11 14:19:07,322 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-10-11 14:19:07,322 - INFO - test_interface_unit.py - test_interface - 42 : the request method is get
+2017-10-11 14:19:07,322 - INFO - test_interface_unit.py - test_interface - 44 : parameters contain query ....
+2017-10-11 14:19:07,407 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-10-11 14:19:07,407 - INFO - define_compare_info.py - parse_method_res - 58 : type vs type <type 'unicode'> vs <type 'int'>
+2017-10-11 14:19:07,407 - INFO - define_compare_info.py - parse_method_res - 60 : correct response code: 0 
+2017-10-11 14:19:07,407 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:19:07 ; execution time 0.00 seconds; result : u'0.1.2'.
+2017-10-11 14:19:07,407 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:19:07 ; execution time 0.00 seconds; result : u'patch'.
+2017-10-11 14:19:07,408 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-10-11 14:19:07,408 - INFO - test_interface_unit.py - test_interface - 53 : the request method is post
+2017-10-11 14:19:07,408 - INFO - test_interface_unit.py - test_interface - 55 : parameters contained query or body and so on
+2017-10-11 14:19:07,441 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-10-11 14:19:07,460 - INFO - define_compare_info.py - parse_method_res - 58 : type vs type <type 'unicode'> vs <type 'int'>
+2017-10-11 14:19:07,460 - INFO - define_compare_info.py - parse_method_res - 60 : correct response code: 0 
+2017-10-11 14:19:07,460 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:19:07 ; execution time 0.00 seconds; result : None.
+2017-10-11 14:19:07,461 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-10-11 14:19:07,461 - INFO - test_interface_unit.py - test_interface - 42 : the request method is get
+2017-10-11 14:19:07,461 - INFO - test_interface_unit.py - test_interface - 44 : parameters contain query ....
+2017-10-11 14:19:07,517 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-10-11 14:19:07,517 - INFO - define_compare_info.py - parse_method_res - 58 : type vs type <type 'unicode'> vs <type 'int'>
+2017-10-11 14:19:07,517 - INFO - define_compare_info.py - parse_method_res - 60 : correct response code: 0 
+2017-10-11 14:19:07,517 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:19:07 ; execution time 0.00 seconds; result : u'0.1.2'.
+2017-10-11 14:19:07,517 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:19:07 ; execution time 0.00 seconds; result : u'patch'.
+2017-10-11 14:19:07,519 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-10-11 14:19:07,519 - INFO - test_interface_unit.py - test_interface - 53 : the request method is post
+2017-10-11 14:19:07,519 - INFO - test_interface_unit.py - test_interface - 55 : parameters contained query or body and so on
+2017-10-11 14:19:07,548 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-10-11 14:19:07,548 - INFO - define_compare_info.py - parse_method_res - 58 : type vs type <type 'unicode'> vs <type 'int'>
+2017-10-11 14:19:07,548 - INFO - define_compare_info.py - parse_method_res - 60 : correct response code: 0 
+2017-10-11 14:19:07,548 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:19:07 ; execution time 0.00 seconds; result : None.
+2017-10-11 14:21:34,134 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 26 : 打开CSV文件
+2017-10-11 14:21:34,134 - INFO - define_find_expect_csv.py - find_interface_info_by_csv - 28 : 成功打开csvw文件
+2017-10-11 14:21:34,176 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-10-11 14:21:34,178 - INFO - test_interface_unit.py - test_interface - 42 : the request method is get
+2017-10-11 14:21:34,178 - INFO - test_interface_unit.py - test_interface - 44 : parameters contain query ....
+2017-10-11 14:21:34,252 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-10-11 14:21:34,252 - INFO - define_compare_info.py - parse_method_res - 58 : type vs type <type 'unicode'> vs <type 'int'>
+2017-10-11 14:21:34,252 - INFO - define_compare_info.py - parse_method_res - 60 : correct response code: 0 
+2017-10-11 14:21:34,252 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:21:34 ; execution time 0.00 seconds; result : u'0.1.2'.
+2017-10-11 14:21:34,253 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:21:34 ; execution time 0.00 seconds; result : u'patch'.
+2017-10-11 14:21:34,253 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-10-11 14:21:34,253 - INFO - test_interface_unit.py - test_interface - 53 : the request method is post
+2017-10-11 14:21:34,253 - INFO - test_interface_unit.py - test_interface - 55 : parameters contained query or body and so on
+2017-10-11 14:21:34,280 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-10-11 14:21:34,299 - INFO - define_compare_info.py - parse_method_res - 58 : type vs type <type 'unicode'> vs <type 'int'>
+2017-10-11 14:21:34,299 - INFO - define_compare_info.py - parse_method_res - 60 : correct response code: 0 
+2017-10-11 14:21:34,301 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:21:34 ; execution time 0.00 seconds; result : None.
+2017-10-11 14:21:34,302 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-10-11 14:21:34,302 - INFO - test_interface_unit.py - test_interface - 42 : the request method is get
+2017-10-11 14:21:34,302 - INFO - test_interface_unit.py - test_interface - 44 : parameters contain query ....
+2017-10-11 14:21:34,359 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-10-11 14:21:34,359 - INFO - define_compare_info.py - parse_method_res - 58 : type vs type <type 'unicode'> vs <type 'int'>
+2017-10-11 14:21:34,359 - INFO - define_compare_info.py - parse_method_res - 60 : correct response code: 0 
+2017-10-11 14:21:34,361 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:21:34 ; execution time 0.00 seconds; result : u'0.1.2'.
+2017-10-11 14:21:34,361 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:21:34 ; execution time 0.00 seconds; result : u'patch'.
+2017-10-11 14:21:34,361 - INFO - test_interface_unit.py - test_interface - 33 : beginnig test_interface
+2017-10-11 14:21:34,361 - INFO - test_interface_unit.py - test_interface - 53 : the request method is post
+2017-10-11 14:21:34,361 - INFO - test_interface_unit.py - test_interface - 55 : parameters contained query or body and so on
+2017-10-11 14:21:34,384 - INFO - define_compare_info.py - define_request_method - 36 : if code == 200 ,request success!
+2017-10-11 14:21:34,385 - INFO - define_compare_info.py - parse_method_res - 58 : type vs type <type 'unicode'> vs <type 'int'>
+2017-10-11 14:21:34,385 - INFO - define_compare_info.py - parse_method_res - 60 : correct response code: 0 
+2017-10-11 14:21:34,385 - WARNING - decorated_learn.py - inner - 60 : Called func find_message at 2017-10-11 14:21:34 ; execution time 0.00 seconds; result : None.
