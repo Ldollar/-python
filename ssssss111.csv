@@ -1,12 +1,12 @@
 case_id,interface_name,title,request_protocal,host,base_path,paths,method,parameters_json,assert_code,assert_message
 1,1,aa,http,api.aituyou.me:8002,/api/v1/ota,/availableota,get,"{
    ""query"": {
-                ""deviceId"": ""new023"",""deviceAppVersion"":""1.2.5"",""rom"":""B1405.01.01.01.11"",""patchVersion"":""0.1.1""
+                ""deviceId"": ""new023"",""deviceAppVersion"":""1.2.5"",""rom"":""B1405.01.01.01.11"",""patchVersion"":""0.1.7""
             }
         
       
 }","""code"":0","
-    {""version"": ""0.1.2"",""type"":""patch""}
+    {""version"": ""0.1.8"",""type"":""patch""}
     "
 1,1,bb,http,api.aituyou.me:8000,/xbot/v1/device,/configure,post,"{
     
