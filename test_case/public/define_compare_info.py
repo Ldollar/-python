@@ -72,12 +72,12 @@ class InterfaceModel():
                         #print compare_str,messages["message_info"]
                         #print "value123456",str(messages[i][1])
                         if str(compare_str) == str(messages[i][1]):
-                            print u"第 %s 次验证信息正确 %s: %s" % (i,messages[i][0], compare_str)
+                            print u"第 %s 次验证信息正确 %s: %s" % (i+1,messages[i][0], compare_str)
 
                         else:
                             error_message[messages[i][0]]=compare_str
-                            print u"第 %s 次验证信息不正确，验证信息为 %s : %s" %(i,messages[i][0],messages[i][1])
-                            print u"第 %s 次验证信息不正确,从接口获得的信息为  %s: %s" % (i,messages[i][0], compare_str)
+                            print u"第 %s 次验证信息不正确，验证信息为 %s : %s" %(i+1,messages[i][0],messages[i][1])
+                            print u"第 %s 次验证信息不正确,从接口获得的信息为  %s: %s" % (i+1,messages[i][0], compare_str)
                             #print u"返回的Response信息 ：%s " %response.json()
 
                     if error_message:
