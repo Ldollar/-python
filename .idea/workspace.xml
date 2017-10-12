@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16672883-dabc-42f1-a4bd-0806f7233c26" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507622893.98result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507622923.56result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507623330.2result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507623579.24result2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/1507623604.26result2.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssssss111.csv" afterPath="$PROJECT_DIR$/ssssss111.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/autotest.iml" afterPath="$PROJECT_DIR$/.idea/autotest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/public/log.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_compare_info.py" afterPath="$PROJECT_DIR$/test_case/public/define_compare_info.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_find_expect_info.py" afterPath="$PROJECT_DIR$/test_case/public/define_find_expect_info.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_regex.py" afterPath="$PROJECT_DIR$/test_case/public/define_regex.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/log.txt" afterPath="$PROJECT_DIR$/test_case/public/log.txt" />
       <change type="MODIFICATION" beforePath="F:/corporation/selenium_ota_patch/sele_ota_patch.py" afterPath="F:/corporation/selenium_ota_patch/sele_ota_patch.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/autotest$Unittests_in_test_interface_unit.coverage" NAME="Unittests in test_interface_unit Coverage Results" MODIFIED="1507701156570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$Unittests_in_test_interface_unit.coverage" NAME="Unittests in test_interface_unit Coverage Results" MODIFIED="1507793050317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
     <SUITE FILE_PATH="coverage/autotest$test_select.coverage" NAME="test_select Coverage Results" MODIFIED="1506482155697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/autotest$test_case.coverage" NAME="test_case Coverage Results" MODIFIED="1504764577373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotest$sele.coverage" NAME="sele Coverage Results" MODIFIED="1507690815164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PYTHON_PROJIECT/psutilmethod" />
+    <SUITE FILE_PATH="coverage/autotest$sele_ota_patch.coverage" NAME="sele_ota_patch Coverage Results" MODIFIED="1507789253411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/corporation/selenium_ota_patch" />
     <SUITE FILE_PATH="coverage/autotest$login.coverage" NAME="login Coverage Results" MODIFIED="1504765618853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
     <SUITE FILE_PATH="coverage/autotest$define_regex.coverage" NAME="define_regex Coverage Results" MODIFIED="1507700005707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
     <SUITE FILE_PATH="coverage/autotest$Unittests_in_chexian.coverage" NAME="Unittests in chexian Coverage Results" MODIFIED="1504769074054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
@@ -44,15 +34,25 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="sele_ota_patch.py" pinned="false" current-in-tab="false">
         <entry file="file://F:/corporation/selenium_ota_patch/sele_ota_patch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="60" column="97" lean-forward="false" selection-start-line="60" selection-start-column="97" selection-end-line="60" selection-end-column="97" />
               <folding>
                 <element signature="e#46#56#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="define_compare_info.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_case/public/define_compare_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="74" column="63" lean-forward="false" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,43 +61,9 @@
         <entry file="file://$PROJECT_DIR$/test_case/public/test_interface_unit.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+              <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
               <folding>
                 <element signature="e#45#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="define_compare_info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_compare_info.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="define_regex.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_regex.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-              <folding>
-                <element signature="e#44#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="define_find_expect_info.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_info.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1531">
-              <caret line="397" column="1" lean-forward="false" selection-start-line="397" selection-start-column="1" selection-end-line="397" selection-end-column="1" />
-              <folding>
-                <element signature="e#4260#4274#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,10 +129,10 @@
         <option value="$PROJECT_DIR$/test_case/public/test_interface_unit.py" />
         <option value="$PROJECT_DIR$/111111.py" />
         <option value="F:/PYTHON_PROJIECT/psutilmethod/sele.py" />
-        <option value="F:/corporation/selenium_ota_patch/sele_ota_patch.py" />
-        <option value="$PROJECT_DIR$/test_case/public/define_find_expect_info.py" />
-        <option value="$PROJECT_DIR$/test_case/public/define_compare_info.py" />
         <option value="$PROJECT_DIR$/test_case/public/define_regex.py" />
+        <option value="$PROJECT_DIR$/test_case/public/define_find_expect_info.py" />
+        <option value="F:/corporation/selenium_ota_patch/sele_ota_patch.py" />
+        <option value="$PROJECT_DIR$/test_case/public/define_compare_info.py" />
       </list>
     </option>
   </component>
@@ -198,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,27 +210,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_case" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,24 +273,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="define_compare_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/public" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="autotest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/public/define_compare_info.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="define_regex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,6 +305,24 @@
       <module name="psutilmethod" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="F:/PYTHON_PROJIECT/psutilmethod/sele.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sele_ota_patch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="F:/corporation/selenium_ota_patch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="selenium_ota_patch" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:/corporation/selenium_ota_patch/sele_ota_patch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -596,17 +544,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_interface_unit" />
       <item index="1" class="java.lang.String" itemvalue="Python.define_find_expect_info" />
-      <item index="2" class="java.lang.String" itemvalue="Python.define_compare_info" />
-      <item index="3" class="java.lang.String" itemvalue="Python.define_regex" />
-      <item index="4" class="java.lang.String" itemvalue="Python.sele" />
+      <item index="2" class="java.lang.String" itemvalue="Python.define_regex" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sele" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sele_ota_patch" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_interface_unit" />
-        <item index="1" class="java.lang.String" itemvalue="Python.define_regex" />
-        <item index="2" class="java.lang.String" itemvalue="Python.define_find_expect_info" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sele" />
-        <item index="4" class="java.lang.String" itemvalue="Python.define_compare_info" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sele_ota_patch" />
+        <item index="2" class="java.lang.String" itemvalue="Python.define_regex" />
+        <item index="3" class="java.lang.String" itemvalue="Python.define_find_expect_info" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sele" />
       </list>
     </recent_temporary>
   </component>
@@ -624,48 +572,49 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.11 at 13h 44m 53s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.12 at 11h 08m 47s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.11 at 13h 45m 08s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.12 at 11h 45m 42s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.11 at 13h 47m 15s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.12 at 11h 47m 08s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.11 at 13h 47m 22s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.12 at 11h 49m 49s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.11 at 13h 49m 04s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.12 at 11h 50m 16s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.11 at 13h 49m 32s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.12 at 11h 51m 13s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.11 at 13h 50m 27s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.12 at 11h 55m 38s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.11 at 13h 51m 19s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.12 at 11h 56m 50s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.11 at 13h 51m 55s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.12 at 14h 28m 12s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_interface_unit - 2017.10.11 at 13h 52m 37s.xml">
+    <history-entry file="Unittests_in_test_interface_unit - 2017.10.12 at 15h 24m 12s.xml">
       <configuration name="Unittests in test_interface_unit" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14232409" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1444563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40130153" sideWeight="0.5064378" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.49785408" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3991323" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -675,7 +624,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.49785408" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -711,9 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="17" />
-          <folding>
-            <element signature="e#44#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="310" column="0" lean-forward="true" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5730">
           <caret line="192" column="4" lean-forward="false" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="19" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,6 +923,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/111111.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_regex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10890">
+          <caret line="369" column="69" lean-forward="false" selection-start-line="369" selection-start-column="69" selection-end-line="369" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://F:/PYTHON_PROJIECT/psutilmethod/sele.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -990,51 +945,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/corporation/selenium_ota_patch/sele_ota_patch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/public/test_interface_unit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+          <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
           <folding>
             <element signature="e#45#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://F:/corporation/selenium_ota_patch/sele_ota_patch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="60" column="97" lean-forward="false" selection-start-line="60" selection-start-column="97" selection-end-line="60" selection-end-column="97" />
+          <folding>
+            <element signature="e#46#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/public/define_compare_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="-255">
+          <caret line="74" column="63" lean-forward="false" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-          <folding>
-            <element signature="e#44#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1531">
-          <caret line="397" column="1" lean-forward="false" selection-start-line="397" selection-start-column="1" selection-end-line="397" selection-end-column="1" />
-          <folding>
-            <element signature="e#4260#4274#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

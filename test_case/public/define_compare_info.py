@@ -61,7 +61,7 @@ class InterfaceModel():
                 print u"返回正确 %s: %s" % (code1["expect_str"],s)
                 if messages :
                     #print messages
-                    flag = None
+
                     for i in xrange(0,len(messages)):
                         #print i,messages[i][0]
 
@@ -72,20 +72,21 @@ class InterfaceModel():
                         #print compare_str,messages["message_info"]
                         #print "value123456",str(messages[i][1])
                         if str(compare_str) == str(messages[i][1]):
-                            flag =True
-                            print u"第 %s 次验证信息正确 %s: %s" % (i,messages[i][0], compare_str)
+                            print u"第 %s 次验证信息正确 %s: %s" % (i+1,messages[i][0], compare_str)
 
                         else:
-                            flag =False
                             error_message[messages[i][0]]=compare_str
-                            #print u"验证信息不正确  %s: %s" % (messages[i][0], compare_str)
+                            print u"第 %s 次验证信息不正确，验证信息为 %s : %s" %(i+1,messages[i][0],messages[i][1])
+                            print u"第 %s 次验证信息不正确,从接口获得的信息为  %s: %s" % (i+1,messages[i][0], compare_str)
                             #print u"返回的Response信息 ：%s " %response.json()
 
-                    if flag:
-                        print u"验证信息正确 , 666"
-                    else:
-                        print u"验证信息不正确 : %s" ,error_message
+                    if error_message:
+                        print u"验证信息不正确 : %s" % error_message
                         print u"返回的Response信息为 : %s " % response.json()
+
+                    else:
+                        print u"验证信息正确 , 666"
+
             else:
                 logging.error("incorrect response code: %s", s)
                 # self.verification.append("incorrect response")
@@ -96,7 +97,7 @@ class InterfaceModel():
             logging.info(u"Response 可能没有获取到并且检查assert条件是否设置妥当  %s ", e)
             print u"Response 可能没有获取到 %s" % e
 
-
+        print "-----------------------------------------------------------------------------------"
     def iteration_request(self, method, url, parameters, data=None, expected_data=None):
 
         res_iter = self.define_request_method(method, url, parameters,data)

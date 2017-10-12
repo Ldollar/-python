@@ -366,8 +366,8 @@ def get_assert_message_info(message_info):
 
 
 
-        print type(json.loads(message_info))
-        for i in dicts.items():
+        #print type(json.loads(message_info))
+        for i in dicts.items():   #对多种数据的数据结构分析清楚，如能返回字典，list，或者tuple
             #print i[0]+":"+i[1]
             expect_messages.append(i)
         return expect_messages
