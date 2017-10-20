@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="psutilmethod" />
     <orderEntry type="module" module-name="selenium_ota_patch" />
+    <orderEntry type="module" module-name="common_scripts" />
   </component>
 </module>
