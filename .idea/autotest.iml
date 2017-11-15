@@ -7,5 +7,7 @@
     <orderEntry type="module" module-name="psutilmethod" />
     <orderEntry type="module" module-name="selenium_ota_patch" />
     <orderEntry type="module" module-name="common_scripts" />
+    <orderEntry type="module" module-name="Django_learn_demo" />
+    <orderEntry type="module" module-name="LearnWeb" />
   </component>
 </module>

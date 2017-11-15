@@ -15,11 +15,12 @@
 from random import Random, random
 class defineRandom():
 #指定长度，指定字符集
-    def __init__(self,minlength=None,maxlength=None,type=None):
-        self.type = type
-        self.minlength= minlength
-        self.maxlength= maxlength
-
+    #def __init__(self,minlength=None,maxlength=None,type=None):
+    def __init__(self):
+        # self.type = type
+        # self.minlength= minlength
+        # self.maxlength= maxlength
+        pass
     def random_rd(self,minlength,maxlength,charset):
 
 
@@ -57,12 +58,12 @@ class defineRandom():
 
         random = Random()
 
-        if self.maxlength <= 0:
+        if maxlength <= 0:
             str=''
             return (str)
 
         else:
-            for i in xrange(self.minlength,random.randint(self.minlength,self.maxlength)+1):
+            for i in xrange(minlength,random.randint(minlength,maxlength)+1):
                 #print i
                 str += chars[random.randint(0, length)]
 

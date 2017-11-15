@@ -634,7 +634,7 @@ class HTMLTestRunner(Template_mixin):
 
     def sortResult(self, result_list):
         # unittest does not seems to run in any particular order.
-        # Here at least we want to group them together by class.
+        # Here at least we want to sample_group them together by class.
         rmap = {}
         classes = []
         for n,t,o,e in result_list:

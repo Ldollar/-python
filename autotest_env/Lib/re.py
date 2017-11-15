@@ -46,20 +46,20 @@ The special characters are:
              The contents can be retrieved or matched later in the string.
     (?iLmsux) Set the I, L, M, S, U, or X flag for the RE (see below).
     (?:...)  Non-grouping version of regular parentheses.
-    (?P<name>...) The substring matched by the group is accessible by name.
-    (?P=name)     Matches the text matched earlier by the group named name.
+    (?P<name>...) The substring matched by the sample_group is accessible by name.
+    (?P=name)     Matches the text matched earlier by the sample_group named name.
     (?#...)  A comment; ignored.
     (?=...)  Matches if ... matches next, but doesn't consume the string.
     (?!...)  Matches if ... doesn't match next.
     (?<=...) Matches if preceded by ... (must be fixed length).
     (?<!...) Matches if not preceded by ... (must be fixed length).
-    (?(id/name)yes|no) Matches yes pattern if the group with id/name matched,
+    (?(id/name)yes|no) Matches yes pattern if the sample_group with id/name matched,
                        the (optional) no pattern otherwise.
 
 The special sequences consist of "\\" and a character from the list
 below.  If the ordinary character is not on the list, then the
 resulting RE will match the second character.
-    \number  Matches the contents of the group of the same number.
+    \number  Matches the contents of the sample_group of the same number.
     \A       Matches only at the start of the string.
     \Z       Matches only at the end of the string.
     \b       Matches the empty string, but only at the start or end of a word.
@@ -175,7 +175,7 @@ def findall(pattern, string, flags=0):
 
     If one or more groups are present in the pattern, return a
     list of groups; this will be a list of tuples if the pattern
-    has more than one group.
+    has more than one sample_group.
 
     Empty matches are included in the result."""
     return _compile(pattern, flags).findall(string)

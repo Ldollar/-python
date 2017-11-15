@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://F:/PYTHON_PROJIECT/Django_learn_demo/.idea/Django_learn_demo.iml" filepath="F:/PYTHON_PROJIECT/Django_learn_demo/.idea/Django_learn_demo.iml" />
+      <module fileurl="file://F:/LearnWeb/.idea/LearnWeb.iml" filepath="F:/LearnWeb/.idea/LearnWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/autotest.iml" filepath="$PROJECT_DIR$/.idea/autotest.iml" />
       <module fileurl="file://F:/PYTHON_PROJIECT/common_scripts/.idea/common_scripts.iml" filepath="F:/PYTHON_PROJIECT/common_scripts/.idea/common_scripts.iml" />
       <module fileurl="file://F:/PYTHON_PROJIECT/psutilmethod/.idea/psutilmethod.iml" filepath="F:/PYTHON_PROJIECT/psutilmethod/.idea/psutilmethod.iml" />

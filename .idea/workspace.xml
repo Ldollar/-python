@@ -1,27 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16672883-dabc-42f1-a4bd-0806f7233c26" name="Default" comment="删除调试信息">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_case/public/log.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ssssss.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/public/login.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/public/quit_login.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/test_audio2audiolist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/test_audios.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/test_login.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/test_select.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/test_songurl.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssssss111.csv" afterPath="$PROJECT_DIR$/ssssss111.csv" />
+    <list default="true" id="16672883-dabc-42f1-a4bd-0806f7233c26" name="Default" comment="tiaoshi">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_case/test_mqtt_temperature.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_case/test_mqtt_voltage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_mqtt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_push.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/autotest.iml" afterPath="$PROJECT_DIR$/.idea/autotest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/certifi/cacert.pem" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/certifi/cacert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/certifi/weak.pem" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/certifi/weak.pem" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/HTMLTestRunner.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/HTMLTestRunner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/locale.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/locale.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/phantomjs-2.1.1-windows/phantomjs-2.1.1-windows/README.md" afterPath="$PROJECT_DIR$/autotest_env/Lib/phantomjs-2.1.1-windows/phantomjs-2.1.1-windows/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/re.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/re.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/chardet/hebrewprober.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/chardet/hebrewprober.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip-9.0.1.dist-info/DESCRIPTION.rst" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip-9.0.1.dist-info/DESCRIPTION.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip-9.0.1.dist-info/METADATA" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip-9.0.1.dist-info/METADATA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/distlib/_backport/shutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/distlib/_backport/tarfile.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/distlib/_backport/tarfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/distlib/util.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/distlib/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/packaging/specifiers.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/packaging/specifiers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/pyparsing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/requests/cacert.pem" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/requests/cacert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/websocket/cacert.pem" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/websocket/cacert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/test_interface_unit.py" afterPath="$PROJECT_DIR$/test_case/public/test_interface_unit.py" />
-      <change type="MODIFICATION" beforePath="F:/corporation/selenium_ota_patch/sele_ota_patch.py" afterPath="F:/corporation/selenium_ota_patch/sele_ota_patch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/basecommand.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/basecommand.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/cmdoptions.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/cmdoptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/pep425tags.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/pep425tags.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/utils/__init__.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pip/utils/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pkg_resources/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pkg_resources/_vendor/packaging/specifiers.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/pkg_resources/_vendor/packaging/specifiers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/setuptools/command/easy_install.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/setuptools/command/easy_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/site-packages/wheel/bdist_wheel.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/site-packages/wheel/bdist_wheel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Lib/sre_parse.py" afterPath="$PROJECT_DIR$/autotest_env/Lib/sre_parse.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Scripts/HTMLTestRunner.py" afterPath="$PROJECT_DIR$/autotest_env/Scripts/HTMLTestRunner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest_env/Scripts/phantomjs-2.1.1-windows/phantomjs-2.1.1-windows/README.md" afterPath="$PROJECT_DIR$/autotest_env/Scripts/phantomjs-2.1.1-windows/phantomjs-2.1.1-windows/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/public/define_random_str.py" afterPath="$PROJECT_DIR$/test_case/public/define_random_str.py" />
+      <change type="MODIFICATION" beforePath="F:/corporation/selenium_ota_patch/.idea/workspace.xml" afterPath="F:/corporation/selenium_ota_patch/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="F:/corporation/selenium_ota_patch/indexmaidian.py" afterPath="F:/corporation/selenium_ota_patch/indexmaidian.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,127 +47,151 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/autotest$Unittests_in_test_interface_unit.coverage" NAME="Unittests in test_interface_unit Coverage Results" MODIFIED="1508382442644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
     <SUITE FILE_PATH="coverage/autotest$test_multiapk.coverage" NAME="test_multiapk Coverage Results" MODIFIED="1507798651308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/tinker_new/tinker_new/tinker_new" />
-    <SUITE FILE_PATH="coverage/autotest$test_select.coverage" NAME="test_select Coverage Results" MODIFIED="1506482155697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/autotest$cgi_demo.coverage" NAME="cgi_demo Coverage Results" MODIFIED="1509523221480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/LearnWeb" />
+    <SUITE FILE_PATH="coverage/autotest$all_test.coverage" NAME="all_test Coverage Results" MODIFIED="1504760533734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotest$test_case.coverage" NAME="test_case Coverage Results" MODIFIED="1504764577373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/autotest$fileFire.coverage" NAME="fileFire Coverage Results" MODIFIED="1508143400401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/corporation/selenium_ota_patch" />
+    <SUITE FILE_PATH="coverage/autotest$test_push.coverage" NAME="test_push Coverage Results" MODIFIED="1510721003528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autotest$test_mqtt_voltage.coverage" NAME="test_mqtt_voltage Coverage Results" MODIFIED="1510734052577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/autotest$test_video.coverage" NAME="test_video Coverage Results" MODIFIED="1510284301661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PYTHON_PROJIECT/common_scripts" />
     <SUITE FILE_PATH="coverage/autotest$sele.coverage" NAME="sele Coverage Results" MODIFIED="1507690815164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PYTHON_PROJIECT/psutilmethod" />
-    <SUITE FILE_PATH="coverage/autotest$sele_ota_patch.coverage" NAME="sele_ota_patch Coverage Results" MODIFIED="1508129543689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/corporation/selenium_ota_patch" />
+    <SUITE FILE_PATH="coverage/autotest$Unittests_in_demomock.coverage" NAME="Unittests in demomock Coverage Results" MODIFIED="1506673374417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autotest$test_mqtt.coverage" NAME="test_mqtt Coverage Results" MODIFIED="1510745883880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autotest$dxcxz.coverage" NAME="dxcxz Coverage Results" MODIFIED="1509068739248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PYTHON_PROJIECT/psutilmethod" />
+    <SUITE FILE_PATH="coverage/autotest$test_image_recognise__1_.coverage" NAME="test_image_recognise (1) Coverage Results" MODIFIED="1510041902917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/pythonEnv/ENV/Lib/site-packages" />
+    <SUITE FILE_PATH="coverage/autotest$Unittests_in_chexian.coverage" NAME="Unittests in chexian Coverage Results" MODIFIED="1504769074054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/autotest$demopsutil.coverage" NAME="demopsutil Coverage Results" MODIFIED="1509333802750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PYTHON_PROJIECT/psutilmethod" />
+    <SUITE FILE_PATH="coverage/autotest$control_media.coverage" NAME="control_media Coverage Results" MODIFIED="1509361006791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PYTHON_PROJIECT/common_scripts" />
+    <SUITE FILE_PATH="coverage/autotest$demo_upload_patch.coverage" NAME="demo_upload_patch Coverage Results" MODIFIED="1508501720638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/corporation/selenium_ota_patch" />
+    <SUITE FILE_PATH="coverage/autotest$indexmaidian.coverage" NAME="indexmaidian Coverage Results" MODIFIED="1510734442166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/corporation/selenium_ota_patch" />
+    <SUITE FILE_PATH="coverage/autotest$define_find_expect_csv.coverage" NAME="define_find_expect_csv Coverage Results" MODIFIED="1506754064581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$test_mqtt_temperature.coverage" NAME="test_mqtt_temperature Coverage Results" MODIFIED="1510734055814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/autotest$11111111.coverage" NAME="11111111 Coverage Results" MODIFIED="1509011325473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PYTHON_PROJIECT/psutilmethod" />
+    <SUITE FILE_PATH="coverage/autotest$test_video1.coverage" NAME="test_video1 Coverage Results" MODIFIED="1509945432476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/工作目录" />
+    <SUITE FILE_PATH="coverage/autotest$make_checksum.coverage" NAME="make_checksum Coverage Results" MODIFIED="1507805651421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/corporation/selenium_ota_patch" />
+    <SUITE FILE_PATH="coverage/autotest$downloadtest.coverage" NAME="downloadtest Coverage Results" MODIFIED="1508907579667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PYTHON_PROJIECT/psutilmethod" />
     <SUITE FILE_PATH="coverage/autotest$login.coverage" NAME="login Coverage Results" MODIFIED="1504765618853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
     <SUITE FILE_PATH="coverage/autotest$define_regex.coverage" NAME="define_regex Coverage Results" MODIFIED="1507700005707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$test_image_recognise.coverage" NAME="test_image_recognise Coverage Results" MODIFIED="1510043840374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PYTHON_PROJIECT/common_scripts" />
+    <SUITE FILE_PATH="coverage/autotest$Unittests_in_test_interface_unit.coverage" NAME="Unittests in test_interface_unit Coverage Results" MODIFIED="1508382442644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$test_select.coverage" NAME="test_select Coverage Results" MODIFIED="1506482155697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/autotest$pack_zip.coverage" NAME="pack_zip Coverage Results" MODIFIED="1507801470200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/corporation/selenium_ota_patch" />
-    <SUITE FILE_PATH="coverage/autotest$demo_upload_patch.coverage" NAME="demo_upload_patch Coverage Results" MODIFIED="1508384351742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/corporation/selenium_ota_patch" />
-    <SUITE FILE_PATH="coverage/autotest$Unittests_in_chexian.coverage" NAME="Unittests in chexian Coverage Results" MODIFIED="1504769074054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/autotest$Unittests_in_demomock.coverage" NAME="Unittests in demomock Coverage Results" MODIFIED="1506673374417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotest$define_compare_info.coverage" NAME="define_compare_info Coverage Results" MODIFIED="1507522041196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
-    <SUITE FILE_PATH="coverage/autotest$make_checksum.coverage" NAME="make_checksum Coverage Results" MODIFIED="1507805651421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/corporation/selenium_ota_patch" />
-    <SUITE FILE_PATH="coverage/autotest$define_find_expect_csv.coverage" NAME="define_find_expect_csv Coverage Results" MODIFIED="1506754064581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
     <SUITE FILE_PATH="coverage/autotest$define_find_expect_info.coverage" NAME="define_find_expect_info Coverage Results" MODIFIED="1507696959991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
-    <SUITE FILE_PATH="coverage/autotest$all_test.coverage" NAME="all_test Coverage Results" MODIFIED="1504760533734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotest$define_find_expect_json.coverage" NAME="define_find_expect_json Coverage Results" MODIFIED="1506742612732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/public" />
+    <SUITE FILE_PATH="coverage/autotest$sele_ota_patch.coverage" NAME="sele_ota_patch Coverage Results" MODIFIED="1508487217880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/corporation/selenium_ota_patch" />
+    <SUITE FILE_PATH="coverage/autotest$fileFire.coverage" NAME="fileFire Coverage Results" MODIFIED="1508143400401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/corporation/selenium_ota_patch" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="json.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json.txt">
+      <file leaf-file-name="indexmaidian.py" pinned="false" current-in-tab="false">
+        <entry file="file://F:/corporation/selenium_ota_patch/indexmaidian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3153">
-              <caret line="1223" column="21" lean-forward="false" selection-start-line="1223" selection-start-column="21" selection-end-line="1223" selection-end-column="21" />
+            <state relative-caret-position="352">
+              <caret line="179" column="17" lean-forward="false" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+              <folding>
+                <element signature="e#36#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_push.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_push.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <element signature="e#36#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_mqtt_voltage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test_mqtt_voltage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <element signature="e#36#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_mqtt.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_mqtt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+              <folding>
+                <element signature="e#36#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="define_random_str.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/public/define_random_str.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demomock.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demomock.py">
+      <file leaf-file-name="test_mqtt_temperature.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test_mqtt_temperature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="269">
+              <caret line="91" column="63" lean-forward="false" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="63" />
+              <folding>
+                <element signature="e#36#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/Queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="allcase_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allcase_list.py">
+      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/threading.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="383">
+              <caret line="996" column="4" lean-forward="false" selection-start-line="996" selection-start-column="4" selection-end-line="996" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_test.py">
+      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/requests/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-777">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="211">
+              <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_get_model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/test_get_model.py">
+      <file leaf-file-name="change_voltage.py" pinned="false" current-in-tab="false">
+        <entry file="file://F:/PYTHON_PROJIECT/adb_test/change_voltage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1387">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="decorated_learn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/decorated_learn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1027">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/log.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="115" column="37" lean-forward="true" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/public/model_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case/public/demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -162,6 +202,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -182,6 +223,15 @@
       <find>patch&quot;,&quot;version&quot;:&quot;0.1.2</find>
       <find>patch</find>
       <find>action</find>
+      <find>output</find>
+      <find>condition</find>
+      <find>setDaemon</find>
+      <find>1182</find>
+      <find>20171031030242</find>
+      <find>20171031025332</find>
+      <find>1082</find>
+      <find>1753</find>
+      <find>my_env</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -193,16 +243,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_case/__init__.py" />
-        <option value="$PROJECT_DIR$/test_case/public/__init__.py" />
-        <option value="$PROJECT_DIR$/test_case/public/quit_login.py" />
-        <option value="$PROJECT_DIR$/test_case/public/login.py" />
-        <option value="$PROJECT_DIR$/test_case.py" />
-        <option value="$PROJECT_DIR$/all_test.py" />
-        <option value="$PROJECT_DIR$/test_case/chexian.py" />
-        <option value="$PROJECT_DIR$/test_case/test_select.py" />
         <option value="$PROJECT_DIR$/test_case/public/log.txt" />
-        <option value="$PROJECT_DIR$/test_case/public/define_random_str.py" />
         <option value="$PROJECT_DIR$/json.txt" />
         <option value="$PROJECT_DIR$/demomock.py" />
         <option value="$PROJECT_DIR$/test_case/public/define_find_expect_json.py" />
@@ -215,18 +256,44 @@
         <option value="$PROJECT_DIR$/test_case/public/define_compare_info.py" />
         <option value="$PROJECT_DIR$/test_case/public/test_interface_unit.py" />
         <option value="$USER_HOME$/Desktop/tinker_new/tinker_new/tinker_new/test_multiapk.py" />
-        <option value="F:/corporation/selenium_ota_patch/pack_zip.py" />
         <option value="F:/corporation/selenium_ota_patch/make_checksum.py" />
         <option value="F:/corporation/selenium_ota_patch/tinker_new/test_multiapk.py" />
-        <option value="F:/corporation/selenium_ota_patch/fileFire.py" />
         <option value="F:/corporation/selenium_ota_patch/test_multiapk.py" />
-        <option value="F:/corporation/selenium_ota_patch/demo_upload_patch.py" />
         <option value="F:/PYTHON_PROJIECT/common_scripts/sftp.py" />
         <option value="F:/PYTHON_PROJIECT/common_scripts/mongo.py" />
-        <option value="F:/PYTHON_PROJIECT/common_scripts/fileFire.py" />
         <option value="F:/PYTHON_PROJIECT/common_scripts/make_checksum.py" />
         <option value="F:/PYTHON_PROJIECT/common_scripts/pack_zip.py" />
+        <option value="F:/corporation/selenium_ota_patch/pack_zip.py" />
+        <option value="F:/corporation/selenium_ota_patch/demo_upload_patch.py" />
         <option value="F:/corporation/selenium_ota_patch/sele_ota_patch.py" />
+        <option value="F:/corporation/selenium_ota_patch/fileFire.py" />
+        <option value="F:/PYTHON_PROJIECT/psutilmethod/dnspythondemo.py" />
+        <option value="F:/PYTHON_PROJIECT/psutilmethod/11111111.py" />
+        <option value="F:/PYTHON_PROJIECT/psutilmethod/dxcxz.py" />
+        <option value="F:/PYTHON_PROJIECT/psutilmethod/downloadtest.py" />
+        <option value="F:/PYTHON_PROJIECT/psutilmethod/demopsutil.py" />
+        <option value="F:/PYTHON_PROJIECT/common_scripts/control_media.py" />
+        <option value="F:/PYTHON_PROJIECT/common_scripts/fileFire.py" />
+        <option value="F:/LearnWeb/cgi_demo.html" />
+        <option value="F:/LearnWeb/cgi_demo.py" />
+        <option value="E:/工作目录/test_video1.py" />
+        <option value="F:/PYTHON_PROJIECT/psutilmethod/test_appium.py" />
+        <option value="F:/PYTHON_PROJIECT/adb_test/check_backvideo.py" />
+        <option value="F:/pythonEnv/ENV/Lib/site-packages/test_image_recognise.py" />
+        <option value="F:/pythonEnv/ENV/Lib/site-packages/pytesseract/pytesseract.py" />
+        <option value="F:/PYTHON_PROJIECT/common_scripts/test_image_recognise.py" />
+        <option value="F:/PYTHON_PROJIECT/adb_test/get_ram.py" />
+        <option value="F:/PYTHON_PROJIECT/common_scripts/test_video.py" />
+        <option value="$PROJECT_DIR$/mongocontext.py" />
+        <option value="F:/PYTHON_PROJIECT/common_scripts/mongocontext.py" />
+        <option value="F:/PYTHON_PROJIECT/common_scripts/decorate.py" />
+        <option value="$PROJECT_DIR$/test_push.py" />
+        <option value="$PROJECT_DIR$/test_case/test_mqtt.py" />
+        <option value="$PROJECT_DIR$/test_case/test_mqtt_temperature.py" />
+        <option value="$PROJECT_DIR$/test_case/test_mqtt_voltage.py" />
+        <option value="$PROJECT_DIR$/test_case/public/define_random_str.py" />
+        <option value="F:/corporation/selenium_ota_patch/indexmaidian.py" />
+        <option value="$PROJECT_DIR$/test_mqtt.py" />
       </list>
     </option>
   </component>
@@ -236,10 +303,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-39" />
+    <option name="y" value="36" />
+    <option name="width" value="1589" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -258,60 +325,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest_env" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auto_test_env" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common_scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="F:/PYTHON_PROJIECT/common_scripts" />
+    <property name="last_opened_file_path" value="F:/corporation/selenium_ota_patch" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="Push.Settings">
     <excluded-roots>
@@ -325,101 +377,36 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo_upload_patch">
-    <configuration default="false" name="demo_upload_patch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/corporation/selenium_ota_patch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="selenium_ota_patch" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/corporation/selenium_ota_patch/demo_upload_patch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="make_checksum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/corporation/selenium_ota_patch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="selenium_ota_patch" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/corporation/selenium_ota_patch/make_checksum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="fileFire" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/corporation/selenium_ota_patch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="selenium_ota_patch" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/corporation/selenium_ota_patch/fileFire.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in test_interface_unit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PYTHON_PROJIECT\common_scripts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test_mqtt">
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/public" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="autotest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/public/test_interface_unit.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sele_ota_patch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/corporation/selenium_ota_patch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="selenium_ota_patch" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/corporation/selenium_ota_patch/sele_ota_patch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="ADDITIONAL_ARGS" value="" />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -439,30 +426,14 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
-      <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="autotest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
     </configuration>
     <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -476,7 +447,6 @@
       <module name="autotest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
-      <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -494,7 +464,7 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -507,15 +477,14 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="autotest" />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -635,20 +604,110 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration name="indexmaidian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="F:/corporation/selenium_ota_patch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="selenium_ota_patch" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:/corporation/selenium_ota_patch/indexmaidian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test_mqtt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="autotest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_mqtt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test_mqtt_temperature" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="autotest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_mqtt_temperature.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test_mqtt_voltage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="autotest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_mqtt_voltage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test_push" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="autotest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_push.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.demo_upload_patch" />
-      <item index="1" class="java.lang.String" itemvalue="Python.make_checksum" />
-      <item index="2" class="java.lang.String" itemvalue="Python.fileFire" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_interface_unit" />
-      <item index="4" class="java.lang.String" itemvalue="Python.sele_ota_patch" />
+      <item index="0" class="java.lang.String" itemvalue="Python.indexmaidian" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_push" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_mqtt_voltage" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_mqtt_temperature" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_mqtt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.demo_upload_patch" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_interface_unit" />
-        <item index="2" class="java.lang.String" itemvalue="Python.fileFire" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sele_ota_patch" />
-        <item index="4" class="java.lang.String" itemvalue="Python.make_checksum" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test_mqtt" />
+        <item index="1" class="java.lang.String" itemvalue="Python.indexmaidian" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_mqtt_temperature" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test_mqtt_voltage" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_push" />
       </list>
     </recent_temporary>
   </component>
@@ -705,7 +764,63 @@
       <option name="project" value="LOCAL" />
       <updated>1508406787000</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="删除无效脚本">
+      <created>1508465768608</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1508465768608</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test">
+      <created>1508466130669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1508466130669</updated>
+    </task>
+    <task id="LOCAL-00009" summary="更新release_button元素定位信息">
+      <created>1508475458792</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1508475458807</updated>
+    </task>
+    <task id="LOCAL-00010" summary="删除测试调用，元素定位修改">
+      <created>1508487564560</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1508487564560</updated>
+    </task>
+    <task id="LOCAL-00011" summary="增加写入图片多进程实现，并对采样进行初步定义">
+      <created>1509433663699</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1509433663699</updated>
+    </task>
+    <task id="LOCAL-00012" summary="修改保存frame方式，并得到最后一张frame图片">
+      <created>1509605016147</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1509605016147</updated>
+    </task>
+    <task id="LOCAL-00013" summary="增加test_video注释信息，并规范命名变量">
+      <created>1510130813983</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1510130813983</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1，数据库上下文管理器实现；2，装饰器实现">
+      <created>1510539515640</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1510539515640</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -742,20 +857,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15138593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25353646" sideWeight="0.5138593" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1283237" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.390642" sideWeight="0.48614073" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21055438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3167028" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12099411" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39825898" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -763,9 +878,48 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25353646" sideWeight="0.5138593" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1283237" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41349292" sideWeight="0.48614073" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12793177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39825898" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -776,407 +930,431 @@
     <MESSAGE value="调用install、uninstall、clear脚本" />
     <MESSAGE value="删除调试信息" />
     <MESSAGE value="文件操作于、ftp操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件操作于、ftp操作" />
+    <MESSAGE value="删除无效脚本" />
+    <MESSAGE value="test" />
+    <MESSAGE value="更新release_button元素定位信息" />
+    <MESSAGE value="删除测试调用，元素定位修改" />
+    <MESSAGE value="增加写入图片多进程实现，并对采样进行初步定义" />
+    <MESSAGE value="修改保存frame方式，并得到最后一张frame图片" />
+    <MESSAGE value="增加test_video注释信息，并规范命名变量" />
+    <MESSAGE value="1，数据库上下文管理器实现；2，装饰器实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="1，数据库上下文管理器实现；2，装饰器实现" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://F:/PYTHON_PROJIECT/psutilmethod/dnspythondemo.py</url>
+          <line>2</line>
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/log.txt" />
-    <entry file="file://C:/Python27/Lib/json/__init__.py">
+    <entry file="file://F:/PYTHON_PROJIECT/psutilmethod/11111111.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5730">
-          <caret line="192" column="4" lean-forward="false" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="4" />
+        <state relative-caret-position="510">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/mock/mock.py">
+    <entry file="file://F:/PYTHON_PROJIECT/psutilmethod/downloadtest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1138" column="6" lean-forward="false" selection-start-line="1138" selection-start-column="6" selection-end-line="1138" selection-end-column="6" />
+        <state relative-caret-position="360">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/pythonEnv/ENV/Lib/site-packages/swaggerpy/http_client.py">
+    <entry file="file://F:/PYTHON_PROJIECT/psutilmethod/dxcxz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="168" column="8" lean-forward="false" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
+        <state relative-caret-position="510">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_csv.py">
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="18450">
+          <caret line="615" column="12" lean-forward="false" selection-start-line="615" selection-start-column="8" selection-end-line="615" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_random_str.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/111111.py" />
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/PYTHON_PROJIECT/psutilmethod/sele.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_compare_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="74" column="63" lean-forward="false" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/zipfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1895">
-          <caret line="725" column="8" lean-forward="false" selection-start-line="725" selection-start-column="8" selection-end-line="725" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/tinker_new/tinker_new/tinker_new/test_multiapk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1590">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/nt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="304" column="4" lean-forward="false" selection-start-line="304" selection-start-column="4" selection-end-line="304" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/corporation/selenium_ota_patch/tinker_new/test_multiapk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1655">
-          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="792" column="8" lean-forward="false" selection-start-line="792" selection-start-column="8" selection-end-line="792" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/hashlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/md5.py">
+    <entry file="file://C:/Python27/Lib/site-packages/moviepy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/corporation/selenium_ota_patch/make_checksum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/support/wait.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/corporation/selenium_ota_patch/test_multiapk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="117" column="36" lean-forward="true" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="913" column="69" lean-forward="false" selection-start-line="913" selection-start-column="66" selection-end-line="913" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/test_interface_unit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1439">
-          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/corporation/selenium_ota_patch/fileFire.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#46#55#0" expanded="true" />
-            <marker date="1508206405166" expanded="true" signature="223:642" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_find_expect_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="222" column="4" lean-forward="false" selection-start-line="222" selection-start-column="4" selection-end-line="222" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/corporation/selenium_ota_patch/pack_zip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="33" column="34" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="33" selection-end-column="34" />
-          <folding>
-            <element signature="e#46#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/corporation/selenium_ota_patch/demo_upload_patch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="120" column="12" lean-forward="false" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
-          <folding>
-            <element signature="e#46#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/define_test_model.py">
+    <entry file="file://C:/Python27/Lib/site-packages/moviepy/video/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/PYTHON_PROJIECT/common_scripts/sftp.py">
+    <entry file="file://C:/Python27/Lib/site-packages/skvideo/io/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-2460">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/PYTHON_PROJIECT/common_scripts/mongo.py">
+    <entry file="file://C:/Python27/Lib/site-packages/moviepy/tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="434" column="44" lean-forward="true" selection-start-line="434" selection-start-column="37" selection-end-line="434" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="-92">
+          <caret line="140" column="15" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/skvideo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/moviepy/editor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="454" column="8" lean-forward="false" selection-start-line="454" selection-start-column="8" selection-end-line="454" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/PYTHON_PROJIECT/Django_learn_demo/djangoEnv/Lib/site-packages/django/http/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="327" column="8" lean-forward="false" selection-start-line="327" selection-start-column="8" selection-end-line="327" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://F:/PYTHON_PROJIECT/common_scripts/fileFire.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="923">
-          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="e#46#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/PYTHON_PROJIECT/common_scripts/make_checksum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/PYTHON_PROJIECT/common_scripts/pack_zip.py">
+    <entry file="file://F:/PYTHON_PROJIECT/common_scripts/control_media.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/LearnWeb/cgi_demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/cgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11940">
+          <caret line="404" column="6" lean-forward="false" selection-start-line="404" selection-start-column="6" selection-end-line="404" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/LearnWeb/cgi_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/corporation/selenium_ota_patch/sele_ota_patch.py">
+    <entry file="file://F:/PYTHON_PROJIECT/psutilmethod/demopsutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="163" column="54" lean-forward="false" selection-start-line="163" selection-start-column="54" selection-end-line="163" selection-end-column="54" />
+        <state relative-caret-position="30">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding>
-            <element signature="e#46#56#0" expanded="true" />
+            <element signature="e#44#59#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json.txt">
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-1651693214/cv2/cv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3153">
-          <caret line="1223" column="21" lean-forward="false" selection-start-line="1223" selection-start-column="21" selection-end-line="1223" selection-end-column="21" />
+        <state relative-caret-position="212">
+          <caret line="10493" column="4" lean-forward="false" selection-start-line="10493" selection-start-column="4" selection-end-line="10493" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demomock.py">
+    <entry file="file://F:/PYTHON_PROJIECT/Django_learn_demo/djangoEnv/Lib/site-packages/django/utils/text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="-770">
+          <caret line="308" column="8" lean-forward="false" selection-start-line="308" selection-start-column="8" selection-end-line="308" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allcase_list.py">
+    <entry file="file://F:/pythonEnv/ENV/Lib/moshpytt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="18" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_audio2audiolist.py">
+    <entry file="file://F:/pythonEnv/ENV/Lib/pytesser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-687">
+        <state relative-caret-position="-90">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_audios.py">
+    <entry file="file://E:/工作目录/test_video1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1347">
+        <state relative-caret-position="810">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/PYTHON_PROJIECT/Test_tools/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all_test.py">
+    <entry file="file://F:/PYTHON_PROJIECT/psutilmethod/test_appium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-777">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_songurl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_select.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1371">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_get_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1387">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/config">
+    <entry file="file://F:/PYTHON_PROJIECT/123456/11.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/PYTHON_PROJIECT/adb_test/check_backvideo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="48" column="53" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12510">
+          <caret line="419" column="0" lean-forward="false" selection-start-line="419" selection-start-column="0" selection-end-line="419" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/pythonEnv/ENV/Lib/site-packages/test_image_recognise.py" />
+    <entry file="file://F:/PYTHON_PROJIECT/adb_test/get_ram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="3397" column="8" lean-forward="false" selection-start-line="3397" selection-start-column="8" selection-end-line="3397" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/pythonEnv/ENV/Lib/site-packages/pytesseract/pytesseract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+          <folding>
+            <element signature="e#181#190#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/pythonEnv/ENV/Lib/site-packages/pytesseract/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/PYTHON_PROJIECT/common_scripts/test_image_recognise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/PYTHON_PROJIECT/common_scripts/decorate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-601">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#46#62#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/public/decorated_learn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1027">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/login.py">
+    <entry file="file://F:/PYTHON_PROJIECT/common_scripts/mongocontext.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="-300">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/PYTHON_PROJIECT/common_scripts/test_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5490">
+          <caret line="183" column="4" lean-forward="false" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
+          <folding>
+            <element signature="e#46#71#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="191" column="4" lean-forward="false" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/log.txt">
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_regex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="115" column="37" lean-forward="true" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
+        <state relative-caret-position="270">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/quit_login.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/io.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="545" column="28" lean-forward="false" selection-start-line="545" selection-start-column="21" selection-end-line="545" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/model_demo.py">
+    <entry file="file://F:/PYTHON_PROJIECT/adb_test/change_voltage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/public/demo.py">
+    <entry file="file://C:/Python27/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="211">
+          <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="996" column="4" lean-forward="false" selection-start-line="996" selection-start-column="4" selection-end-line="996" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/Queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_push.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="e#36#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/public/define_random_str.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_mqtt_voltage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#36#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/corporation/selenium_ota_patch/indexmaidian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="179" column="17" lean-forward="false" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+          <folding>
+            <element signature="e#36#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_mqtt_temperature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="91" column="63" lean-forward="false" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="63" />
+          <folding>
+            <element signature="e#36#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_mqtt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding>
+            <element signature="e#36#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

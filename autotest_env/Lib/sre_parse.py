@@ -77,8 +77,8 @@ class Pattern:
         if name is not None:
             ogid = self.groupdict.get(name, None)
             if ogid is not None:
-                raise error, ("redefinition of group name %s as group %d; "
-                              "was group %d" % (repr(name), gid,  ogid))
+                raise error, ("redefinition of sample_group name %s as sample_group %d; "
+                              "was sample_group %d" % (repr(name), gid,  ogid))
             self.groupdict[name] = gid
         self.open.append(gid)
         return gid
@@ -225,7 +225,7 @@ def isdigit(char):
     return "0" <= char <= "9"
 
 def isname(name):
-    # check that group name is a valid string
+    # check that sample_group name is a valid string
     if not isident(name[0]):
         return False
     for char in name[1:]:
@@ -288,7 +288,7 @@ def _escape(source, escape, state):
                 escape = escape + source.get()
             return LITERAL, int(escape[1:], 8) & 0xff
         elif c in DIGITS:
-            # octal escape *or* decimal group reference (sigh)
+            # octal escape *or* decimal sample_group reference (sigh)
             if source.next in DIGITS:
                 escape = escape + source.get()
                 if (escape[1] in OCTDIGITS and escape[2] in OCTDIGITS and
@@ -296,14 +296,14 @@ def _escape(source, escape, state):
                     # got three octal digits; this is an octal escape
                     escape = escape + source.get()
                     return LITERAL, int(escape[1:], 8) & 0xff
-            # not an octal escape, so this is a group reference
+            # not an octal escape, so this is a sample_group reference
             group = int(escape[1:])
             if group < state.groups:
                 if not state.checkgroup(group):
-                    raise error, "cannot refer to open group"
+                    raise error, "cannot refer to open sample_group"
                 if state.lookbehind:
                     import warnings
-                    warnings.warn('group references in lookbehind '
+                    warnings.warn('sample_group references in lookbehind '
                                   'assertions are not supported',
                                   RuntimeWarning)
                 return GROUPREF, group
@@ -551,7 +551,7 @@ def _parse(source, state):
                 if sourcematch("P"):
                     # python extensions
                     if sourcematch("<"):
-                        # named group: skip forward to end of name
+                        # named sample_group: skip forward to end of name
                         name = ""
                         while 1:
                             char = sourceget()
@@ -562,9 +562,9 @@ def _parse(source, state):
                             name = name + char
                         group = 1
                         if not name:
-                            raise error("missing group name")
+                            raise error("missing sample_group name")
                         if not isname(name):
-                            raise error("bad character in group name %r" %
+                            raise error("bad character in sample_group name %r" %
                                         name)
                     elif sourcematch("="):
                         # named backreference
@@ -577,17 +577,17 @@ def _parse(source, state):
                                 break
                             name = name + char
                         if not name:
-                            raise error("missing group name")
+                            raise error("missing sample_group name")
                         if not isname(name):
-                            raise error("bad character in backref group name "
+                            raise error("bad character in backref sample_group name "
                                         "%r" % name)
                         gid = state.groupdict.get(name)
                         if gid is None:
-                            msg = "unknown group name: {0!r}".format(name)
+                            msg = "unknown sample_group name: {0!r}".format(name)
                             raise error(msg)
                         if state.lookbehind:
                             import warnings
-                            warnings.warn('group references in lookbehind '
+                            warnings.warn('sample_group references in lookbehind '
                                           'assertions are not supported',
                                           RuntimeWarning)
                         subpatternappend((GROUPREF, gid))
@@ -598,7 +598,7 @@ def _parse(source, state):
                             raise error, "unexpected end of pattern"
                         raise error, "unknown specifier: ?P%s" % char
                 elif sourcematch(":"):
-                    # non-capturing group
+                    # non-capturing sample_group
                     group = 2
                 elif sourcematch("#"):
                     # comment
@@ -630,7 +630,7 @@ def _parse(source, state):
                         subpatternappend((ASSERT_NOT, (dir, p)))
                     continue
                 elif sourcematch("("):
-                    # conditional backreference group
+                    # conditional backreference sample_group
                     condname = ""
                     while 1:
                         char = sourceget()
@@ -641,20 +641,20 @@ def _parse(source, state):
                         condname = condname + char
                     group = 2
                     if not condname:
-                        raise error("missing group name")
+                        raise error("missing sample_group name")
                     if isname(condname):
                         condgroup = state.groupdict.get(condname)
                         if condgroup is None:
-                            msg = "unknown group name: {0!r}".format(condname)
+                            msg = "unknown sample_group name: {0!r}".format(condname)
                             raise error(msg)
                     else:
                         try:
                             condgroup = int(condname)
                         except ValueError:
-                            raise error, "bad character in group name"
+                            raise error, "bad character in sample_group name"
                     if state.lookbehind:
                         import warnings
-                        warnings.warn('group references in lookbehind '
+                        warnings.warn('sample_group references in lookbehind '
                                       'assertions are not supported',
                                       RuntimeWarning)
                 else:
@@ -664,9 +664,9 @@ def _parse(source, state):
                     while source.next in FLAGS:
                         state.flags = state.flags | FLAGS[sourceget()]
             if group:
-                # parse group contents
+                # parse sample_group contents
                 if group == 2:
-                    # anonymous group
+                    # anonymous sample_group
                     group = None
                 else:
                     group = state.opengroup(name)
@@ -733,7 +733,7 @@ def parse(str, flags=0, pattern=None):
 
 def parse_template(source, pattern):
     # parse 're' replacement string into list of literals and
-    # group references
+    # sample_group references
     s = Tokenizer(source)
     sget = s.get
     p = []
@@ -753,7 +753,7 @@ def parse_template(source, pattern):
         if this is None:
             break # end of replacement string
         if this and this[0] == "\\":
-            # group
+            # sample_group
             c = this[1:2]
             if c == "g":
                 name = ""
@@ -761,23 +761,23 @@ def parse_template(source, pattern):
                     while 1:
                         char = sget()
                         if char is None:
-                            raise error, "unterminated group name"
+                            raise error, "unterminated sample_group name"
                         if char == ">":
                             break
                         name = name + char
                 if not name:
-                    raise error, "missing group name"
+                    raise error, "missing sample_group name"
                 try:
                     index = int(name)
                     if index < 0:
-                        raise error, "negative group number"
+                        raise error, "negative sample_group number"
                 except ValueError:
                     if not isname(name):
-                        raise error, "bad character in group name"
+                        raise error, "bad character in sample_group name"
                     try:
                         index = pattern.groupindex[name]
                     except KeyError:
-                        msg = "unknown group name: {0!r}".format(name)
+                        msg = "unknown sample_group name: {0!r}".format(name)
                         raise IndexError(msg)
                 a((MARK, index))
             elif c == "0":
@@ -828,7 +828,7 @@ def expand_template(template, match):
         for index, group in groups:
             literals[index] = s = g(group)
             if s is None:
-                raise error, "unmatched group"
+                raise error, "unmatched sample_group"
     except IndexError:
-        raise error, "invalid group reference"
+        raise error, "invalid sample_group reference"
     return sep.join(literals)
