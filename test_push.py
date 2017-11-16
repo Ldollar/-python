@@ -9,11 +9,11 @@ import time
 
 class CmdContext():
 
-    def __init__(self):
-        pass
+    def __init__(self,cmd):
+        self.cmd = cmd
     def __enter__(self):
         os.popen("adb wait-for-device")
-        r = os.popen('adb -s 192.168.0.154:6555 logcat -v threadtime -s ZhixingDZVoltageMonitor')
+        r = os.popen(self.cmd)
         return r
 
     def __exit__(self, exc_type, exc_val, exc_tb):
@@ -53,7 +53,7 @@ def command_push(cmd):
         print e
 
 re1 = "\d*-\d*\s[\d+:]+.\d{0,3}"
-text = "11-14 21:05:19.749  1482  1518 E ZhixingDZVoltageMonitor: voltage :null (NOT main thread) 11-14 21:05:39.799  1482  "
+text = "11-14 21:05:19.749  1482  15"
 def match_string(rules,text):
     try:
         pattern = re.compile(pattern=rules)
@@ -75,10 +75,4 @@ def  ite11(itera):
         time123 = "2017-"+i
         return time123
 
-#os.system('adb logcat -v threadtime -s ZhixingDZTemperatureMonitor')
-#a= minus(timestamp="2017-11-15 11:52:50.449")-minus(timestamp="2017-11-15 11:52:48.429")
-#print a
-command_push(cmd = 'adb -s 192.168.0.154:6555 logcat -v threadtime -s ZhixingDZVoltageMonitor')
-#match_string(rules=re1,text=text)
-#2017-11-15 11:52:48.429
-#2017-11-15 11:52:50.449
+command_push(cmd = 'some cmd ')

@@ -55,7 +55,7 @@ def command_push(cmd):
         print e
 
 re1 = "\d*-\d*\s[\d+:]+.\d{0,3}"
-text = "11-14 21:05:19.749  1482  1518 E ZhixingDZVoltageMonitor: voltage :null (NOT main thread) 11-14 21:05:39.799  1482  "
+text = "11-14 21:05:19.749  1482 "
 def match_string(rules,text):
     try:
         pattern = re.compile(pattern=rules)
@@ -76,11 +76,11 @@ def  ite11(itera):
         #print i
         time123 = "2017-"+i
         return time123
-def push_mqtt(data1):
-    res = requests.post(url="http://www.aituyou.com:12112/api/v1/push/mqtt",json=data1,)
+def push_mqtt(url,data1):
+    res = requests.post(url=url,json=data1,)
     print res.content
 
-#command_push(cmd = 'adb -s 192.168.0.154:6555 logcat -v threadtime -s ZhixingDZVoltageMonitor')
+
 
 def make_json_data(interval):
     json_data = {   "key": "xb.dz.device.unique.354008079843400",
@@ -96,7 +96,7 @@ def make_json_data(interval):
     return json_data
 
 def main():
-    cmd1 = 'adb -s 192.168.0.154:6555 logcat -v threadtime -s ZhixingDZVoltageMonitor'
+    cmd1 = 'cmd' #zhiling
     for i in ["2000","5000","1000","3000","10000"]:
         json1 = make_json_data(interval=i)
         push_mqtt(data1=json1)

@@ -7,11 +7,12 @@ from test_case.public.define_random_str import defineRandom
 
 class requestContext():
 
-    def __init__(self,data):
+    def __init__(self,data,url):
         self.data111 = data
+        self.url = url
 
     def __enter__(self):
-        res = requests.post(url="http://www.aituyou.com:12112/api/v1/push/mqtt", json=self.data111, )
+        res = requests.post(url=self.url, json=self.data111, )
         return res
 
 
@@ -19,12 +20,10 @@ class requestContext():
 
         print "__exit__ zhixingla"
         #return True
-def push_mqtt(data1):
-    res = requests.post(url="http://www.aituyou.com:12112/api/v1/push/mqtt",json=data1,)
+def push_mqtt(url,data1):
+    res = requests.post(url=url,json=data1,)
     print res.content
     res.close()
-
-#command_push(cmd = 'adb -s 192.168.0.154:6555 logcat -v threadtime -s ZhixingDZVoltageMonitor')
 
 def make_json_data(aaaa,interval=None):
     json_data = {   "key": "xb.dz.device.unique.354008079843400",
@@ -45,9 +44,6 @@ for x in xrange(1,10):
     print x
     rd = defineRandom()
     bbbb = rd.random_str(minlength=50, maxlength=1000)
-    #print bbbb
-    #bbbb = "{\"action\":\"tsd.event.update_recording_parameter\",\"dataInts\":{\"recordingMode\":\"1\",\"duration\":\"3\",\"resolution\":\"1080\"\"frameRate\":\"25\"}}"
-    #cccc = make_json_data(aaaa=bbbb)
     cccc = make_json_data(aaaa="{\"action\":\"tsd.event.update.request_update_info\"}")
     acv = requestContext(data=cccc)
     with acv as req:
